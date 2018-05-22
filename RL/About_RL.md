@@ -1,0 +1,7 @@
+[Alphago_zero](https://mp.weixin.qq.com/s?__biz=MzA5MDU0MTYxNw==&mid=2650780104&idx=2&sn=8e75da766ef940a04c67c2519fd8eed8&chksm=88010a96bf76838001f3da2ceebe1d98e36a8e36eb263586287c026c2b917fab6ffcdb78eb83#rd)
+[zhihu_PolicyGradient1](https://zhuanlan.zhihu.com/p/21725498)
+[zhihu_PolicyGradient_2](https://zhuanlan.zhihu.com/p/26882898)
+[selver's_course](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
+[Morvan_Pytorch_DQN](http://www.pytorchtutorial.com/4-5-dqn-reinforcement-learning/)
+[Pytorch0.3_DQN](http://pytorch.apachecn.org/cn/tutorials/intermediate/reinforcement_q_learning.html)
+[zhihu_DQN](https://zhuanlan.zhihu.com/p/29665107)

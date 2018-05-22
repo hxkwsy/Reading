@@ -47,6 +47,16 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [[STSR]_Perceptual_Losses_for_Real-Time_Style_Transfer_and_Super-Resolution](./Image2image/[STSR]_Perceptual_Losses_for_Real-Time_Style_Transfer_and_Super-Resolution.md)
 - [[UNIT]_Unsupervised_Image-to-Image_Translation_Networks](./Image2image/[UNIT]_Unsupervised_Image-to-Image_Translation_Networks.md)
 
+## RL
+
+- [About_RL](./RL/About_RL.md)
+- [Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning](./RL/Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning.md)
+- [Self-critical_Sequence_Training_for_Image_Captioning](./RL/Self-critical_Sequence_Training_for_Image_Captioning.md)
+- [Selver's_courses](./RL/Selver's_courses.md)
+- [[A3C]_Asynchronous_Methods_for_Deep_Reinforcement_Learning](./RL/[A3C]_Asynchronous_Methods_for_Deep_Reinforcement_Learning.md)
+- [[DDPG]_Continuous_control_with_deep_reinforcement_learning](./RL/[DDPG]_Continuous_control_with_deep_reinforcement_learning.md)
+- [[DPG]_Deterministic_Policy_Gradient_Algorithms](./RL/[DPG]_Deterministic_Policy_Gradient_Algorithms.md)
+
 ## Segmentation
 
 - [Dynamic_Video_Segmentation_Network](./Segmentation/Dynamic_Video_Segmentation_Network.md)

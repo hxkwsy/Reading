@@ -146,6 +146,7 @@
 26. ... , especially in the background of #, ... 尤其是在#背景下
 27. & **bypass(es)** (the difficulty of #) 绕过
 28. broadly 概括地
+29. & be upper-bounded by # &上限是#
 
 ## C
 1. be **crucial/key** to (doing) # 对#起决定性作用/ 关键
@@ -220,6 +221,7 @@
     computational complexity 计算复杂度
     computational cost(s) 计算量
     computational efficiency 计算效率
+    & require no more computation than #(prior methods) 不需要更多计算量
     time cost will grow surprisingly high 计算时间会很高
     impractical execution time 不实际的执行时间
     & can potentially be a waste of time &是很浪费时间的
@@ -278,6 +280,7 @@
      it is imperative to do/that 必要的/势在必行的
      there is an imperative need of 迫切需要
      & is becoming urgently necessary 迫切需要
+     needless(ly) 不必要的(地)
 18. draw/take inspiration from 启发
 19. design # specially tailored for (doing) 为...特制的/专门设计
 20. deficient 缺乏的， 不足的
@@ -431,6 +434,8 @@
     & forgo the need to do 不需要
     without the need/requirement of # / without the need for # 不需要
     & no longer need # 不需要
+    & no longer do # 不再
+    there is no need to do 不需要
 30.  fulfil #(real time processing) 履行vt
 
 ## G
@@ -584,6 +589,7 @@
 22. unimodal / multimodal (distribution)单/多峰的(分布)
 23. would like # to do 期望#做
 24.  made prominent progress in # 取得显著的进步
+25. This means that 这意味着
 
 ## N
 1. notably = noticeably 显著地，值得注意地
@@ -652,6 +658,7 @@
 21. it is not even possible to do(derive) 甚至不可能(得到)
     & make it possible to do # 使#成为可能
     It becomes possible to do # 成为可能
+    be likely to do 可能做
 22. plausible 似乎是真的
 23. have been previously proposed 已被提出
 24. perturbation 微小的扰动
@@ -671,7 +678,8 @@
 37. propagate 传播，传递
 38. the potential of # (is explored) 潜力
 39. preliminary test results 初步的结果
-40. paved the path for # 为#铺路
+40. & pave the path for # 为#铺路
+    & provide a route to #
 41. precious source of # 珍贵的资源
 42. & is introduced in the present study &在本研究中被提出
 43. The present study is a succeeding research and improvement on the research of # 本研究是#的继承和提高
@@ -682,6 +690,7 @@
 48. & be prone to do 可能
 49. posit 断定
 50. & have proven to be successful &被证明是成功的
+    & prove to be 被证明
 51. & can be prohibitive for # (many applications) & 不能用于
 52. Pipeline = approach = method 途径、方法
 52. practical / feasible / viable / actually 可行的、实际的
@@ -701,6 +710,7 @@
 65. promote # to do 促进
 66. pioneering (work) 首创性的、开拓性的
 67. & performs sufficiently well to # 表现充分地好
+68. & be in proportion to # &与#成比例
 
 ## Q
 1. quantify 量化

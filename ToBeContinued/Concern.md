@@ -12,6 +12,11 @@
 4. Adversarial Complementary Learning for Weakly Supervised Object Localization
 [arXiv](https://arxiv.org/abs/1804.06962)
 
+5. The EuroCity Persons Dataset: A Novel Benchmark for Object Detection
+[arXiv](https://arxiv.org/abs/1805.07193)
+
+6. MDSSD: Multi-scale Deconvolutional Single Shot Detector for small objects
+[arXiv](https://arxiv.org/abs/1805.07009)
 
 ## Stereo
 1. Pyramid Stereo Matching Network
