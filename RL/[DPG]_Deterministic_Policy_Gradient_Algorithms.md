@@ -59,6 +59,8 @@
    4. Off-Policy Actor-Critic uses behaviour policy $\beta(a|s)$ to generate trajectories.
    5. A critic estimates a state-value function, $V^v(s) \approx V^\pi(s)$
    6. An actor updates the policy parameters $\theta$, also off-policy from these trajectories, by stochastic gradient ascent of (5)
+> on-policy: 训练数据都是最新的策略而非老的策略采集而来的；
+off-ploicy: 训练数据是由历史的（包括最新的）策略采集而来
 
 ## Gradients of Deterministic Policies
 1. a deterministic policy: $\mu_\theta:\mathcal S\to\mathcal A$

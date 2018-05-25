@@ -24,7 +24,7 @@ $$ L_i(\theta_i)=\mathbb E(r+\gamma\max_{a'}Q(s',a';\theta_{i-1})-Q(s,a,\theta_i
 ## Asynchronous RL Framework
 1. two main ideas
    1. 用cpu的多线程来处理 asynchronous actor-learners
-   2. 多个 actors learners 可以开发环境的不同部分，而且可以使用不同的探索方法来增加多样性。多个 actor learners 并行跟新参数可能没有相关性，所以不使用replay memory
+   2. 多个 actors learners 可以开发环境的不同部分，而且可以使用不同的探索方法来增加多样性。多个 actor learners 并行跟新参数可能没有相关性，所以不使用replay memory, 而依赖于 parallel actors 采用不同的探索策略来执行 DQN 中 experience replay 的角色
 2. using multiple parallel actor-learners has multiple practical benefits
    1. reduction in training time
    2. 不再依靠experience replay来保持稳定性

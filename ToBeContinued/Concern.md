@@ -26,3 +26,8 @@
 ## STN
 1. Spatial Transformer Introspective Neural Network
 [arXiv](https://arxiv.org/abs/1805.06447)
+
+## RL
+1. Hierarchically Structured Reinforcement Learning
+for Topically Coherent Visual Story Generation
+[arXiv](https://arxiv.org/pdf/1805.08191.pdf)

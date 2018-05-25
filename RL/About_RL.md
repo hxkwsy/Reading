@@ -5,3 +5,4 @@
 [Morvan_Pytorch_DQN](http://www.pytorchtutorial.com/4-5-dqn-reinforcement-learning/)
 [Pytorch0.3_DQN](http://pytorch.apachecn.org/cn/tutorials/intermediate/reinforcement_q_learning.html)
 [zhihu_DQN](https://zhuanlan.zhihu.com/p/29665107)
+[伯克利CS294](https://www.bilibili.com/video/av20957290?spm_id_from=333.338.__bofqi.18)
