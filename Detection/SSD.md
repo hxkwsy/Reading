@@ -1415,3 +1415,54 @@ while idx.numel() > 0:
     idx = idx[IoU.le(overlap)] # 保留 IoU<=overlap_thresh 的索引
 return keep, count
 ```
+### Resnet101
+1. Bottleneck, resnet101:[3,4,22,3], resnet50:[3,4,6,3], resnet18:[2,2,2,2]
+```
+(conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+(bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+(conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+(bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+(conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+(bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+(relu): ReLU(inplace)
+```
+2. resnet101
+```
+(conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+(bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+(relu): ReLU(inplace)
+(maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+(layer1): Sequential(
+    (0): Bottleneck() # res2a
+		(downsample): Sequential(
+				(0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+				(1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+			)
+		(1): Bottleneck() # res2b
+		(2): Bottleneck() # res2c
+		)
+(layer2): Sequential(
+    (0): Bottleneck() # res3a
+		(downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      )
+		... # res3b1 res3b2
+		(3): Bottleneck() # res3b3
+		)
+(layer3): Sequential(
+	  (0): Bottleneck() # res4a
+		(downsample): Sequential(
+        (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+		...
+		(22): Bottleneck() # res4b22
+		)
+(layer4): Sequential(
+	  (0): Bottleneck() # res5a
+		... # res5b
+		(2): Bottleneck() # res5c
+		)
+(avgpool): AvgPool2d(kernel_size=7, stride=1, padding=0)
+(fc): Linear(in_features=2048, out_features=1000, bias=True)
+```

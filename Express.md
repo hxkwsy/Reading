@@ -67,7 +67,8 @@
 24. According to the authors’ knowledge = To our knowledge =  
     To the best of our knowledge据我所知
     We are not aware of any prior work in # 我们没有见过之前的工作
-25. This approach has the advantage of/that 有优势
+25. & has the advantage of/that 有优势
+    & take (full) advantage of #
 26. In analogy to # 类似于
       analogical 类似的，相似的
       analogic 类推的，模拟的
@@ -93,7 +94,8 @@
 47. analytical / analytically 分析的/地, 解析的
 48. applicable range 应用范围
 49. auxiliary 辅助的
-51. in accord with # 符合
+51. & be in accord with # 符合
+    & accord with #
 52. agilely 灵活地
 53. After all 毕竟、终究
 54. & be advancing at a rapid pace &正在迅速发展
@@ -109,6 +111,11 @@
     &(The online nature of our method) enables # to do 确保#做、使能
 63. be adept/good at 擅长
 64. unambiguous 不含糊的、清楚的、明白的
+65. 注意力
+    general attention 通用attention
+    target adapted residual attention 空间attention
+    channel favored feature attention 通道attention
+66. annexation of & and # 合并
 
 ## B
 1. binocular(ly) 双目的
@@ -162,7 +169,7 @@
 10.  By contrast, / in contrast to # 相比之下,对比
 11.  For convenience and brevity, 简便起见
 12.  designed the concept of 设计了一种概念
-13.  & be composed/comprised of # and # &由#组成
+13.  & be composed/comprised of/by # and # &由#组成
      & consist of A,B,C &由ABC组成
 14.  (two) consecutive frames 连续的帧
 15.  be contrary to / On the contrary / Conversely / Inversely 相反
@@ -257,6 +264,9 @@
 89. criterion for # 标准 criteria(复数形式)
 90. circumvent #(this problem) 回避、绕行
 91. cumbersome 笨重的、累赘的、难处理的
+92. fairly/considerably (good) 相当地
+93. consummate 完美的
+94. consideration 考虑n.  (e.g., Motivated by these considerations, we do)
 
 ## D
 1. a **downstroke** phase 下行程
@@ -388,6 +398,8 @@
 52. excessively 过分的
 53. encouraging / promising 鼓舞人心的、有前途的
 54. extraneous (details) 外来的、没有关联的
+55. & is trained from end to end 端到端训练
+    an end-to-end architecture
 
 ## F
 1. following their example, 根据
@@ -491,13 +503,12 @@
 16. incorporate & into # 将&包含/融入#
 17. incarnation 运用
 18. & has been quite limited in existing literature 现有研究有限
-19. intuition to # 直觉、客观事实
-    The intuition here is that
 20. For instance, . For example + 句子 / , e.g., + 名词 / like + 名词 例如
 21. incompleteness 不完整性
 22. be identical/consistent with // be in accordance with // coincide with // correspond to 一致
     In accordance with #, & do (可形容&采取的方法和#保持一致)
     Inheriting from #, & do 继承
+    & corresponds to # 与...一致
 24. imagine 设想 vt
 25. induce = incur 引起
 26. be inspired by # 受#启发
@@ -510,6 +521,9 @@
 32. Intuitively 直觉地、直观地
     intuitive idea 直觉的
     intuition 直觉
+    intuition to # 直觉、客观事实
+    The intuition here is that
+    The intuition behind this idea is that
 33. the immense number of 大量的
 34. insurmountable 不可逾越的
 35. there are practical issues in doing (making them high resolution) 有实际的问题
@@ -641,6 +655,7 @@
 11. paradigm 范例
 12. a path, S(s), with s being the path length parameter, is known. 参数的表达
 13. have the potential of doing 有潜力
+    & have recently shown great potentials in # 在#方面展现潜力
 14. prohibit & from (doing) # 限制/禁止
     prevent & from (doing) # 阻止
 15. Great progress has made in # 已取得重大进步
@@ -855,7 +870,7 @@
 63. & survive (severe natural selection) &从...中存活
 64. start with # 从#开始
 65. seamlessly 无缝地
-66. & **see/achieve/induce** modest/big/significant improvements (in accuracy) 取得了有限/重大的进步
+66. & **see/achieve/induce/attain** modest/big/significant improvements (in accuracy) 取得、实现、达到了有限/重大的进步
 67. side 一方面的 e.g., & predict semantic attribute as a side task.
 68. be spread-out in time 在时间上展开的
 69. stealth 鱼的低扰动性 n.
@@ -877,6 +892,7 @@
 82. extremely **subtle** (errors) 极微妙的
 83. **Strictly** speaking, # do 严格地说
 84. sacrifice #(accuracies) 牺牲
+85. & superimposed by # &叠加#
 
 ## T
 1. & has tendency to do / & tend to do 有趋势

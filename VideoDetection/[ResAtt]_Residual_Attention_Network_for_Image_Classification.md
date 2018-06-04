@@ -9,10 +9,17 @@
 ![resatt](./.assets/resatt.png)
 1. Attention Residual
 $$
-H_{i,c}(x)=(1+M_{i,c}(x))*F_{i,c}(x)
+H_{i,c}(x)=(1+M_{i,c}(x))* F_{i,c}(x)
 $$
 >$i$ ranges over all spatial positions and $c\in (1,\cdots,C)$ is the index of the channel. 三维的attention map，与原feature map点乘
 
+2. Spatial Attention and Channel Attention
+   1. Mixed attention: use simple sigmoid for each channel and spatial position
+   $$ f_1(x_{i,c})=\frac{1}{1+\exp(-x_{i,c})} $$
+   2. Channel attention: performs L2 normalization within all channels for each spatial position to remove spatial information.
+   $$ f_2(x_{i,c})=\frac{x_{i,c}}{||x_i||} $$
+   3. Spatial attention: performs normalization within feature map from each channel and then sigmoid to get soft mask related to spatial information only
+   $$ f_3(x_{i,c})=\frac{1}{1+\exp(-(x_{i,c}-mean_c)/std_c)} $$
 
 ## Reference
 ### Attention LSTM

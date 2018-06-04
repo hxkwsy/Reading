@@ -2,6 +2,7 @@
 [zhihu_PolicyGradient1](https://zhuanlan.zhihu.com/p/21725498)
 [zhihu_PolicyGradient_2](https://zhuanlan.zhihu.com/p/26882898)
 [selver's_course](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
+[bilibili](https://search.bilibili.com/all?keyword=David%20Silver%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0&from_source=banner_search)
 [Morvan_Pytorch_DQN](http://www.pytorchtutorial.com/4-5-dqn-reinforcement-learning/)
 [Pytorch0.3_DQN](http://pytorch.apachecn.org/cn/tutorials/intermediate/reinforcement_q_learning.html)
 [zhihu_DQN](https://zhuanlan.zhihu.com/p/29665107)

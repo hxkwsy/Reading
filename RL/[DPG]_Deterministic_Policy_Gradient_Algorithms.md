@@ -35,8 +35,9 @@
    \nabla_\theta J(\pi_\theta)=\int_\mathcal S\rho^\pi(s)\int_\mathcal A\nabla_\theta\pi_\theta(a|s)Q^\pi(s,a)dads \\[10pt]
    =\mathbb E_{s\sim\rho^\pi,a\sim\pi_\theta}[\nabla_\theta\log\pi_\theta(a|s)Q^\pi(s,a)]
    \end{array}(2)$$
+   ![pg](./.assets/pg.jpg)
 
-3. Stochastic Actor-Critic Algorithms
+4. Stochastic Actor-Critic Algorithms
    1. The actor-critic consists of two eponymous components.
    2. An **actor** adjusts the parameters $\theta$ of the stochastic policy $\pi_\theta(s)$ by stochastic gradient ascent of (2)
    3. A **critic** estimates the action-value function $Q^\omega(s,a)\approx Q^\pi(s,a)$using an appropriate policy evaluation algorithm.
@@ -44,7 +45,7 @@
    $$\nabla_\theta J(\pi_\theta)=\mathbb E_{s\sim\rho^\pi,a\sim\pi_\theta}[\nabla_\theta\log\pi_\theta(a|s)Q^\omega(s,a)]  $$
    5. 可能带来bias，文中分析了避免bias的前提条件
 
-4. Off-Policy Actor-Critic
+5. Off-Policy Actor-Critic
    1. a distinct behaviour policy $\beta(a|s)\neq\pi_\theta(a|s)$
    2. In an off-policy setting, the performance objective is typically modified to be the value function of the target policy, averaged over the state distribution of the behaviour policy [2]
    $$ J_\beta(\pi_\theta)=\int_\mathcal S\rho^\beta(s)V^\pi(s)ds=\int_\mathcal S\int_\mathcal A\rho^\beta(s)\pi_\theta(a|s)Q^\pi(s,a)dads $$

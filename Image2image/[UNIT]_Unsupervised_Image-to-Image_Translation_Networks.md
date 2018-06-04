@@ -67,9 +67,10 @@ $G_{L,1}$是低维生成器$h\to x_1$
    $$
    \mathcal L_{VAE_1}(E_1,G_1)=\lambda_1KL(q_1(z_1|x_1)||p_\eta(z)) - \lambda_2\mathbb E_{z_1\sim q_1(z_1|x_1)}(\log p_{G_1}(x_1|z_1))
    $$
-   > 1. [$KL$ divergence](https://blog.csdn.net/haolexiao/article/details/70142571) terms penalize deviation of the distribution of the latent code from the prior distribution
+   > 1. [KL divergence](https://blog.csdn.net/haolexiao/article/details/70142571) terms penalize deviation of the distribution of the latent code from the prior distribution
    > 2. The prior distribution is a zero mean Gaussian $p_\eta(z)=\mathcal N(z|0,I)$
    > 3. $P_G$ is Laplacian distributions; minimizing the negative log-likelihood term is equivalent to minimizing the absolute distance between the image and the reconstructed image. 等价于L1距离
+   > [KL散度知乎介绍](https://zhuanlan.zhihu.com/p/37452654?utm_source=qq&utm_medium=social&utm_oi=638711330211762176): 是一种衡量两个分布（比如两条线）之间的匹配程度的方法
 
    3. GAN objective
    $$\mathcal L_{GAN_1}(E_1,G_1,D_1)=\lambda_0\mathbb E_{x_1\sim P_{\mathcal X_1}}[\log D_1(x_1)] + \lambda_0\mathbb E_{z_2\sim q_2(z_2|x_2)}[\log (1-D_1(G_1(z_2)))]$$
