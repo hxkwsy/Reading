@@ -551,6 +551,7 @@
 61. invertible 可逆的
 62. & be strongly influenced by # &受到#很大的影响
 63. impair #(the training speed) 损害、削弱、减少
+64. informative (features) 教育性的，有益的，情报的，见闻广博的(可形容cnn提取的特征)
 
 
 ## J
@@ -629,6 +630,7 @@
 4. oversimplify 过分简单化
 5. overly 过度地
 6. opt for # 选择
+   opt to do # 选择
 7. outperform / surpass # 做地比#更好，胜过, 超过
     outperform previous methods by a large margin
 8. ocean science 海洋科学
@@ -726,6 +728,7 @@
 66. pioneering (work) 首创性的、开拓性的
 67. & performs sufficiently well to # 表现充分地好
 68. & be in proportion to # &与#成比例
+69. we propose to do # 建议、提出
 
 ## Q
 1. quantify 量化
@@ -802,6 +805,7 @@
     remarkable 明显的
 56. be restricted to 被限制在
 57. realistic-looking images 逼真的图像
+58. In this regard, 就这一点而言
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好
@@ -893,6 +897,7 @@
 83. **Strictly** speaking, # do 严格地说
 84. sacrifice #(accuracies) 牺牲
 85. & superimposed by # &叠加#
+86. recent works have sought to do # 追求
 
 ## T
 1. & has tendency to do / & tend to do 有趋势

@@ -15,8 +15,9 @@
 5. The EuroCity Persons Dataset: A Novel Benchmark for Object Detection
 [arXiv](https://arxiv.org/abs/1805.07193)
 
-6. MDSSD: Multi-scale Deconvolutional Single Shot Detector for small objects
-[arXiv](https://arxiv.org/abs/1805.07009)
+6. Decoupled Networks
+[arXiv](https://arxiv.org/abs/1804.08071)
+[zhihu](https://zhuanlan.zhihu.com/p/37598903?utm_source=qq&utm_medium=social&utm_oi=638711330211762176)
 
 ## Stereo
 1. Pyramid Stereo Matching Network
