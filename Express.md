@@ -124,15 +124,17 @@
 4. bottleneck 瓶颈
 5. breakthrough(s) 突破
 6. benchmark 基准，参考物
-7. & can run at frame-rates **beyond** real time while maintaining state-of-the-art performance. 实时的同时保持性能
-   do # at real time 实时地
+7.
+   1. & can run at frame-rates **beyond** real time while maintaining state-of-the-art performance. 实时的同时保持性能
+   2. & cause minor drop in accuracy but significantly speeds up by nearly 65× theoretically
+   3. the computation cost of # is reduced by 8∼9 times with a slight drop in accuracy
+   4. do # at real time 实时地
 8. unbalanced (adj.) imbalance (n.) 不平衡
 9. on this basis 在此基础上
 10. bidirectionally 双向地
-11. A large body of / a great deal of   大量的文献
 12. & find it beneficial to do &发现...有益处
 13. There are benefits of & over # &相比起#有好处
-14. boost the performance 提升性能
+14. boost the performance / detection accuracy 提升性能
     elevate #(speed or/and accuracy) 提升、提高
 15. & can be broken up into #(three distinct phases) 分为
           be decomposed into (spatial and temporal components)
@@ -154,6 +156,7 @@
 27. & **bypass(es)** (the difficulty of #) 绕过
 28. broadly 概括地
 29. & be upper-bounded by # &上限是#
+30. bivalve 贝壳
 
 ## C
 1. be **crucial/key** to (doing) # 对#起决定性作用/ 关键
@@ -164,6 +167,7 @@
 5.  As a consequence,  (不好的)结果
 6.  ceaselessly 不停地
 7.  be challenged by # 在#方面受到挑战
+    & face more challenges (due to)
 8.  be poorly contrasted 低对比度的
 9.  challenging 富有挑战性的
 10.  By contrast, / in contrast to # 相比之下,对比
@@ -237,6 +241,7 @@
 65. contributes more to # 对#贡献更多
 66. coarse / coarsely 粗糙的/粗略地
 67. consecutive sequence 连贯的序列
+    consecutively 连续地
 68. crescent caudal fin 新月形的尾鳍
 69. convex and concave 凹凸
 70. it is conceived that 可以认为...
@@ -267,6 +272,10 @@
 92. fairly/considerably (good) 相当地
 93. consummate 完美的
 94. consideration 考虑n.  (e.g., Motivated by these considerations, we do)
+95. close-up 特写(镜头)
+96. cue = clue(s) 线索、提示、暗示
+97. complementary (advantages) 互补的
+98. & is concerned with # 有关联
 
 ## D
 1. a **downstroke** phase 下行程
@@ -335,6 +344,7 @@
     > “Data-likeness” is judged by a simultaneously trained, but otherwise separate, discriminator neural network
 
 49. discard 丢弃、取消vt.
+50. deliberate (design) 深思熟虑的
 
 ## E
 1. in exposures of 暴露
@@ -346,6 +356,7 @@
 7. key elements of # 关键点
 8. equipped with # (practical application ability) 具备 # 能力
 9. embedded A with B 结合A和B
+   couple A and B
 10. empirical (evidence) 以实验为依据的
 11. be equipped with 装备
 12. should be fully explored 完全地探究
@@ -417,7 +428,7 @@
 13. fulfill (our needs) 满足，履行
 14. faithfully 忠实地
 15. Formally 形式上
-16. formidable / vast 大量的
+16. formidable / vast / considerable 大量的
 17. be framed as 被构造为
 18. Recent work has largely focused on doing 最近的工作大量关注
 19. (perform) favorably 顺利地，较好地，友好地
@@ -448,7 +459,8 @@
     & no longer need # 不需要
     & no longer do # 不再
     there is no need to do 不需要
-30.  fulfil #(real time processing) 履行vt
+40.  fulfil #(real time processing) 履行vt
+41. field experiments 野外的实验
 
 ## G
 1. generic 一般的
@@ -479,6 +491,8 @@
 16. this assumption does not always hold. 假设不成立
 17. & highlights the need for # 强调了#的必要性
 18. homogeneous coordinates 齐次坐标
+19. generalization ability 泛化性能
+20. hyperbolic tangent function 双曲正切函数
 
 ## I
 1. introduce A to B 把A引入到B
@@ -562,6 +576,7 @@
 ## K
 1. It is known that 众说周知的是
    As it is known that
+   & is known to do &被公认
 
 ## L
 1. lack # / be lacking in # / be short of # / # is lacking / for lack(want) of # / There lacks #
@@ -589,10 +604,12 @@
 8. merely 仅仅
 9. makes use of 利用
    With the use of #, & do
-10. a multitude of (tasks) 大量的(任务)
+10. a multitude of / considerable (tasks) 大量的(任务)
+  A large body of / a great deal of literature  大量的文献  
 11. minor 较小的，低级的，次要的
 12. Evaluation metrics 评价指标
-13. do # motivated by 动机是
+13. do # motivated by & 动机是
+    & motivates us to do
 14. & be modeled based on # 基于#对&建模
 15. manifold 使...多样化
 16. more or less 或多或少 adv.
@@ -605,6 +622,8 @@
 23. would like # to do 期望#做
 24.  made prominent progress in # 取得显著的进步
 25. This means that 这意味着
+26. minutiae (cue) 细微的、微小的线索
+27. mine # 挖掘
 
 ## N
 1. notably = noticeably 显著地，值得注意地
@@ -622,6 +641,8 @@
 13. keep a notion of # 保持#的见解
 14. nomenclature 命名法
 15. numerous (methods) 许多、很多
+16. natural seabed 自然的海床
+    a natural, unstructured undersea environment 自然的、非结构化的水下环境
 
 ## O
 1.  originate from / stems from 源于
@@ -806,6 +827,9 @@
 56. be restricted to 被限制在
 57. realistic-looking images 逼真的图像
 58. In this regard, 就这一点而言
+59. With the revival of # 随着#的兴起
+    Before the arrival of # 在#出现之前
+60. reasonably good accuracy 较好的精度(形容不是state-of-the-art的精度)
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好
@@ -937,6 +961,7 @@
 27. & turn out to be #(a highly challenging task) 结果是
 28. sb. term & as # 把&称作#
 29. troublesome 麻烦的
+30. toy example 用于Introduction的例子展示
 
 ## U
 1. an **upstroke** phase 上行程
