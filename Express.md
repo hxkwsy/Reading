@@ -32,12 +32,17 @@
 
 <!-- tocstop -->
 
+## The first sentence
+1. Recent years have witnessed significant progress in #(object detection) using deep convolutional neutral networks
+2. & has received/attracted considerable/rapidly increased attention due to # from/in the research community
+3. & have been **vigorously/widely** studied (in the last two years) for #
+4. Over recent years, the **landscape** of computer vision has been drastically altered and pushed forward through the adoption of a fast, scalable, end-to-end learning framework, the Convolutional Neural Network (CNN)
+5. & has received/attracted considerable/rapidly increased attention due to # from/in the research community
 
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
 2. articulation 关节
 3. agility 灵活，机敏
-4. be analogous to 相似
 5. Alternatively, 选择性地
    we explore an alternative way of doing 开发了一种可选择的方法
 7. attractive 有吸引力的
@@ -69,9 +74,10 @@
     We are not aware of any prior work in # 我们没有见过之前的工作
 25. & has the advantage of/that 有优势
     & take (full) advantage of #
-26. In analogy to # 类似于
-      analogical 类似的，相似的
-      analogic 类推的，模拟的
+26. In analogy to #,  类似于
+    analogical 类似的，相似的
+    analogic 类推的，模拟的
+    & be similar/analogous in spirit to # (动机上)类似
 27. be applied to # 被用于#(领域，任务)
 28. advantageous 有利的
 29. makes # applicable in (a wide variety of settings) 使#可应用于
@@ -106,6 +112,7 @@
 58. artifact(s) 人工痕迹，人为的痕迹(形容图像处理后产生的奇怪东西)
 59. Without the aid of #, ... 没有来自#的帮助
 60.  be absent in #(the existing video generation frameworks) 缺席，还没有
+     no works have done #
 61. allow & to do # 允许/使得&(可以)做
 62. assure (that) 确保
     &(The online nature of our method) enables # to do 确保#做、使能
@@ -116,6 +123,7 @@
     target adapted residual attention 空间attention
     channel favored feature attention 通道attention
 66. annexation of & and # 合并
+67. adverse (effects) 不利的影响
 
 ## B
 1. binocular(ly) 双目的
@@ -157,6 +165,7 @@
 28. broadly 概括地
 29. & be upper-bounded by # &上限是#
 30. bivalve 贝壳
+31. their accuracy still **trails** that of twostage methods 比不上
 
 ## C
 1. be **crucial/key** to (doing) # 对#起决定性作用/ 关键
@@ -301,6 +310,7 @@
      & is becoming urgently necessary 迫切需要
      needless(ly) 不必要的(地)
 18. draw/take inspiration from 启发
+    & offer us inspiration for #
 19. design # specially tailored for (doing) 为...特制的/专门设计
 20. deficient 缺乏的， 不足的
 21. In the past decades 过去几十年
@@ -315,6 +325,7 @@
     Distinguished from #, & ... 不同于，区别于
     As opposed to #, & ...
     (our methods) do & differently from # 做&不同于#
+    apparent distinction 明显的区别
 27. & be indistinguishable from # 不能被区分的
 28. distinctive 有特色的，与众不同的
 29. discern 辨别(vt.)
@@ -345,6 +356,9 @@
 
 49. discard 丢弃、取消vt.
 50. deliberate (design) 深思熟虑的
+51. display (simple and efficient control capabilities) 展现出
+52. & have recently dominated the field of # 支配
+53. duplicate 重复的
 
 ## E
 1. in exposures of 暴露
@@ -411,13 +425,14 @@
 54. extraneous (details) 外来的、没有关联的
 55. & is trained from end to end 端到端训练
     an end-to-end architecture
+56. era 时代 (During the deep learning era, )
 
 ## F
 1. following their example, 根据
 2. For ease of analysis and presentation, 为了简化分析和展示
 3. feasibility  可行性 utility 实用性
 4. superior color fidelity 优秀的颜色保真
-5. facilitate 帮助
+5. facilitate # 帮助、促进
 6. formulate &(problem) as # 看做
 7. fuse/combine & with # 融合
 8. fundamental problem 基本的问题
@@ -461,12 +476,14 @@
     there is no need to do 不需要
 40.  fulfil #(real time processing) 履行vt
 41. field experiments 野外的实验
+42. fail to do # 未能做#
+43. Although progress continues on this front, 虽然这方面的进展仍在继续
 
 ## G
 1. generic 一般的
 2. the fourth-generation robotic fish 第四代机器鱼
 3. general-purpose solution 通用性的解决方法
-4. & give rise to # = # is produced by & = # result in & = & lead to # = & invite # = & cause # = & incur # = bring about # 导致/造成
+4. & give rise to # = # is produced by & = # result in & = & lead to # = & invite # = & cause # = & incur # = bring about # 导致、造成、产生
 5. & gains more importance as # do &变得更加重要当...
 6. & is one of the fastest growing fields of # &是一个快速的发展的领域
 7. & ..., **giving rise to** # &...导致、给出#
@@ -493,6 +510,7 @@
 18. homogeneous coordinates 齐次坐标
 19. generalization ability 泛化性能
 20. hyperbolic tangent function 双曲正切函数
+21. helpful (helpful) 有用的
 
 ## I
 1. introduce A to B 把A引入到B
@@ -566,7 +584,7 @@
 62. & be strongly influenced by # &受到#很大的影响
 63. impair #(the training speed) 损害、削弱、减少
 64. informative (features) 教育性的，有益的，情报的，见闻广博的(可形容cnn提取的特征)
-
+65. individual object 个体
 
 ## J
 1. jointly 连带地
@@ -592,6 +610,9 @@
 10. Likewise, # do 同样地
 11. we limit our attention to # 我们更加关注#
 12. Over recent years, the **landscape** of computer vision has been drastically altered and pushed forward through the adoption of a fast, scalable, end-to-end learning framework, the Convolutional Neural Network (CNN) 研究状态
+13. & has long been a challenge for # &一直是#的挑战
+    & has long posed challenges for #
+14. lab water tank 实验室水池
 
 ## M
 1. mostly 主要地
@@ -679,8 +700,7 @@
 12. a path, S(s), with s being the path length parameter, is known. 参数的表达
 13. have the potential of doing 有潜力
     & have recently shown great potentials in # 在#方面展现潜力
-14. prohibit & from (doing) # 限制/禁止
-    prevent & from (doing) # 阻止
+
 15. Great progress has made in # 已取得重大进步
 17. for the purpose of # 为了#目的
     for the sake of #
@@ -704,8 +724,9 @@
 26. perceivable 可知觉的
 27. pathological 反常的
 28. propagate context information 传递上下文信息
-29. prevent & form # 预防，防止
-    prevent somebody/something (from) doing something
+29. prevent & form (doping) # 预防，防止, 阻止
+    prohibit & from (doing) # 限制/禁止
+    prevent & to be done(or adj.)
 30. pivotal 关键的，中枢的
 31. In parallel, 平行地
 32. perturbation 微调
@@ -733,7 +754,7 @@
 52. Pipeline = approach = method 途径、方法
 52. practical / feasible / viable / actually 可行的、实际的
 53. pertinent 中肯的、相关的、切题的
-54. primitive 原始的、简单的
+54. primitive (elements) 原始的、简单的
 55. percept # 认知、感知
 56. From the #(science) perspective, 从#角度来讲
 57. require # to be known a priori 需要知道#作为先验
@@ -750,6 +771,9 @@
 67. & performs sufficiently well to # 表现充分地好
 68. & be in proportion to # &与#成比例
 69. we propose to do # 建议、提出
+70. prevalent = general 普遍的、广泛的、一般的
+    prevalence of #(deep learning) 流行
+71. over-parametrize #(the task/model) 增加#的参数
 
 ## Q
 1. quantify 量化
@@ -807,6 +831,7 @@
     Very recently, 最近
 41. radial frequency 角频率
 42. For this reason, 由于这个原因
+    We do not see any reason doing # (preventing it from finding broader applications in vision tasks) 我们没有理由做#
 43. As reported in #, ... 根据#的报道
 44. raise，用作动词，意为“举起”、“升起”、“增加”、“饲养”等，在现代英语中，只用作及物动词，其后应有宾语或用于被动语态。
   rise 可用作名词
@@ -922,6 +947,7 @@
 84. sacrifice #(accuracies) 牺牲
 85. & superimposed by # &叠加#
 86. recent works have sought to do # 追求
+87. sub-optimal 不是最佳的
 
 ## T
 1. & has tendency to do / & tend to do 有趋势
@@ -980,7 +1006,7 @@
     suffer form #
 13. Undoubtedly,  毫无疑问地
 14. & is still not fully understood &还没完全研究明白
-
+15. (this method) remain theoretical 依然停留在理论上
 
 ## V
 1. We validate the proposed approach by doing 验证
