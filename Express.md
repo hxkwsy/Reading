@@ -38,6 +38,7 @@
 3. & have been **vigorously/widely** studied (in the last two years) for #
 4. Over recent years, the **landscape** of computer vision has been drastically altered and pushed forward through the adoption of a fast, scalable, end-to-end learning framework, the Convolutional Neural Network (CNN)
 5. & has received/attracted considerable/rapidly increased attention due to # from/in the research community
+6. & is one of the main areas of research in computer vision and has lot of real word applications.
 
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
@@ -54,6 +55,7 @@
 12. Additionally, 加之， 又
 13. aforementioned = above-mentioned 上面提到的/上述的
     As mentioned earlier, & do
+    As discussed above, & do
 14. asymptotically approximate # 渐进地近似#
 15. aquatic 水性的
 17. & (is another useful framework) **apart from** # 除#之外（并列之意）
@@ -166,6 +168,7 @@
 29. & be upper-bounded by # &上限是#
 30. bivalve 贝壳
 31. their accuracy still **trails** that of twostage methods 比不上
+    its detection accuracy is usually **behind** that of the two-stage approach
 
 ## C
 1. be **crucial/key** to (doing) # 对#起决定性作用/ 关键
@@ -192,6 +195,7 @@
 17. a carefully crafted design 精心的设计
 18. most critically 最关键地（用于句首）
 19. come with 具有 (this simple solution comes with two major drawbacks)
+    & (do not) come **for free** 没有代价地
 20. when it comes to # / in terms of # / As for # / Concerning # / As far as # is concerned / In case of #  就#而言
 21. comprehensive 综合的
 22. & is of crucial importance &是很重要的
@@ -245,6 +249,7 @@
     time cost will grow surprisingly high 计算时间会很高
     impractical execution time 不实际的执行时间
     & can potentially be a waste of time &是很浪费时间的
+    & lead to considerable amount of computational cost 导致大的计算量
 63. be certain that 确信，有把握
 64. compensate for 补偿、弥补
 65. contributes more to # 对#贡献更多
@@ -285,6 +290,7 @@
 96. cue = clue(s) 线索、提示、暗示
 97. complementary (advantages) 互补的
 98. & is concerned with # 有关联
+99. in conjunction with # 结合# 
 
 ## D
 1. a **downstroke** phase 下行程
@@ -308,6 +314,7 @@
      it is imperative to do/that 必要的/势在必行的
      there is an imperative need of 迫切需要
      & is becoming urgently necessary 迫切需要
+     there is an increasing need for doing 增加的需求
      needless(ly) 不必要的(地)
 18. draw/take inspiration from 启发
     & offer us inspiration for #
@@ -359,6 +366,7 @@
 51. display (simple and efficient control capabilities) 展现出
 52. & have recently dominated the field of # 支配
 53. duplicate 重复的
+54. diminish (the advantageous speed of SSD) 减小
 
 ## E
 1. in exposures of 暴露
@@ -446,7 +454,8 @@
 16. formidable / vast / considerable 大量的
 17. be framed as 被构造为
 18. Recent work has largely focused on doing 最近的工作大量关注
-19. (perform) favorably 顺利地，较好地，友好地
+19. (perform) favorably/friendly 顺利地，较好地，友好地
+     unfavorably 不利地，不友好地
 20. frequently 经常地
 21. fluctuation （置信度）波动 cn.
 22. Fourier domain 频域
@@ -487,6 +496,7 @@
 5. & gains more importance as # do &变得更加重要当...
 6. & is one of the fastest growing fields of # &是一个快速的发展的领域
 7. & ..., **giving rise to** # &...导致、给出#
+8. & cannot fit within the constraints of # 不能适应#的约束
 
 ## H
 1. haptic 触觉的
@@ -585,6 +595,8 @@
 63. impair #(the training speed) 损害、削弱、减少
 64. informative (features) 教育性的，有益的，情报的，见闻广博的(可形容cnn提取的特征)
 65. individual object 个体
+66. & is widely used in several fields **including but not limited to** #, #, and # 包括但不限于
+67. integrated GPUs 集成的GPU (TX2)
 
 ## J
 1. jointly 连带地
@@ -656,7 +668,7 @@
 7. It should not be neglected that 不可忽略的是
 8. Nonetheless 尽管如此
 9. has no need to do 没必要
-10. neglectable / ignorable / negligible 可忽略的
+10. neglectable / ignorable / negligible (extra cost) 可忽略的
 11. novel = innovative = creative 新颖的
 12. Nevertheless 然而 (代替However)
 13. keep a notion of # 保持#的见解
@@ -745,7 +757,7 @@
 44. It should be pointed out that 指出
 45. prune 删减
 46. The main point lies in #(可接宾语从句e.g., how to measure the overlap) 重点在于#
-47. progressively 渐进地 (Our approach progressively improves #)
+47. progressively 渐进地、逐渐地 (Our approach progressively improves #)
 48. & be prone to do 可能
 49. posit 断定
 50. & have proven to be successful &被证明是成功的
@@ -767,7 +779,7 @@
 64. proper 合适的、适当的
     It is more proper to do
 65. promote # to do 促进
-66. pioneering (work) 首创性的、开拓性的
+66. pioneering (work) 首创性的、开拓性的、先驱
 67. & performs sufficiently well to # 表现充分地好
 68. & be in proportion to # &与#成比例
 69. we propose to do # 建议、提出
@@ -858,6 +870,7 @@
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好
+   it still performs **not so well** on doing
 2. be scattered into 散入
 3. the proposed approach significantly improves # 显著地提高了#
 4. strategy 策略
@@ -948,6 +961,8 @@
 85. & superimposed by # &叠加#
 86. recent works have sought to do # 追求
 87. sub-optimal 不是最佳的
+88. shallow layers with low-level high-resolution features 浅层(形容Conv4_3)
+top layers with high-level low-resolution features 顶层
 
 ## T
 1. & has tendency to do / & tend to do 有趋势

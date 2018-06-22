@@ -1,5 +1,7 @@
 # Relation Networks for Object Detection
 [arXiv](https://arxiv.org/abs/1711.11575)
+[github](https://github.com/msracver/Relation-Networks-for-Object-Detection)
+[blog](https://blog.sunnyan.me/2018/04/18/relation-networks-for-object-detection/)
 
 ## Introduction
 ![relation](./.assets/relation.jpg)
@@ -10,7 +12,9 @@
 1. basic attention module: Scaled Dot-Product Attention [56]
 input: 1) query $\vec q$;  2) keys of dimension $d_k$ (packed into matrices $K$); 3) values of dimension $d_v$ (packed into $V$)
  $$ v^{out}=softmax(\frac{\vec qK^t}{\sqrt{d_k}})V $$
-   > the output value is weighted average over input values
+   > the output value is weighted average over input values.
+   $V$ 即下面的$W_Vf^m_A$的集合
+   $\vec q$ 即下面的$W_Af_A^n$
 
 2. object relation computation
    1. an object consists of its geometric feature $f_G$ and appearance feature $f_A$
