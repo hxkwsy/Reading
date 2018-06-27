@@ -126,6 +126,7 @@
     channel favored feature attention 通道attention
 66. annexation of & and # 合并
 67. adverse (effects) 不利的影响
+68. advantageous 优势的
 
 ## B
 1. binocular(ly) 双目的
@@ -290,7 +291,7 @@
 96. cue = clue(s) 线索、提示、暗示
 97. complementary (advantages) 互补的
 98. & is concerned with # 有关联
-99. in conjunction with # 结合# 
+99. in conjunction with # 结合#
 
 ## D
 1. a **downstroke** phase 下行程
@@ -316,6 +317,7 @@
      & is becoming urgently necessary 迫切需要
      there is an increasing need for doing 增加的需求
      needless(ly) 不必要的(地)
+     it is essential to do 有必要
 18. draw/take inspiration from 启发
     & offer us inspiration for #
 19. design # specially tailored for (doing) 为...特制的/专门设计
@@ -383,7 +385,6 @@
 11. be equipped with 装备
 12. should be fully explored 完全地探究
 13. inevitably 不可避免地
-14. it is essential to do 有必要
 15. to some extent 某种程度上(adv.) 一定程度上
     to a large extent 很大程度上
 16. exhibit # 展现出
@@ -527,7 +528,6 @@
 2. implicitly 隐含地
    & imply that / It implies that 意味着、表明
    & imply # &暗示、包含了#
-3. induces 引起
 5. (at any) time instant 时间片
    timestamp(s) 时间点
    time series 时间序列
@@ -576,7 +576,6 @@
 40. impressive 令人钦佩的，非常好的
 41. major implication of this work is that 影响
 44. inherently 内在地，本质地
-45. & have/obtain/achieve a huge improvement as opposed to # 对#而言有巨大进步
 46. incoming 新引入的
 47. intersection-over-union (IoU) =  jaccard overlap 交并比
 50. be infeasible for # 不可行的
@@ -653,10 +652,11 @@
 21. In the meantime = Meanwhile = simultaneously 同时
 22. unimodal / multimodal (distribution)单/多峰的(分布)
 23. would like # to do 期望#做
-24.  made prominent progress in # 取得显著的进步
 25. This means that 这意味着
 26. minutiae (cue) 细微的、微小的线索
 27. mine # 挖掘
+28. migrate & from/to #
+29. Mathematically, 数学上
 
 ## N
 1. notably = noticeably 显著地，值得注意地
@@ -685,13 +685,14 @@
 5. overly 过度地
 6. opt for # 选择
    opt to do # 选择
-7. outperform / surpass # 做地比#更好，胜过, 超过
+7. outperform / surpass # (by 2 points) 做地比#更好，胜过, 超过
     outperform previous methods by a large margin
 8. ocean science 海洋科学
 9. overcome this difficulty /limitations 克服困难
 10. object instance 个体
 11. opt for # 选择
-12. overlook (the following problems) 忽视
+12. overlook #(the following problems) 忽视
+    left out # 忽视、不考虑
 13. occlusion (行人的)遮挡
 14. out of operation 不起作用
 
@@ -712,8 +713,6 @@
 12. a path, S(s), with s being the path length parameter, is known. 参数的表达
 13. have the potential of doing 有潜力
     & have recently shown great potentials in # 在#方面展现潜力
-
-15. Great progress has made in # 已取得重大进步
 17. for the purpose of # 为了#目的
     for the sake of #
     & is primarily targeted at # 目标/目的是
@@ -725,6 +724,7 @@
 18. & be performed on # &(某种性能)被#表现出来
 19. (critically) progressive 进步的
 20. preliminary 初步的
+    preliminarily 初步地
 21. it is not even possible to do(derive) 甚至不可能(得到)
     & make it possible to do # 使#成为可能
     It becomes possible to do # 成为可能
@@ -864,9 +864,10 @@
 56. be restricted to 被限制在
 57. realistic-looking images 逼真的图像
 58. In this regard, 就这一点而言
-59. With the revival of # 随着#的兴起
-    Before the arrival of # 在#出现之前
+59. With the revival of # 随着#的兴起、复苏、到来
+    Before the arrival/prevalence of # 在#出现、流行、到来之前
 60. reasonably good accuracy 较好的精度(形容不是state-of-the-art的精度)
+61. represented by # 以#为代表
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好
@@ -915,12 +916,12 @@
 43. be sensitive to 敏感
 44. serve as 作为
 45. separately 各自地，分别地(可用于句中) = respectively
-46. Semantic information 语义信息
+46. semantic information 语义信息
 47. comprehensive / synthesized  综合的，合成的
 48. be well suited to do / be suitable for 适合用于做...
 49. spatiotemporal / spatio-temporal 时空的
 50. straightforward 简单易懂的，直接的，明确地
-51. subsequently 紧接着, 接下来
+51. Subsequently 紧接着, 接下来
 52. In short,/  In brief, / Simply put,  简单说(引出总结)，简而言之
 53. only slightly better than # 仅仅比#好一点（可跟在名词后修饰）
 54. be specialized for 专门为
@@ -937,6 +938,9 @@
 64. start with # 从#开始
 65. seamlessly 无缝地
 66. & **see/achieve/induce/attain** modest/big/significant improvements (in accuracy) 取得、实现、达到了有限/重大的进步
+    Great progress has made in # 已取得重大进步
+    made prominent progress in # 取得显著的进步
+    & have/obtain/achieve a huge improvement as opposed to # 对#而言有巨大进步
 67. side 一方面的 e.g., & predict semantic attribute as a side task.
 68. be spread-out in time 在时间上展开的
 69. stealth 鱼的低扰动性 n.
@@ -963,6 +967,7 @@
 87. sub-optimal 不是最佳的
 88. shallow layers with low-level high-resolution features 浅层(形容Conv4_3)
 top layers with high-level low-resolution features 顶层
+89. status quo 现状
 
 ## T
 1. & has tendency to do / & tend to do 有趋势
@@ -1056,7 +1061,7 @@ top layers with high-level low-resolution features 顶层
    & ignoring #
 6. Without loss of generality, as an example [of #/to do #], we ... 不失一般性地
 7. Whichever 无论哪一种
-8. widespread 普遍地，广泛地 (a very widespread method is to do)
+8. widespread 普遍的，广泛的 (a very widespread method is to do)
 9. a wide range of #(augmentability and applicability) 广泛的
 10. in other words, 换句话说
 11. While it is not difficult to do #, it is not easy to do 虽然...不难，但也不简单

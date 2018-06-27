@@ -6,23 +6,32 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 
 ## Detection
 
+- [About_detection](./Detection/About_detection.md)
+- [CoupleNet](./Detection/CoupleNet.md)
 - [Deformable_Convolutional_Networks](./Detection/Deformable_Convolutional_Networks.md)
 - [DSSD](./Detection/DSSD.md)
 - [Faster_RCN](./Detection/Faster_RCN.md)
 - [Mask-RCNN](./Detection/Mask-RCNN.md)
+- [MDSSD](./Detection/MDSSD.md)
 - [MultiBox](./Detection/MultiBox.md)
 - [Object_detection_at_200_Frames_Per_Second](./Detection/Object_detection_at_200_Frames_Per_Second.md)
 - [R-FCN](./Detection/R-FCN.md)
-- [S3FD_Single_Shot_Scale-invariant_Face_Detector](./Detection/S3FD_Single_Shot_Scale-invariant_Face_Detector.md)
+- [Relation_Networks_for_Object_Detection](./Detection/Relation_Networks_for_Object_Detection.md)
+- [RepMet](./Detection/RepMet.md)
+- [SNet](./Detection/SNet.md)
 - [soft_nms](./Detection/soft_nms.md)
 - [SSD](./Detection/SSD.md)
+- [Weaving_Multi_scale_Context_for_Single_Shot_Detector](./Detection/Weaving_Multi_scale_Context_for_Single_Shot_Detector.md)
 - [YOLO](./Detection/YOLO.md)
 - [YOLOv3](./Detection/YOLOv3.md)
 - [Zero-Shot_Detection](./Detection/Zero-Shot_Detection.md)
 - [[BPN]_Single-Shot_Bidirectional_Pyramid_Networks_for_High-Quality_Object_Detection](./Detection/[BPN]_Single-Shot_Bidirectional_Pyramid_Networks_for_High-Quality_Object_Detection.md)
+- [[DES]_Single_Shot_Object_Detection_with_Enriched_Semantics](./Detection/[DES]_Single_Shot_Object_Detection_with_Enriched_Semantics.md)
+- [[Fire_SSD]](./Detection/[Fire_SSD].md)
 - [[M-FRCNN]Object_Detection_with_Mask-based_Feature_Encoding](./Detection/[M-FRCNN]Object_Detection_with_Mask-based_Feature_Encoding.md)
 - [[RefineDet]_Single-Shot_Refinement_Neural_Network_for_Object_Detection](./Detection/[RefineDet]_Single-Shot_Refinement_Neural_Network_for_Object_Detection.md)
 - [[RFB]_Receptive_Field_Block_Net_for_Accurate_and_Fast_Object_Detection](./Detection/[RFB]_Receptive_Field_Block_Net_for_Accurate_and_Fast_Object_Detection.md)
+- [[S3FD]_Single_Shot_Scale-invariant_Face_Detector](./Detection/[S3FD]_Single_Shot_Scale-invariant_Face_Detector.md)
 
 ## Image2image
 
@@ -90,7 +99,6 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [Concern](./ToBeContinued/Concern.md)
 - [Mix_and_match_networks_encoder-decoder_alignment_for_zero-pair_image_translation](./ToBeContinued/Mix_and_match_networks_encoder-decoder_alignment_for_zero-pair_image_translation.md)
 - [Multimodal_Unsupervised_Image-to-Image_Translation](./ToBeContinued/Multimodal_Unsupervised_Image-to-Image_Translation.md)
-- [Towards_High_Performance_Video_Object_Detection_for_Mobiles](./ToBeContinued/Towards_High_Performance_Video_Object_Detection_for_Mobiles.md)
 - [[S-LSTM-GAN]_Shared_recurrent_neural_networks_with_adversarial_training](./ToBeContinued/[S-LSTM-GAN]_Shared_recurrent_neural_networks_with_adversarial_training.md)
 
 ## Tracking
@@ -100,6 +108,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [Learning_to_Track_Online_Multi-Object_Tracking_by_Decision_Making](./Tracking/Learning_to_Track_Online_Multi-Object_Tracking_by_Decision_Making.md)
 - [Re3_Real-Time_Recurrent_Regression_Networks_for_Visual_Tracking_of_Generic_Objects](./Tracking/Re3_Real-Time_Recurrent_Regression_Networks_for_Visual_Tracking_of_Generic_Objects.md)
 - [[ADN]_Action-Decision_Networks_for_Visual_Tracking_with_Deep_Reinforcement_Learning](./Tracking/[ADN]_Action-Decision_Networks_for_Visual_Tracking_with_Deep_Reinforcement_Learning.md)
+- [[RASNet]](./Tracking/[RASNet].md)
 - [[ROLO]_Spatially_Supervised_Recurrent_Convolutional_Neural_Networks_for_Visual_Object_Tracking](./Tracking/[ROLO]_Spatially_Supervised_Recurrent_Convolutional_Neural_Networks_for_Visual_Object_Tracking.md)
 
 ## VideoDetection
@@ -110,6 +119,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [Recurrent_Neural_Network_Regularization](./VideoDetection/Recurrent_Neural_Network_Regularization.md)
 - [Seq-NMS_for_Video_Object_Detection](./VideoDetection/Seq-NMS_for_Video_Object_Detection.md)
 - [T-CNN_Tubelets_with_Convolutional_Neural_Networks_for_Object_Detection_from_Videos](./VideoDetection/T-CNN_Tubelets_with_Convolutional_Neural_Networks_for_Object_Detection_from_Videos.md)
+- [Towards_High_Performance_Video_Object_Detection_for_Mobiles](./VideoDetection/Towards_High_Performance_Video_Object_Detection_for_Mobiles.md)
 - [[A-LSTM]_Online_Video_Object_Detection_using_Association_LSTM](./VideoDetection/[A-LSTM]_Online_Video_Object_Detection_using_Association_LSTM.md)
 - [[AOD]_Attentional_Network_for_Visual_Object_Detection](./VideoDetection/[AOD]_Attentional_Network_for_Visual_Object_Detection.md)
 - [[ATW]_Attention-based_Temporal_Weighted_Convolutional_Neural_Network_for_Action_Recognition](./VideoDetection/[ATW]_Attention-based_Temporal_Weighted_Convolutional_Neural_Network_for_Action_Recognition.md)
