@@ -39,6 +39,7 @@
 4. Over recent years, the **landscape** of computer vision has been drastically altered and pushed forward through the adoption of a fast, scalable, end-to-end learning framework, the Convolutional Neural Network (CNN)
 5. & has received/attracted considerable/rapidly increased attention due to # from/in the research community
 6. & is one of the main areas of research in computer vision and has lot of real word applications.
+7. Today, transfer learning methods appear in several top venues. 这里的top venues指顶级会议
 
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
@@ -90,7 +91,7 @@
 34. be attenuated exponentially 指数式地衰减
 36. ally & with/to # 联合、结合
 37. aim(n.) take aim at somebody/something / aim of sth / with the aim of doing something
-    (v.) aim to do
+    (v.) aim to do / aim at doing
 38. apart from / in addition to / Besides doing, 除了
 39. be able to 能
 40. classical alternative to # 经典的方法
@@ -316,10 +317,9 @@
      there is an imperative need of 迫切需要
      & is becoming urgently necessary 迫切需要
      there is an increasing need for doing 增加的需求
+     The need for # may arise 需求增加
      needless(ly) 不必要的(地)
      it is essential to do 有必要
-18. draw/take inspiration from 启发
-    & offer us inspiration for #
 19. design # specially tailored for (doing) 为...特制的/专门设计
 20. deficient 缺乏的， 不足的
 21. In the past decades 过去几十年
@@ -522,6 +522,7 @@
 19. generalization ability 泛化性能
 20. hyperbolic tangent function 双曲正切函数
 21. helpful (helpful) 有用的
+22. this assumption may not **hold** 假设不成立
 
 ## I
 1. introduce A to B 把A引入到B
@@ -555,6 +556,8 @@
 25. induce = incur 引起
 26. be inspired by # 受#启发
     & inspire us to do
+    draw/take inspiration from 启发
+    & offer us inspiration for #
 27. inevitable 不可避免地
 28. ill-posed 病态的
 29. Irrespective of # 不考虑，不顾
@@ -606,6 +609,7 @@
 1. It is known that 众说周知的是
    As it is known that
    & is known to do &被公认
+   As we can see, 正如我们所见的
 
 ## L
 1. lack # / be lacking in # / be short of # / # is lacking / for lack(want) of # / There lacks #
