@@ -66,8 +66,9 @@
 19. (holistically) assess/evaluate # (整体地)评估
 20. For &, in addition to do #, it can do # 对于&，它除了能#，还能#
     & do # in addition to do ## &做...还要做...
-21. &(The method) made **attempts** to do 尝试做
-    &(The method) attempt to do 尝试
+21. & make **attempts** to do 尝试做
+    & make **an attempt** to do
+    & attempt to do 尝试
     sb. attempted #(several methodologies) to do
     sb. do & in an attempt to do # 目的是、为了
 22. address # 解决
@@ -81,6 +82,8 @@
     analogical 类似的，相似的
     analogic 类推的，模拟的
     & be similar/analogous in spirit to # (动机上)类似
+    &(our work) shares similar spirit as #
+    & has **similarities** to #
 27. be applied to # 被用于#(领域，任务)
 28. advantageous 有利的
 29. makes # applicable in (a wide variety of settings) 使#可应用于
@@ -90,8 +93,6 @@
 33. advocates #/that 提倡
 34. be attenuated exponentially 指数式地衰减
 36. ally & with/to # 联合、结合
-37. aim(n.) take aim at somebody/something / aim of sth / with the aim of doing something
-    (v.) aim to do / aim at doing
 38. apart from / in addition to / Besides doing, 除了
 39. be able to 能
 40. classical alternative to # 经典的方法
@@ -128,6 +129,8 @@
 66. annexation of & and # 合并
 67. adverse (effects) 不利的影响
 68. advantageous 优势的
+69. visual **appearance** clues 视觉外观线索
+    *existing methods only make use of visual appearance clues for detection*
 
 ## B
 1. binocular(ly) 双目的
@@ -171,11 +174,17 @@
 30. bivalve 贝壳
 31. their accuracy still **trails** that of twostage methods 比不上
     its detection accuracy is usually **behind** that of the two-stage approach
+32. motion **blur** 运动模糊
 
 ## C
-1. be **crucial/key** to (doing) # 对#起决定性作用/ 关键
-   play a **decisive** role in its performance 起决定性作用
-2. contextual information 上下文信息
+1. 关键、重要
+    1. & be **crucial/key** to (doing) # 对#起决定性作用/ 
+    2. it is **crucial** for us to do 关键的
+    3. most critically 最关键地（用于句首）
+    4. & is **of crucial importance** &是很重要的
+    5. & is **particularly important** for #
+    6. play a **decisive** role in its performance 起决定性作用
+    7. pivotal 关键的，中枢的
 3. & has received/attracted considerable/rapidly increased attention due to # from/in the research community 由于#，&得到了大量/迅速增长的关注
 4.  Contrast stretch 对比度增强
 5.  As a consequence,  (不好的)结果
@@ -195,13 +204,10 @@
      achieves an overall competitive performance 整体有竞争力的
      performs favorably against state-of-the-art methods while possessing real-time speed of 50 fps.
 17. a carefully crafted design 精心的设计
-18. most critically 最关键地（用于句首）
 19. come with 具有 (this simple solution comes with two major drawbacks)
     & (do not) come **for free** 没有代价地
 20. when it comes to # / in terms of # / As for # / Concerning # / As far as # is concerned / In case of #  就#而言
 21. comprehensive 综合的
-22. & is of crucial importance &是很重要的
-    & is particularly important for #
 23. (its deeper/shallower) counterpart 版本
 24. counterintuitive 反直觉的
 25. be capable of (doing) something = has capability of doing = be competent for # / in doing # = be/become capable to do 有能力
@@ -214,12 +220,10 @@
 30. considerab(ly) 可观的
 31. & cover a variety of scenarios such as ... &包含多个方面例如
 32. & be challenged by # &的挑战是#
-33. in the context of # 在#的语义/意义/背景下
 34. & be (highly/tightly) correlated/associated with # 有联系
 35. concluding remarks 结论
 36. In consideration of #, & do 考虑到
 37. confirm #(data, confirming) 确认/验证
-38. criteria 标准
 39. be constituted with 构成
 40. The community 同行们
 41. call for 需要
@@ -268,7 +272,7 @@
 74. convincing 令人信服的
 75.  Their results concluded that 他们的结果表明
 76. coarsely 粗略地
-77. conjecture 推测
+77. conjecture 推测、猜想
 78. We choose # for concreteness. Our method is applicable to other architectures. 选择#作为具体案例，也可用于其他架构
 79. is characterized by # 有#特点、特征
 80. be confronted with 面临
@@ -282,7 +286,6 @@
 86. composability 可组合性
 87. &(researchers) reach a consensus on # 就#达成一致
 88.  &(performance gains) are **credited** to #(the ResNet-101) 归功于
-89. criterion for # 标准 criteria(复数形式)
 90. circumvent #(this problem) 回避、绕行
 91. cumbersome 笨重的、累赘的、难处理的
 92. fairly/considerably (good) 相当地
@@ -293,15 +296,19 @@
 97. complementary (advantages) 互补的
 98. & is concerned with # 有关联
 99. in conjunction with # 结合#
+100. compact 紧凑的、紧密的、简洁的
 
 ## D
 1. a **downstroke** phase 下行程
 2. dramatically reduce / improvement 显著地减少/提升
 3. During the course of 过程中
 4. dynamic scenes 动态场景
-5. be denoted as 被记作
+5. 记作、表示
+    1. Symbolically 符号地，用于引出对符号地描述
+    2. & be denoted as && 
+    3. && denote/indicate/represent &
+    4. e.g., *Symbolically, $M$, $D$ and $X$ denote the $A$, $B$, and $C$, respectively, while $f$ and $f$ represent $D$ and $E$*
 7. some conclusions are drawn based on the above work 得到结论
-8. , where $Mm$, $Dm$ and $xm$ denote the $A$, $B$, and $C$, respectively, while $fh$ and $fm$ represent $D$ and $E$ 表示
 9. Denoting with $A$ $B$ , $C$ do 用A表示B，则C...
 10. dispersibility / dispersion  分散性，散布
 12. distortion 失真
@@ -320,6 +327,7 @@
      The need for # may arise 需求增加
      needless(ly) 不必要的(地)
      it is essential to do 有必要
+     & be starved of # 迫切需要、缺乏
 19. design # specially tailored for (doing) 为...特制的/专门设计
 20. deficient 缺乏的， 不足的
 21. In the past decades 过去几十年
@@ -369,6 +377,7 @@
 52. & have recently dominated the field of # 支配
 53. duplicate 重复的
 54. diminish (the advantageous speed of SSD) 减小
+55. & date back to # 追溯到
 
 ## E
 1. in exposures of 暴露
@@ -414,7 +423,7 @@
 36. & have evolved (excellent propulsive) to do 进化出
 37. enable # to do 使#能做
 38. expediently (touch the essence) 方便地(了解其中的精华)
-39. exploit = develop = propsoe = design = report = investigate (方法)被提出、报道、设计、开发、调查
+39. exploit = develop = propsoe = design = devise = report = investigate (方法)被提出、报道、设计、开发、调查
 40. Eventually = Finally 最后
 41. & are endowed with # 被赋予
 42. The first endeavor to do # 第一次尝试做#
@@ -435,6 +444,7 @@
 55. & is trained from end to end 端到端训练
     an end-to-end architecture
 56. era 时代 (During the deep learning era, )
+57. a fixed **spatial extent** of $7\times 7$ 空间的范围（形容feature map的大小）
 
 ## F
 1. following their example, 根据
@@ -447,7 +457,7 @@
 8. fundamental problem 基本的问题
 9. (The importance are) two folds 两方面
 10. Functioning as #, & do 作为#，&...
-11. in the form of 以...的形式
+11. in the form of 以...的形式、格式
 12. be free to# 不受#的约束
 13. fulfill (our needs) 满足，履行
 14. faithfully 忠实地
@@ -543,7 +553,7 @@
 13. clearly impractical 十分
 14. interest & for # 使&对#产生
 15. imperative 极重要的
-16. incorporate & into # 将&包含/融入#
+16. incorporate & into # 将&包含、合并、融入#
 17. incarnation 运用
 18. & has been quite limited in existing literature 现有研究有限
 20. For instance, . For example + 句子 / , e.g., + 名词 / like + 名词 例如
@@ -581,7 +591,6 @@
 44. inherently 内在地，本质地
 46. incoming 新引入的
 47. intersection-over-union (IoU) =  jaccard overlap 交并比
-50. be infeasible for # 不可行的
 51. instantiate # 举例说明# vt.
 52. inter-sequence 序列间的 intra-sequence 序列内的
 53. intrinsically 本质地，固有地，实在地
@@ -644,6 +653,7 @@
   A large body of / a great deal of literature  大量的文献  
 11. minor 较小的，低级的，次要的
 12. Evaluation metrics 评价指标
+    criterion for # 评价标准 criteria(复数形式)
 13. do # motivated by & 动机是
     & motivates us to do
 14. & be modeled based on # 基于#对&建模
@@ -699,6 +709,7 @@
     left out # 忽视、不考虑
 13. occlusion (行人的)遮挡
 14. out of operation 不起作用
+15. outcome 结果、成果
 
 ## P
 1. pronounced  明显的，显著的
@@ -717,14 +728,23 @@
 12. a path, S(s), with s being the path length parameter, is known. 参数的表达
 13. have the potential of doing 有潜力
     & have recently shown great potentials in # 在#方面展现潜力
-17. for the purpose of # 为了#目的
-    for the sake of #
-    & is primarily targeted at # 目标/目的是
-    the intent is to do 目的是
-    We seek to do 寻求
-    The objective of # is to 目标/目的是
-    is meant to do/be 为了...
-    Our goal is to do
+17. 目的
+    1. for the purpose of # 为了#目的
+    2. for the sake of #
+    3. & is primarily targeted at # 目标/目的是
+    4. & target doing 
+    5. the intent is to do 目的是
+    6. & seek to do 寻求
+    7. The objective of # is to 目标/目的是
+    8. & is meant to do/be 为了...
+    9. Our goal is to do
+    10. aim(n.) 
+        1. & take aim at doing
+        2. aim of sth
+        3. & do with the aim of doing
+    11. aim(v.) 
+        1. & aim to do
+        2. & aim at doing
 18. & be performed on # &(某种性能)被#表现出来
 19. (critically) progressive 进步的
 20. preliminary 初步的
@@ -743,7 +763,6 @@
 29. prevent & form (doping) # 预防，防止, 阻止
     prohibit & from (doing) # 限制/禁止
     prevent & to be done(or adj.)
-30. pivotal 关键的，中枢的
 31. In parallel, 平行地
 32. perturbation 微调
 33. We point out that 指出
@@ -769,6 +788,7 @@
 51. & can be prohibitive for # (many applications) & 不能用于
 52. Pipeline = approach = method 途径、方法
 52. practical / feasible / viable / actually 可行的、实际的
+50. be infeasible for # 不可行的
 53. pertinent 中肯的、相关的、切题的
 54. primitive (elements) 原始的、简单的
 55. percept # 认知、感知
@@ -784,16 +804,20 @@
     It is more proper to do
 65. promote # to do 促进
 66. pioneering (work) 首创性的、开拓性的、先驱
-67. & performs sufficiently well to # 表现充分地好
+67. sufficiently 充分地，足够地
+    *& performs **sufficiently** well to #* 表现充分地好
 68. & be in proportion to # &与#成比例
 69. we propose to do # 建议、提出
 70. prevalent = general 普遍的、广泛的、一般的
     prevalence of #(deep learning) 流行
 71. over-parametrize #(the task/model) 增加#的参数
+72. presumably 可以假定, 推测起来, 大概地, 假定地
 
 ## Q
 1. quantify 量化
-2. quantitative 定量的
+    quantitative 定量的
+    quantifiable 可计量的
+    quantifiably 可量化地
 3. qualitative 定性的
 4. be qualified for 能胜任
 
@@ -868,10 +892,11 @@
 56. be restricted to 被限制在
 57. realistic-looking images 逼真的图像
 58. In this regard, 就这一点而言
-59. With the revival of # 随着#的兴起、复苏、到来
+59. With the revival/advent of # 随着#的兴起、复苏、到来
     Before the arrival/prevalence of # 在#出现、流行、到来之前
 60. reasonably good accuracy 较好的精度(形容不是state-of-the-art的精度)
 61. represented by # 以#为代表
+62. In real life complex scenarios, 真实的复杂场景
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好
@@ -883,7 +908,7 @@
 6. fully synchronized manner 完全同步地方法
 7. unstructured 非结构化的
 8. be summarized as follows 总结如下
-9. In a similar manner，相似的方法
+9. In a similar manner/fashion，相似的方法
 10. scenarios 情节（后跟where）
 11. subscript $H$ ..., while $Q$ ... 下标H... Q...
 12. scaled up 放大
@@ -907,7 +932,7 @@
 29. be set as (参数)被设置为
 30. striking 显著的，突出的，引人注意的
 32. taken significant steps in #  在#方面走出了重要一步
-    & is  an essential step towards # 是关键的一步
+    & is an essential step towards # 是关键的一步
 33. solution to # #的解决方案
 34. it is sufficient/suffice to do/that ...足够
 35. seek # 寻求
@@ -921,6 +946,8 @@
 44. serve as 作为
 45. separately 各自地，分别地(可用于句中) = respectively
 46. semantic information 语义信息
+    contextual information 上下文信息
+    in the context of # 在#的语义/意义/背景下
 47. comprehensive / synthesized  综合的，合成的
 48. be well suited to do / be suitable for 适合用于做...
 49. spatiotemporal / spatio-temporal 时空的
@@ -951,7 +978,7 @@
 70. Since then, & do 从那以后
     Henceforth, & do 此后
 71. be subdivided into 细分为
-73. shed light on # 阐明，说清楚
+73. **shed light** on # 阐明，说清楚
 74. sway(v.) head yawing/swing(n.) (鱼头的)摇晃
 75. & **suffer** drawbacks 存在缺点
 76. More seriously, 更严重地
@@ -972,6 +999,9 @@
 88. shallow layers with low-level high-resolution features 浅层(形容Conv4_3)
 top layers with high-level low-resolution features 顶层
 89. status quo 现状
+90. sisyphean 徒劳的、永远做不完的 *Sisyphean challenge*
+91. stepping stone 垫脚石、跳板 
+    *# is the first **stepping stone** towards developing provably efficient comprehensive/universal perception models*
 
 ## T
 1. & has tendency to do / & tend to do 有趋势
@@ -1018,7 +1048,6 @@ top layers with high-level low-resolution features 顶层
 2. unrivaled 无与伦比的
 3. unit vector 单位向量
 4. ultimately 最终地，基本上
-5. ubiquitous 普遍的/无处不在的
 6. untethered 不受约束的
 7. ..., with little understanding of # 对#的理解较少
 8. underlying (reason) 根本的，潜在的
@@ -1027,7 +1056,7 @@ top layers with high-level low-resolution features 顶层
 9. ubiquitous 普遍存在的，无处不在的
 11. Up-to-date (approach) 最新的、最近的
 12. undergo/encounter/ # 经历、遭遇#
-    suffer form #
+    suffer from #
 13. Undoubtedly,  毫无疑问地
 14. & is still not fully understood &还没完全研究明白
 15. (this method) remain theoretical 依然停留在理论上
@@ -1059,8 +1088,8 @@ top layers with high-level low-resolution features 顶层
 1. it is worthwhile to do 值得做
    & be worth doing / & be worth to be done / it pays to do
 2. watertight (glass plate)水密的，不漏水的
-3. whereas 但是，然而
-4. whereas 反之
+3. whereas 但是, 然而, 反之
+4. whereby 借此，凭此
 5. & without considering the influence of # <名词短语>未考虑到#的&
    & ignoring #
 6. Without loss of generality, as an example [of #/to do #], we ... 不失一般性地
