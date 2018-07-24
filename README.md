@@ -15,6 +15,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [MDSSD](./Detection/MDSSD.md)
 - [MultiBox](./Detection/MultiBox.md)
 - [Object_detection_at_200_Frames_Per_Second](./Detection/Object_detection_at_200_Frames_Per_Second.md)
+- [OR-CNN](./Detection/OR-CNN.md)
 - [R-FCN](./Detection/R-FCN.md)
 - [Relation_Networks_for_Object_Detection](./Detection/Relation_Networks_for_Object_Detection.md)
 - [RepMet](./Detection/RepMet.md)
@@ -32,6 +33,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [[RefineDet]_Single-Shot_Refinement_Neural_Network_for_Object_Detection](./Detection/[RefineDet]_Single-Shot_Refinement_Neural_Network_for_Object_Detection.md)
 - [[RFB]_Receptive_Field_Block_Net_for_Accurate_and_Fast_Object_Detection](./Detection/[RFB]_Receptive_Field_Block_Net_for_Accurate_and_Fast_Object_Detection.md)
 - [[S3FD]_Single_Shot_Scale-invariant_Face_Detector](./Detection/[S3FD]_Single_Shot_Scale-invariant_Face_Detector.md)
+- [[SIN]_Structure_Inference_Net](./Detection/[SIN]_Structure_Inference_Net.md)
 
 ## Image2image
 
@@ -59,8 +61,10 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 ## RL
 
 - [About_RL](./RL/About_RL.md)
+- [A_Survey_on_Transfer_Learning](./RL/A_Survey_on_Transfer_Learning.md)
 - [Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning](./RL/Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning.md)
 - [Self-critical_Sequence_Training_for_Image_Captioning](./RL/Self-critical_Sequence_Training_for_Image_Captioning.md)
+- [Taskonomy](./RL/Taskonomy.md)
 - [[A3C]_Asynchronous_Methods_for_Deep_Reinforcement_Learning](./RL/[A3C]_Asynchronous_Methods_for_Deep_Reinforcement_Learning.md)
 - [[DDPG]_Continuous_control_with_deep_reinforcement_learning](./RL/[DDPG]_Continuous_control_with_deep_reinforcement_learning.md)
 - [[DPG]_Deterministic_Policy_Gradient_Algorithms](./RL/[DPG]_Deterministic_Policy_Gradient_Algorithms.md)
@@ -118,7 +122,6 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [On_The_Stability_of_Video_Detection_and_Tracking](./VideoDetection/On_The_Stability_of_Video_Detection_and_Tracking.md)
 - [Recurrent_Neural_Network_Regularization](./VideoDetection/Recurrent_Neural_Network_Regularization.md)
 - [Seq-NMS_for_Video_Object_Detection](./VideoDetection/Seq-NMS_for_Video_Object_Detection.md)
-- [T-CNN_Tubelets_with_Convolutional_Neural_Networks_for_Object_Detection_from_Videos](./VideoDetection/T-CNN_Tubelets_with_Convolutional_Neural_Networks_for_Object_Detection_from_Videos.md)
 - [Towards_High_Performance_Video_Object_Detection_for_Mobiles](./VideoDetection/Towards_High_Performance_Video_Object_Detection_for_Mobiles.md)
 - [[A-LSTM]_Online_Video_Object_Detection_using_Association_LSTM](./VideoDetection/[A-LSTM]_Online_Video_Object_Detection_using_Association_LSTM.md)
 - [[AOD]_Attentional_Network_for_Visual_Object_Detection](./VideoDetection/[AOD]_Attentional_Network_for_Visual_Object_Detection.md)
@@ -134,5 +137,6 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [[SoftAtt]_Recurrent_Soft_Attention_Model_for_Common_Object_Recognition](./VideoDetection/[SoftAtt]_Recurrent_Soft_Attention_Model_for_Common_Object_Recognition.md)
 - [[STMN]_Spatial-Temporal_Memory_Networks_for_Video_Object_Detection](./VideoDetection/[STMN]_Spatial-Temporal_Memory_Networks_for_Video_Object_Detection.md)
 - [[STSN]_Object_Detection_in_Video_with_Spatiotemporal_Sampling_Networks](./VideoDetection/[STSN]_Object_Detection_in_Video_with_Spatiotemporal_Sampling_Networks.md)
+- [[T-CNN]_Tubelets_with_Convolutional_Neural_Networks_for_Object_Detection_from_Videos](./VideoDetection/[T-CNN]_Tubelets_with_Convolutional_Neural_Networks_for_Object_Detection_from_Videos.md)
 - [[TCN]_Object_Detection_from_Video_Tubelets_with_Convolutional_Neural_Networks](./VideoDetection/[TCN]_Object_Detection_from_Video_Tubelets_with_Convolutional_Neural_Networks.md)
 - [[TPN]_Object_Detection_in_Videos_with_Tubelet_Proposal_Networks](./VideoDetection/[TPN]_Object_Detection_in_Videos_with_Tubelet_Proposal_Networks.md)
