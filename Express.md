@@ -83,7 +83,11 @@
 26. In analogy to #,  类似于
     analogical 类似的，相似的
     analogic 类推的，模拟的
+<<<<<<< HEAD
     & be similar/analogous in spirit/essence to # (精神上、本质上、动机上)类似
+=======
+    & be similar/analogous in spirit to # (动机上)类似
+>>>>>>> bb2b8d8fff03308190420d4f4476947be5fb198a
     &(our work) shares similar spirit as #
     & has **similarities** to #
 27. be applied to # 被用于#(领域，任务)
@@ -153,7 +157,7 @@
 13. There are benefits of & over # &相比起#有好处
 14. boost the performance / detection accuracy 提升性能
     elevate #(speed or/and accuracy) 提升、提高
-    there remains room for improvement (in two aspects) (从两方面)依然有提升的空间 
+    there remains room for improvement (in two aspects) (从两方面)依然有提升的空间
 15. & can be broken up into #(three distinct phases) 分为
           be decomposed into (spatial and temporal components)
           be divided into
@@ -181,7 +185,7 @@
 
 ## C
 1. 关键、重要
-    1. & be **crucial/key** to (doing) # 对#起决定性作用/ 
+    1. & be **crucial/key** to (doing) # 对#起决定性作用/
     2. it is **crucial** for us to do 关键的
     3. most critically 最关键地（用于句首）
     4. & is **of crucial importance** &是很重要的
@@ -198,7 +202,7 @@
 9.  challenging 富有挑战性的
 10.  By contrast, / in contrast to # 相比之下,对比
 11.  For convenience and brevity, 简便起见
-     For the convenience of #,  为#提供方便 
+     For the convenience of #,  为#提供方便
 12.  designed the concept of 设计了一种概念
 13.  & be composed/comprised of/by # and # &由#组成
      & consist of A,B,C &由ABC组成
@@ -263,7 +267,7 @@
 63. be certain that 确信，有把握
 64. compensate for 补偿、弥补
 65. contributes more to # 对#贡献更多
-    we enumerate the main contributions of our approach: 
+    we enumerate the main contributions of our approach:
       1) ...
       2) ...
 66. coarse / coarsely 粗糙的/粗略地
@@ -314,7 +318,7 @@
 4. dynamic scenes 动态场景
 5. 记作、表示
     1. Symbolically 符号地，用于引出对符号地描述
-    2. & be denoted as && 
+    2. & be denoted as &&
     3. && denote/indicate/represent &
     4. e.g., *Symbolically, $M$, $D$ and $X$ denote the $A$, $B$, and $C$, respectively, while $f$ and $f$ represent $D$ and $E$*
 7. some conclusions are drawn based on the above work 得到结论
@@ -605,7 +609,7 @@
 41. major implication of this work is that 影响
 44. inherently 内在地，本质地
 46. incoming 新引入的
-    upcoming (frame) 即将到来的 
+    upcoming (frame) 即将到来的
 47. intersection-over-union (IoU) =  jaccard overlap 交并比
 51. instantiate # 举例说明# vt.
 52. inter-sequence 序列间的 intra-sequence 序列内的
@@ -691,7 +695,7 @@
 ## N
 1. notably = noticeably 显著地，值得注意地
    notable = Noticeable
-2. noteworthy 值得注意的 
+2. noteworthy 值得注意的
    It is noteworthy/noted ( from the above studies) that
 4. naively 盲目地
 5. & is non-trivial task 并不是不重要的任务/不平凡的
@@ -749,17 +753,17 @@
     1. for the purpose of # 为了#目的
     2. for the sake of #
     3. & is primarily targeted at # 目标/目的是
-    4. & target doing 
+    4. & target doing
     5. the intent is to do 目的是
     6. & seek to do 寻求
     7. The objective of # is to 目标/目的是
     8. & is meant to do/be 为了...
     9. Our goal is to do
-    10. aim(n.) 
+    10. aim(n.)
         1. & take aim at doing
         2. aim of sth
         3. & do with the aim of doing
-    11. aim(v.) 
+    11. aim(v.)
         1. & aim to do
         2. & aim at doing
 18. & be performed on # &(某种性能)被#表现出来
@@ -1019,7 +1023,7 @@
 top layers with high-level low-resolution features 顶层
 89. status quo 现状
 90. sisyphean 徒劳的、永远做不完的 *Sisyphean challenge*
-91. stepping stone 垫脚石、跳板 
+91. stepping stone 垫脚石、跳板
     *# is the first **stepping stone** towards developing provably efficient comprehensive/universal perception models*
 
 ## T

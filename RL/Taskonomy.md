@@ -1,7 +1,11 @@
 # Taskonomy: Disentangling Task Transfer Learning
 Taskonomy = task taxonomy (分类学、分类法)
 ## Introduction
+<<<<<<< HEAD
 1. **Self-supervised learning** leverage the inherent relationships between tasks to learn a desired expensive one (e.g. object detection) via a cheap surrogate (e.g. colorization)
+=======
+1. **Self-supervised learning** leverage the inherent relationships between tasks to learn a desired expensive one (e.g. object detection) via a cheap surrogate (e.g. colorization)
+>>>>>>> bb2b8d8fff03308190420d4f4476947be5fb198a
 > 利用task内在的关系，通过一个简单的代替品来学习一个复杂的任务
 
 2. **Unsupervised learning**  is concerned with the redundancies in the input domain and leveraging them for forming compact representations, which are usually agnostic to the downstream task
@@ -46,4 +50,4 @@ have an affinity matrix of transferabilities across tasks
 
 ### Step IV: Computing the Global Taxonomy
 devise a global transfer policy which maximizes collective performance across all tasks, while minimizing the used supervision.
-> 找到最好的transfor的方士
+> 找到最好的transfor的方式

@@ -31,10 +31,18 @@ $$\mathcal L_{com}(\{p_i^*\},\{t_i\},\{t_i^*\})=\frac{1}{\rho}\sum_{i=1}^\rho Sm
 $\mathcal L_{occ}(\{t_i\},\{t_i^*\})=\sum_{j=1}^5-(o^*_{i,j}\log o_{i,j}+ (1-o^*_{i,j})\log(1-o_{i,j}))$
 5. apply the element-wise multiplication operator to multiply the pooled features of each part and the corresponding predicted visibility score to generate the final features with the dimensions $512\times 7\times 7$
 > 可见系数$o$乘到原feature map上
+<<<<<<< HEAD
 6. The element-wise summation operation is further used to combine the extracted features of the five parts and the whole proposal for classification and
+=======
+6. The element-wise summation operation is further used to combine the extracted features of the five parts and the whole proposal for classification and
+>>>>>>> bb2b8d8fff03308190420d4f4476947be5fb198a
 7. Fast RCNN Loss
 $$\mathbb L_{frc}(\{p_i\},\{t_i\},\{p_i^*\},\{t_i^*\})= \mathcal L_{cls}(\{p_i\},\{p_i^*\})+\alpha\mathcal L_{agg}(\{p_i^*\},\{t_i\},\{t_i^*\})+\lambda\mathcal L_{occ}(\{t_i\},\{t_i^*\}) $$
 
 ## Learned
 1. 提出了一个聚合损失，目的是减小proposed和detection region的分散程度
+<<<<<<< HEAD
 2. 针对行人，把 proposed region分为5个部分，预测可见度
+=======
+2. 针对行人，把 proposed region分为5个部分，预测可见度
+>>>>>>> bb2b8d8fff03308190420d4f4476947be5fb198a
