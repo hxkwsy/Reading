@@ -19,6 +19,12 @@
 [arXiv](https://arxiv.org/abs/1804.08071)
 [zhihu](https://zhuanlan.zhihu.com/p/37598903?utm_source=qq&utm_medium=social&utm_oi=638711330211762176)
 
+7. Deep Learning for Generic Object Detection: A Survey
+[arXiv](https://arxiv.org/abs/1809.02165)
+
+8. Context Refinement for Object Detection
+[eccv](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhe_Chen_Context_Refinement_for_ECCV_2018_paper.pdf)
+
 ## Stereo
 1. Pyramid Stereo Matching Network
 [arXiv](https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1803.08669)

@@ -70,6 +70,13 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [[DDPG]_Continuous_control_with_deep_reinforcement_learning](./RL/[DDPG]_Continuous_control_with_deep_reinforcement_learning.md)
 - [[DPG]_Deterministic_Policy_Gradient_Algorithms](./RL/[DPG]_Deterministic_Policy_Gradient_Algorithms.md)
 
+## Robotics(e.g., STN and Stereo)
+
+- [AboutSTN](./Robotics(e.g., STN and Stereo)/AboutSTN.md)
+- [ICSTN](./Robotics(e.g., STN and Stereo)/ICSTN.md)
+- [Pyramid_Stereo_Matching_Network](./Robotics(e.g., STN and Stereo)/Pyramid_Stereo_Matching_Network.md)
+- [Real_time_self_adaptive_deep_stereo](./Robotics(e.g., STN and Stereo)/Real_time_self_adaptive_deep_stereo.md)
+
 ## Segmentation
 
 - [Dynamic_Video_Segmentation_Network](./Segmentation/Dynamic_Video_Segmentation_Network.md)
@@ -100,14 +107,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 
 ## ToBeContinued
 
-- [A_Cascaded_Convolutional_Neural_Network_for_Single_Image_Dehazing](./ToBeContinued/A_Cascaded_Convolutional_Neural_Network_for_Single_Image_Dehazing.md)
 - [Concern](./ToBeContinued/Concern.md)
-- [Context_Refinement_for_Object_Detection](./ToBeContinued/Context_Refinement_for_Object_Detection.md)
-- [Deep_Learning_for_Generic_Object_Detection_A Survey](./ToBeContinued/Deep_Learning_for_Generic_Object_Detection_A Survey.md)
-- [ICSTN](./ToBeContinued/ICSTN.md)
-- [Mix_and_match_networks_encoder-decoder_alignment_for_zero-pair_image_translation](./ToBeContinued/Mix_and_match_networks_encoder-decoder_alignment_for_zero-pair_image_translation.md)
-- [Multimodal_Unsupervised_Image-to-Image_Translation](./ToBeContinued/Multimodal_Unsupervised_Image-to-Image_Translation.md)
-- [[S-LSTM-GAN]_Shared_recurrent_neural_networks_with_adversarial_training](./ToBeContinued/[S-LSTM-GAN]_Shared_recurrent_neural_networks_with_adversarial_training.md)
 
 ## Tracking
 

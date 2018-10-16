@@ -41,6 +41,10 @@
 6. & is one of the main areas of research in computer vision and has lot of real word applications.
 7. Today, transfer learning methods appear in several top venues. 这里的top venues指顶级会议
 8. &(High performance face detection) remains a very challenging problem, especially when (there exists many tiny faces). 依然是一个很有挑战的问题
+9. Recent rapid advances in deep learning are allowing for the learning of complex functions through convolutional neural networks (CNNs), which have achieved stateof-the-art performances in a plethora of computer vision tasks 深度学习的快速发展使得CNN能学习复杂的方程，并在大量视觉任务上取得了很好的效果
+10. In the rapidly emerging field of deep learning among
+with the explosion of available collected data, deep neural
+networks have enjoyed huge success in various vision problems. 在快速兴起的deep learning领域，深度神经网络在视觉上取得了巨大成功
 
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
@@ -83,11 +87,7 @@
 26. In analogy to #,  类似于
     analogical 类似的，相似的
     analogic 类推的，模拟的
-<<<<<<< HEAD
     & be similar/analogous in spirit/essence to # (精神上、本质上、动机上)类似
-=======
-    & be similar/analogous in spirit to # (动机上)类似
->>>>>>> bb2b8d8fff03308190420d4f4476947be5fb198a
     &(our work) shares similar spirit as #
     & has **similarities** to #
 27. be applied to # 被用于#(领域，任务)
@@ -150,11 +150,15 @@
    2. & cause minor drop in accuracy but significantly speeds up by nearly 65× theoretically
    3. the computation cost of # is reduced by 8∼9 times with a slight drop in accuracy
    4. do # at real time 实时地
+   5. Real-time self-adaptive 实时自适应的
+   6. such a strategy can be extremely demanding regarding computational resources and thus not enabling real-time performance.
 8. unbalanced (adj.) imbalance (n.) 不平衡
 9. on this basis 在此基础上
 10. bidirectionally 双向地
 12. & find it beneficial to do &发现...有益处
 13. There are benefits of & over # &相比起#有好处
+    There exist some fundamental drawbacks in comparison to # 相比起#有缺点
+    By contrast, / in contrast to # 相比之下,对比
 14. boost the performance / detection accuracy 提升性能
     elevate #(speed or/and accuracy) 提升、提高
     there remains room for improvement (in two aspects) (从两方面)依然有提升的空间
@@ -182,6 +186,7 @@
 31. their accuracy still **trails** that of twostage methods 比不上
     its detection accuracy is usually **behind** that of the two-stage approach
 32. motion **blur** 运动模糊
+33. & is (probably) the oldest and best known strategy for # 常见的
 
 ## C
 1. 关键、重要
@@ -192,6 +197,7 @@
     5. & is **particularly important** for #
     6. play a **decisive** role in its performance 起决定性作用
     7. pivotal 关键的，中枢的
+    8. & be crucial/key to #
 3. & has received/attracted considerable/rapidly increased attention due to # from/in the research community 由于#，&得到了大量/迅速增长的关注
 4.  Contrast stretch 对比度增强
 5.  As a consequence,  (不好的)结果
@@ -200,7 +206,6 @@
     & face more challenges (due to)
 8.  be poorly contrasted 低对比度的
 9.  challenging 富有挑战性的
-10.  By contrast, / in contrast to # 相比之下,对比
 11.  For convenience and brevity, 简便起见
      For the convenience of #,  为#提供方便
 12.  designed the concept of 设计了一种概念
@@ -229,6 +234,7 @@
 31. & cover a variety of scenarios such as ... &包含多个方面例如
 32. & be challenged by # &的挑战是#
 34. & be (highly/tightly) correlated/associated with # 有联系
+    &(This insight) elegantly links # together 优雅地联系在一起
 35. concluding remarks 结论
 36. In consideration of #, & do 考虑到
 37. confirm #(data, confirming) 确认/验证
@@ -310,6 +316,9 @@
 99. in conjunction with # 结合#
 100. compact 紧凑的、紧密的、简洁的
 101. Concretely 具体地
+102. **We can see** that for the special case **where** ... 特殊情况
+103. canonical 典型的、传统的、权威的
+     e.g., main difference from **canonical** SSD and # lies in that ...
 
 ## D
 1. a **downstroke** phase 下行程
@@ -324,7 +333,7 @@
 7. some conclusions are drawn based on the above work 得到结论
 9. Denoting with $A$ $B$ , $C$ do 用A表示B，则C...
 10. dispersibility / dispersion  分散性，散布
-12. distortion 失真
+12. distortion 失真 color/geometric distortion
     non-distortion 非失真的
 13. & have been demonstrated in the experiments 在实验中说明
 14. derive 衍生，派生
@@ -366,6 +375,8 @@
 33. be devoted entirely to 致力于
 34. drastic 猛烈地
 35. draw human gaze吸引人的注意
+    & has brought great attention to the deep learning community &引起注意
+    & ignite the spread of # (end-to-end stereo architectures) 引起了#的传播
 36. descendant 后代
 37. drastically 彻底地，大大地
 38. de facto 事实上的(需要斜体)
@@ -385,7 +396,7 @@
     data-likeness 数据相似度
     > “Data-likeness” is judged by a simultaneously trained, but otherwise separate, discriminator neural network
 
-49. discard 丢弃、取消vt.
+49. discard 丢弃、取消vt. information is discarded 信息丢失
 50. deliberate (design) 深思熟虑的
 51. display (simple and efficient control capabilities) 展现出
 52. & have recently dominated the field of # 支配
@@ -396,6 +407,9 @@
 57. dispensable 可有可无的
 58. divide-and-conquer (strategy) 分而治之
 59. deduce / conclude # 推断
+60. undisputed 无可争议的
+    e.g., CNNs are the undisputed state-of-the-art methods
+61. domain shift problem (between training data and testing environment) 数据偏移
 
 ## E
 1. in exposures of 暴露
@@ -419,6 +433,8 @@
 18. In essence 本质上
 19. is (length-specifically) equivalent to 相当于，等价于
     & equate to # 等价于
+    & perform equivalent operations as # 等价于
+    be equivalent to 等于，等价于
 20. earlier papers (have focused on) 前面的文章
 21. exploit #(the property that) 开发
 22. elegant (architecture) / succinct (overview) 简洁的
@@ -427,7 +443,6 @@
 25. effortless 容易的，不费劲的
 26. elaborate 详细说明
 27. explicitly 明确地
-28. be equivalent to 等于，等价于
 29. empirical 经验性的，以观测或实验的依据的
 30. for the ease of notation we assume 为简便，我们假设
 31. exhaustive 全面的，彻底的，透彻的
@@ -481,7 +496,6 @@
 13. fulfill (our needs) 满足，履行
 14. faithfully 忠实地
 15. Formally 形式上
-16. formidable / vast / considerable 大量的
 17. be framed as 被构造为
 18. Recent work has largely focused on doing 最近的工作大量关注
 19. (perform) favorably/friendly 顺利地，较好地，友好地
@@ -517,6 +531,7 @@
 41. field experiments 野外的实验
 42. fail to do # 未能做#
 43. Although progress continues on this front, 虽然这方面的进展仍在继续
+44. & realize the **first-ever** real-time, self-adapting, deep stereo system 前所未有的，第一例
 
 ## G
 1. generic 一般的
@@ -598,7 +613,7 @@
     intuition to # 直觉、客观事实
     The intuition here is that
     The intuition behind this idea is that
-33. the immense number of 大量的
+    The intuition for # is to do
 34. insurmountable 不可逾越的
 35. there are practical issues in doing (making them high resolution) 有实际的问题
 36. are involved in / involve # in (doing) 涉及
@@ -628,6 +643,7 @@
 65. individual object 个体
 66. & is widely used in several fields **including but not limited to** #, #, and # 包括但不限于
 67. integrated GPUs 集成的GPU (TX2)
+68. manual intervention 人工干预、调整、介入、辅助 (形容自适应性差)
 
 ## J
 1. jointly 连带地
@@ -635,8 +651,9 @@
    high frequency jitter of camera
 
 ## K
-1. It is known that 众说周知的是
+1. It is known that 众所周知的是
    As it is known that
+   It is a widely agreed that
    & is known to do &被公认
    As we can see, 正如我们所见的
 
@@ -657,6 +674,7 @@
 13. & has long been a challenge for # &一直是#的挑战
     & has long posed challenges for #
 14. lab water tank 实验室水池
+15. left-right frames 左右视图
 
 ## M
 1. mostly 主要地
@@ -669,8 +687,11 @@
 8. merely 仅仅
 9. makes use of 利用
    With the use of #, & do
-10. a multitude of / considerable (tasks) 大量的(任务)
+10. a multitude of / considerable / a plethora of (tasks) / a myriad of 大量的(任务)
   A large body of / a great deal of literature  大量的文献  
+  significant amount of #(space) 大量的空间
+  formidable / vast / considerable 大量的
+  a immense number of 大量的
 11. minor 较小的，低级的，次要的
 12. Evaluation metrics 评价指标
     criterion for # 评价标准 criteria(复数形式)
@@ -684,6 +705,7 @@
 19. merit(s) = advantage(s) 功绩、优点
 20. multifarious 多种多样的
 21. In the meantime = Meanwhile = simultaneously 同时
+    Concurrently with our work, & do ... 和我们的工作同时进行
 22. unimodal / multimodal (distribution)单/多峰的(分布)
 23. would like # to do 期望#做
 25. This means that 这意味着
@@ -691,6 +713,7 @@
 27. mine # 挖掘
 28. migrate & from/to #
 29. Mathematically, 数学上
+30. deep learning machinery meant to work in relevant practical scenarios(, like autonomous driving) 工作在实际场景中的深度学习机器
 
 ## N
 1. notably = noticeably 显著地，值得注意地
@@ -705,7 +728,7 @@
 9. has no need to do 没必要
 10. neglectable / ignorable / negligible (extra cost) 可忽略的
 11. novel = innovative = creative 新颖的
-12. Nevertheless 然而 (代替However)
+12. Nevertheless, Nonetheless 然而, 尽管如此 (代替However)
 13. keep a notion of # 保持#的见解
 14. nomenclature 命名法
 15. numerous (methods) 许多、很多
@@ -720,7 +743,7 @@
 5. overly 过度地
 6. opt for # 选择
    opt to do # 选择
-7. outperform / surpass # (by 2 points) 做地比#更好，胜过, 超过
+7. outperform / outmatch / surpass # (by 2 points) 做地比#更好，胜过, 超过
     outperform previous methods by a large margin
 8. ocean science 海洋科学
 9. overcome this difficulty /limitations 克服困难
@@ -734,7 +757,8 @@
 
 ## P
 1. pronounced  明显的，显著的
-2. prominent 杰出的， 明显的，显著的
+   prominent 杰出的， 明显的，显著的
+   notable 值得注意的，著名的
 3. superiority / be superior to 优越性
 2. & has practical advantages over #(current aquatic robot) &相对于#有实用性的优势
 3. prior-art configurations 现有的技术配置
@@ -766,6 +790,7 @@
     11. aim(v.)
         1. & aim to do
         2. & aim at doing
+    12. & for two key purposes: 1)... and 2)...
 18. & be performed on # &(某种性能)被#表现出来
 19. (critically) progressive 进步的
 20. preliminary 初步的
@@ -800,12 +825,14 @@
 43. The present study is a succeeding research and improvement on the research of # 本研究是#的继承和提高
 44. It should be pointed out that 指出
 45. prune 删减
-46. The main point lies in #(可接宾语从句e.g., how to measure the overlap) 重点在于#
+46. The main point **lies in** #(可接宾语从句e.g., how to measure the overlap) 重点在于#
+    The motivation (behind this structure) **resides in** # 动机在于
 47. progressively 渐进地、逐渐地 (Our approach progressively improves #)
 48. & be prone to do 可能
 49. posit 断定
 50. & have proven to be successful &被证明是成功的
     & prove to be 被证明
+    turn out + adj.(unfeasible) 被证明(不可行)
 51. & can be prohibitive for # (many applications) & 不能用于
 52. Pipeline = approach = method 途径、方法
 52. practical / feasible / viable / actually 可行的、实际的
@@ -817,7 +844,8 @@
 56. From the #(science) perspective, 从#角度来讲
 57. require # to be known a priori 需要知道#作为先验
     a priori knowledge of image is required 需要一些先验知识
-59. & is problematic to # 在#方面有问题、不确定
+59. problematic 有问题的
+    & is problematic to # 在#方面有问题、不确定
 60. perceptible 可察觉的，可感知的，看得见的
 61. (random-)perturbed  (随机)扰动的
 62. pairwise 成对的
@@ -825,7 +853,7 @@
 64. proper 合适的、适当的
     It is more proper to do
 65. promote # to do 促进
-66. pioneering (work) 首创性的、开拓性的、先驱
+66. pioneering/groundbreaking/seminal (work) 首创性的、开拓性的、先驱
 67. sufficiently 充分地，足够地
     *& performs **sufficiently** well to #* 表现充分地好
 68. & be in proportion to # &与#成比例
@@ -874,7 +902,6 @@
     account for #
 23. reasonable 合理的
 24. reason about # 推理，思考
-25. with respect to # / regarding 至于、关于、就...而言
 26. relieve/mitigate/moderate (the issue) 解除、减轻、缓解
 27. reliably 可靠地
 28. revised 改进的
@@ -885,6 +912,7 @@
 33. reliable 可靠的
 34. relevant = related (study) 相关的
 35. with respect to / with relevance to (w.r.t.) 对于,关于
+    with respect to # / regarding 至于、关于、就...而言
 36. retain 保持，记住 vt
     preserve 保留，保存
 37. refine 改善，精炼
@@ -902,6 +930,8 @@
 47. rotational motion 旋转运动
 48. Referring to Fig. 2, & do 参考Fig2 (=As (schematically)  illustrated/shown/depicted/demonstrated/delineated in Fig. 2)  
     We can see from Fig. 2(d) that
+    We draw the readers’ attention to [11] for # 我们希望读者参考[11]
+    We redirect the readers to [2] for # (a full treatment of IC-LK, which is out of scope of this paper) 我们希望读者参考[2]
 49. it runs at 40.2 FPS on a NVIDIA Titan X GPU with the input sizes 320 × 320 in inference 推理时间
 & has a frame rate of 5fps on a GPU
 50. & required in # 被#需要的&
@@ -921,6 +951,7 @@
 60. reasonably good accuracy 较好的精度(形容不是state-of-the-art的精度)
 61. represented by # 以#为代表
 62. In real life complex scenarios, 真实的复杂场景
+63. rely on 依靠
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好
@@ -949,9 +980,8 @@
 22. More specifically，= To be more specific, 更特别地 (In particular, ... More specifically, )
 23. small-sized 小型的
 24. the scope of # 领域
-25. significant amount of #(space) 大量的
 26. strike a balance between & and # 达到/获得平衡
-27. substantially 本质上
+27. substantially 本质上 substantial improvement
 28. schematically 示意性地 (As schematically shown/illustrated in Fig)
 29. be set as (参数)被设置为
 30. striking 显著的，突出的，引人注意的
@@ -977,6 +1007,7 @@
 49. spatiotemporal / spatio-temporal 时空的
 50. straightforward 简单易懂的，直接的，明确地
 51. Subsequently 紧接着, 接下来，随后
+    Sequentially 从而
 52. In short,/  In brief, / Simply put,  简单说(引出总结)，简而言之
 53. only slightly better than # 仅仅比#好一点（可跟在名词后修饰）
 54. be specialized for 专门为
@@ -991,7 +1022,7 @@
 63. & survive (severe natural selection) &从...中存活
 64. start with # 从#开始
 65. seamlessly 无缝地
-66. & **see/achieve/induce/attain** modest/big/significant improvements (in accuracy) 取得、实现、达到了有限/重大的进步
+66. & **see/achieve/induce/attain** modest/big/significant/substantial improvements (in accuracy) 取得、实现、达到了有限/重大的进步
     Great progress has made in # 已取得重大进步
     made prominent progress in # 取得显著的进步
     & have/obtain/achieve a huge improvement as opposed to # 对#而言有巨大进步
@@ -1034,6 +1065,7 @@ top layers with high-level low-resolution features 顶层
 4. tune the weights 调整权重
 5. test-bed 测试平台
 6. improve the &(speed) vs #(accuracy) trade-off 更好地权衡了& 和#
+   the tradeoff is (less) disruptive 权衡地不好
 7. take into account # 考虑到
 8. tackle these difficulties/challenges 解决困难
 9. #, and thus, # 因此
@@ -1082,8 +1114,10 @@ top layers with high-level low-resolution features 顶层
 12. undergo/encounter/ # 经历、遭遇#
     suffer from #
 13. Undoubtedly,  毫无疑问地
-14. & is still not fully understood &还没完全研究明白
+14. & is still not fully understood &还没完全研究明白/验证
+    & (effectiveness of such employment has on improving performance) is not well-understood.
 15. (this method) remain theoretical 依然停留在理论上
+16. update to # 对#的更新
 
 ## V
 1. We validate the proposed approach by doing 验证

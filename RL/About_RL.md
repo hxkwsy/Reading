@@ -7,3 +7,4 @@
 [Pytorch0.3_DQN](http://pytorch.apachecn.org/cn/tutorials/intermediate/reinforcement_q_learning.html)
 [zhihu_DQN](https://zhuanlan.zhihu.com/p/29665107)
 [伯克利CS294](https://www.bilibili.com/video/av20957290?spm_id_from=333.338.__bofqi.18)
+[强化学习的一些基本问题和总结](https://zhuanlan.zhihu.com/p/45894158?utm_source=qq&utm_medium=social&utm_oi=638711330211762176)
