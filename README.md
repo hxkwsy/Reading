@@ -7,10 +7,12 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 ## Detection
 
 - [About_detection](./Detection/About_detection.md)
+- [A_convnet_for_non_maximum_suppression](./Detection/A_convnet_for_non_maximum_suppression.md)
 - [CoupleNet](./Detection/CoupleNet.md)
 - [Deformable_Convolutional_Networks](./Detection/Deformable_Convolutional_Networks.md)
 - [DSSD](./Detection/DSSD.md)
 - [Faster_RCN](./Detection/Faster_RCN.md)
+- [Learning_non_maximum_suppression](./Detection/Learning_non_maximum_suppression.md)
 - [Mask-RCNN](./Detection/Mask-RCNN.md)
 - [MDSSD](./Detection/MDSSD.md)
 - [MultiBox](./Detection/MultiBox.md)
@@ -69,13 +71,16 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [[A3C]_Asynchronous_Methods_for_Deep_Reinforcement_Learning](./RL/[A3C]_Asynchronous_Methods_for_Deep_Reinforcement_Learning.md)
 - [[DDPG]_Continuous_control_with_deep_reinforcement_learning](./RL/[DDPG]_Continuous_control_with_deep_reinforcement_learning.md)
 - [[DPG]_Deterministic_Policy_Gradient_Algorithms](./RL/[DPG]_Deterministic_Policy_Gradient_Algorithms.md)
+- [[KTAN]_Knowledge_Transfer_Adversarial_Network](./RL/[KTAN]_Knowledge_Transfer_Adversarial_Network.md)
 
 ## Robotics(e.g., STN and Stereo)
 
 - [AboutSTN](./Robotics(e.g., STN and Stereo)/AboutSTN.md)
 - [ICSTN](./Robotics(e.g., STN and Stereo)/ICSTN.md)
+- [Learning_to_Zoom_a_Saliency_Based_Sampling_Layer_for_Neural_Networks](./Robotics(e.g., STN and Stereo)/Learning_to_Zoom_a_Saliency_Based_Sampling_Layer_for_Neural_Networks.md)
 - [Pyramid_Stereo_Matching_Network](./Robotics(e.g., STN and Stereo)/Pyramid_Stereo_Matching_Network.md)
 - [Real_time_self_adaptive_deep_stereo](./Robotics(e.g., STN and Stereo)/Real_time_self_adaptive_deep_stereo.md)
+- [[RARE]_Robust_Scene_Text_Recognition_with_Automatic_Rectification](./Robotics(e.g., STN and Stereo)/[RARE]_Robust_Scene_Text_Recognition_with_Automatic_Rectification.md)
 
 ## Segmentation
 
