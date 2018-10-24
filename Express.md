@@ -45,6 +45,7 @@
 10. In the rapidly emerging field of deep learning among
 with the explosion of available collected data, deep neural
 networks have enjoyed huge success in various vision problems. 在快速兴起的deep learning领域，深度神经网络在视觉上取得了巨大成功
+11. & have demonstrated the state-of-the-art performance in computer vision tasks such as image classification, object detection, and pose estimation. &在计算机视觉领域表现出了state-of-the-art的效果
 
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
@@ -91,12 +92,12 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     &(our work) shares similar spirit as #
     & has **similarities** to #
 27. be applied to # 被用于#(领域，任务)
-28. advantageous 有利的
-29. makes # applicable in (a wide variety of settings) 使#可应用于
+29. makes/enable # applicable in (a wide variety of settings) 使#可应用于
 30. ablations of the full objective 目标函数的切分
 31. arbitrarily-sized images 任意尺寸的图像
 32. take account of 考虑到
 33. advocates #/that 提倡
+    pioneer to do 提倡、倡导
 34. be attenuated exponentially 指数式地衰减
 36. ally & with/to # 联合、结合
 38. apart from / in addition to / Besides doing, 除了
@@ -124,6 +125,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 60.  be absent in #(the existing video generation frameworks) 缺席，还没有
      no works have done #
 61. allow & to do # 允许/使得&(可以)做
+    allow # to be done
 62. assure (that) 确保
     &(The online nature of our method) enables # to do 确保#做、使能
 63. be adept/good at 擅长
@@ -137,6 +139,9 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 68. advantageous 优势的
 69. visual **appearance** clues 视觉外观线索
     *existing methods only make use of visual appearance clues for detection*
+70. adopt the concept of # 采用#概念
+71. affluent 丰富的
+72. arbitrary 任意的
 
 ## B
 1. binocular(ly) 双目的
@@ -198,7 +203,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     6. play a **decisive** role in its performance 起决定性作用
     7. pivotal 关键的，中枢的
     8. & be crucial/key to #
-3. & has received/attracted considerable/rapidly increased attention due to # from/in the research community 由于#，&得到了大量/迅速增长的关注
+3. & has received/attracted enormous/considerable/rapidly increased attention due to # from/in the research community 由于#，&得到了大量/迅速增长的关注
 4.  Contrast stretch 对比度增强
 5.  As a consequence,  (不好的)结果
 6.  ceaselessly 不停地
@@ -260,7 +265,6 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 60. To counteract # 应对...
     To cope with # (this)
     combat this problem 对抗这个问题
-61. (un)conventional (非)传统的
 62. computationally efficient / computationally (in)expensive 计算量小的/大的
     computational complexity 计算复杂度
     computational cost(s) 计算量
@@ -319,17 +323,20 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 102. **We can see** that for the special case **where** ... 特殊情况
 103. canonical 典型的、传统的、权威的
      e.g., main difference from **canonical** SSD and # lies in that ...
+     (un)conventional (非)传统的、惯例的、常规的
+104.  (center, top) 用于在caption里描述子图的位置
 
 ## D
 1. a **downstroke** phase 下行程
 2. dramatically reduce / improvement 显著地减少/提升
 3. During the course of 过程中
 4. dynamic scenes 动态场景
-5. 记作、表示
+5. 记作、表示、定义
     1. Symbolically 符号地，用于引出对符号地描述
     2. & be denoted as &&
     3. && denote/indicate/represent &
-    4. e.g., *Symbolically, $M$, $D$ and $X$ denote the $A$, $B$, and $C$, respectively, while $f$ and $f$ represent $D$ and $E$*
+    4. e.g., Symbolically, $M$, $D$ and $X$ denote the $A$, $B$, and $C$, respectively, while $f$ and $f$ represent $D$ and $E$*
+    5. Let & and & be the # and #
 7. some conclusions are drawn based on the above work 得到结论
 9. Denoting with $A$ $B$ , $C$ do 用A表示B，则C...
 10. dispersibility / dispersion  分散性，散布
@@ -380,6 +387,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 36. descendant 后代
 37. drastically 彻底地，大大地
 38. de facto 事实上的(需要斜体)
+    de facto standard 约定俗成的标准
 39. maintain the identity 保持身份
 40. diverse 多种多样的
 41. have difficulty doing # 做#有困难
@@ -389,6 +397,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 43. differentiate between A and B 区分 vt.
     differentiate #
 44. There is no denying that 不可否认的是
+    Admittedly, ...
 45. distractor 干扰选项，错误答案
 46. is **dominated** by # 被#主导
 47. &(复杂的问题) can be **disentangled** into #(简单的问题) 解决、松开、解脱
@@ -409,6 +418,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 59. deduce / conclude # 推断
 60. undisputed 无可争议的
     e.g., CNNs are the undisputed state-of-the-art methods
+    Admittedly, ... 无可否认的
 61. domain shift problem (between training data and testing environment) 数据偏移
 
 ## E
@@ -440,6 +450,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 22. elegant (architecture) / succinct (overview) 简洁的
 23. elastic 弹性的
 24. be effective at doing 有效
+    We found helpful to do 发现...有效、有用
 25. effortless 容易的，不费劲的
 26. elaborate 详细说明
 27. explicitly 明确地
@@ -459,6 +470,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 39. exploit = develop = propsoe = design = devise = report = investigate (方法)被提出、报道、设计、开发、调查
 40. Eventually = Finally 最后
 41. & are endowed with # 被赋予
+    endow & with #
 42. The first endeavor to do # 第一次尝试做#
 43. ever-growing interest in # 日益增长的#
 44. A great deal of effort has been made towards # 对于#已做了很多努力
@@ -479,6 +491,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     an end-to-end architecture
 56. era 时代 (During the deep learning era, )
 57. a fixed **spatial extent** of $7\times 7$ 空间的范围（形容feature map的大小）
+58. exclusive 排斥的 mutually exclusive 相互排斥的
 
 ## F
 1. following their example, 根据
@@ -507,6 +520,9 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 24. formulation 构想
 25. be instrumental to # 对#有帮助
 26. be in favor of # 有利于
+    advantageous 有利的
+    & have hugely profited from #/doing 有利
+    e.g., Object detectors **have hugely profited** from moving towards an end-to-end learning paradigm
 27. It is/was found that 发现
 28. feasibility 可行性
 29. Functioning as #, & do  作为#, &
@@ -532,6 +548,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 42. fail to do # 未能做#
 43. Although progress continues on this front, 虽然这方面的进展仍在继续
 44. & realize the **first-ever** real-time, self-adapting, deep stereo system 前所未有的，第一例
+45. fiducial points 基准点
 
 ## G
 1. generic 一般的
@@ -554,7 +571,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
    be hindered
 8. hence 因此
 9. hybrid 混合的
-10. holistic 整体的
+10. holistic, holistically 整体的
 11. Hadamard product = element-wise multiplication 对应元素乘积
 12. heretofore 直到此时，迄今为止，在这以前 adv.
 13. likeliness 可能性
@@ -714,6 +731,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 28. migrate & from/to #
 29. Mathematically, 数学上
 30. deep learning machinery meant to work in relevant practical scenarios(, like autonomous driving) 工作在实际场景中的深度学习机器
+31. Most, if not all, of #(CNN architectures) (接近全部的)多数，大多
 
 ## N
 1. notably = noticeably 显著地，值得注意地
@@ -723,10 +741,11 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 4. naively 盲目地
 5. & is non-trivial task 并不是不重要的任务/不平凡的
 6. It should be noted/remarked that 需要注意的是
-7. It should not be neglected that 不可忽略的是
 8. Nonetheless 尽管如此
 9. has no need to do 没必要
 10. neglectable / ignorable / negligible (extra cost) 可忽略的
+    It should not be neglected that 不可忽略的是
+    neglect # 忽略#
 11. novel = innovative = creative 新颖的
 12. Nevertheless, Nonetheless 然而, 尽管如此 (代替However)
 13. keep a notion of # 保持#的见解
@@ -754,6 +773,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 13. occlusion (行人的)遮挡
 14. out of operation 不起作用
 15. outcome 结果、成果
+16. & observe # &是#
 
 ## P
 1. pronounced  明显的，显著的
@@ -863,6 +883,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 71. over-parametrize #(the task/model) 增加#的参数
 72. presumably 可以假定, 推测起来, 大概地, 假定地
 73. **preset** (anchors, which are generated by regularly tiling a collection of boxes with different scales and aspect ratios) 预设的
+74. plug-in (module) 插入的(模块), 插件
+    & be plugged into # 插入
 
 ## Q
 1. quantify 量化
@@ -900,6 +922,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 22. be responsible for # 负责/承担
     undertake #
     account for #
+    e.g., NMS **accounts for** almost a quarter of the remaining detection problem.
 23. reasonable 合理的
 24. reason about # 推理，思考
 26. relieve/mitigate/moderate (the issue) 解除、减轻、缓解
@@ -952,6 +975,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 61. represented by # 以#为代表
 62. In real life complex scenarios, 真实的复杂场景
 63. rely on 依靠
+64. rectify 校正
+    rectified (image) 校正的
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好
@@ -960,6 +985,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 3. the proposed approach significantly improves # 显著地提高了#
 4. strategy 策略
 5. salient features 显著的特征
+   (higher) saliency mass 显著性
 6. fully synchronized manner 完全同步地方法
 7. unstructured 非结构化的
 8. be summarized as follows 总结如下
@@ -1008,6 +1034,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 50. straightforward 简单易懂的，直接的，明确地
 51. Subsequently 紧接着, 接下来，随后
     Sequentially 从而
+    consequent 随后的
 52. In short,/  In brief, / Simply put,  简单说(引出总结)，简而言之
 53. only slightly better than # 仅仅比#好一点（可跟在名词后修饰）
 54. be specialized for 专门为
@@ -1035,6 +1062,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 73. **shed light** on # 阐明，说清楚
 74. sway(v.) head yawing/swing(n.) (鱼头的)摇晃
 75. & **suffer** drawbacks 存在缺点
+    & remain as a critical limitation &依然是一个关键的局限、不足、缺点
 76. More seriously, 更严重地
 77. there is a long way to do (be used in real-world applications) 还有很长一段路
 78. In this sense, 从这个意义上来说
@@ -1098,7 +1126,10 @@ top layers with high-level low-resolution features 顶层
 29. troublesome 麻烦的
 30. toy example 用于Introduction的例子展示
 31. terrestrial (image) 陆地上的(图像)
-
+32. top-performance 最好性能的
+    e.g., the top-performance CNN models generally employ very wide and deep architecture
+33. topological 拓扑的，可用于形容网络结构
+    e.g., topological differences 结构上的不同
 ## U
 1. an **upstroke** phase 上行程
 2. unrivaled 无与伦比的
@@ -1168,3 +1199,6 @@ top layers with high-level low-resolution features 顶层
       + a fast yet powerful detector
       + an important yet less explored aspect
 ## Z
+1. zoom 缩放 zoom-in(n.), magnify(v.)放大
+   1. e.g., All the figures **are zoomed to** the same size for display
+   2. e.g., & magnifies important regions

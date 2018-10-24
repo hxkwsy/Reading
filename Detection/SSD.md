@@ -1417,7 +1417,7 @@ return keep, count
 ```
 ### Resnet101
 1. Bottleneck, resnet101:[3,4,22,3], resnet50:[3,4,6,3], resnet18:[2,2,2,2]
-```
+```tex
 (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
 (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
 (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
@@ -1427,7 +1427,7 @@ return keep, count
 (relu): ReLU(inplace)
 ```
 2. resnet101
-```
+```tex
 (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
 (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
 (relu): ReLU(inplace)

@@ -25,6 +25,9 @@
 8. Context Refinement for Object Detection
 [eccv](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhe_Chen_Context_Refinement_for_ECCV_2018_paper.pdf)
 
+9. Sequential Context Encoding for Duplicate Removal
+[arXiv](https://arxiv.org/abs/1810.08950)
+
 ## Stereo
 1. Pyramid Stereo Matching Network
 [arXiv](https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1803.08669)
