@@ -73,14 +73,14 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [[DPG]_Deterministic_Policy_Gradient_Algorithms](./RL/[DPG]_Deterministic_Policy_Gradient_Algorithms.md)
 - [[KTAN]_Knowledge_Transfer_Adversarial_Network](./RL/[KTAN]_Knowledge_Transfer_Adversarial_Network.md)
 
-## Robotics(e.g., STN and Stereo)
+## Robotics
 
-- [AboutSTN](./Robotics(e.g., STN and Stereo)/AboutSTN.md)
-- [ICSTN](./Robotics(e.g., STN and Stereo)/ICSTN.md)
-- [Learning_to_Zoom_a_Saliency_Based_Sampling_Layer_for_Neural_Networks](./Robotics(e.g., STN and Stereo)/Learning_to_Zoom_a_Saliency_Based_Sampling_Layer_for_Neural_Networks.md)
-- [Pyramid_Stereo_Matching_Network](./Robotics(e.g., STN and Stereo)/Pyramid_Stereo_Matching_Network.md)
-- [Real_time_self_adaptive_deep_stereo](./Robotics(e.g., STN and Stereo)/Real_time_self_adaptive_deep_stereo.md)
-- [[RARE]_Robust_Scene_Text_Recognition_with_Automatic_Rectification](./Robotics(e.g., STN and Stereo)/[RARE]_Robust_Scene_Text_Recognition_with_Automatic_Rectification.md)
+- [AboutSTN](./Robotics/AboutSTN.md)
+- [ICSTN](./Robotics/ICSTN.md)
+- [Learning_to_Zoom_a_Saliency_Based_Sampling_Layer_for_Neural_Networks](./Robotics/Learning_to_Zoom_a_Saliency_Based_Sampling_Layer_for_Neural_Networks.md)
+- [Pyramid_Stereo_Matching_Network](./Robotics/Pyramid_Stereo_Matching_Network.md)
+- [Real_time_self_adaptive_deep_stereo](./Robotics/Real_time_self_adaptive_deep_stereo.md)
+- [[RARE]_Robust_Scene_Text_Recognition_with_Automatic_Rectification](./Robotics/[RARE]_Robust_Scene_Text_Recognition_with_Automatic_Rectification.md)
 
 ## Segmentation
 
