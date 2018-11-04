@@ -45,7 +45,7 @@
 10. In the rapidly emerging field of deep learning among
 with the explosion of available collected data, deep neural
 networks have enjoyed huge success in various vision problems. 在快速兴起的deep learning领域，深度神经网络在视觉上取得了巨大成功
-11. & have demonstrated the state-of-the-art performance in computer vision tasks such as image classification, object detection, and pose estimation. &在计算机视觉领域表现出了state-of-the-art的效果
+11. & have demonstrated the state-of-the-art performance in computer vision tasks such as image classification, object detection, and pose estimation. &在计算机视觉领域表现出了state-of-the-art的效果单
 
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
@@ -126,6 +126,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
      no works have done #
 61. allow & to do # 允许/使得&(可以)做
     allow # to be done
+    & be permitted 被允许
 62. assure (that) 确保
     &(The online nature of our method) enables # to do 确保#做、使能
 63. be adept/good at 擅长
@@ -142,6 +143,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 70. adopt the concept of # 采用#概念
 71. affluent 丰富的
 72. arbitrary 任意的
+73. append # to & #加在&后面，追加
 
 ## B
 1. binocular(ly) 双目的
@@ -254,7 +256,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 47. straightforward and computationally inexpensive # 简单易计算的#
 48. constitute 构成
 49. commonplace 普通的adj. 陈词滥调n.
-50. be comparable to/with 相当的，可比的，比得上的
+50. be comparable to/with 相当的，可比的，比得上的，比不上
 51. compile 收集
 53. (the superiority of #) is confirmed 得到确认 / 被证实
 54. ... are not considered ...是未经仔细思考的
@@ -272,8 +274,10 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     & require no more computation than #(prior methods) 不需要更多计算量
     time cost will grow surprisingly high 计算时间会很高
     impractical execution time 不实际的执行时间
+    Consume more time 消耗更多时间
     & can potentially be a waste of time &是很浪费时间的
     & lead to considerable amount of computational cost 导致大的计算量
+    be computationally intensive 计算量大的
 63. be certain that 确信，有把握
 64. compensate for 补偿、弥补
 65. contributes more to # 对#贡献更多
@@ -325,6 +329,10 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
      e.g., main difference from **canonical** SSD and # lies in that ...
      (un)conventional (非)传统的、惯例的、常规的
 104.  (center, top) 用于在caption里描述子图的位置
+105. non-causal 无关联的，原因不明的，形容offline
+106. contemporary (method) 同时期的，当代的
+107. & can effectively **cope** with #(a variety of complex situations) 处理，对付
+108. power-constrained, memory-constrained, resource-constrained (embedded devices) 功率、内存、资源受限的
 
 ## D
 1. a **downstroke** phase 下行程
@@ -464,6 +472,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     To these ends
 35. elaborate (the details) 详细描述
     introduce in detail # 详细介绍#
+    delineate # 描绘
 36. & have evolved (excellent propulsive) to do 进化出
 37. enable # to do 使#能做
 38. expediently (touch the essence) 方便地(了解其中的精华)
@@ -681,7 +690,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 
 3. lure for 引诱
 4. length-specific 长度特异的(用于形容单位是BL相关的量)
-5. layout 布局，设计
+5. layout 布局，设计 (可用于形容网络框架设计)
 6. fish (swimming) locomotion hydrodynamics 鱼类游动动力学
 8. There has been very limited published research in # #方面的研究有限
 9. be largely limited in # 很大程度被限制在#
@@ -692,6 +701,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     & has long posed challenges for #
 14. lab water tank 实验室水池
 15. left-right frames 左右视图
+16. long-standing problem 长期存在的问题
 
 ## M
 1. mostly 主要地
@@ -705,7 +715,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 9. makes use of 利用
    With the use of #, & do
 10. a multitude of / considerable / a plethora of (tasks) / a myriad of 大量的(任务)
-  A large body of / a great deal of literature  大量的文献  
+  A large/progressively body of
+  a great deal of (literature)  大量的文献  
   significant amount of #(space) 大量的空间
   formidable / vast / considerable 大量的
   a immense number of 大量的
@@ -847,7 +858,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 45. prune 删减
 46. The main point **lies in** #(可接宾语从句e.g., how to measure the overlap) 重点在于#
     The motivation (behind this structure) **resides in** # 动机在于
-47. progressively 渐进地、逐渐地 (Our approach progressively improves #)
+47. progressively 渐进地、逐渐地、逐步地 (Our approach progressively improves #)
 48. & be prone to do 可能
 49. posit 断定
 50. & have proven to be successful &被证明是成功的
@@ -896,7 +907,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 
 ## R
 1. reduce sth from # to # 减小到
-2. refreshingly simple 清晰简单
+2. refreshingly simple/concise 清晰简单、简洁
 3. remedy 补救
 4. In the regard of # 在#方面
 5. **required capabilities** include 基本功能有
@@ -924,6 +935,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     account for #
     e.g., NMS **accounts for** almost a quarter of the remaining detection problem.
 23. reasonable 合理的
+    rational 合理的
 24. reason about # 推理，思考
 26. relieve/mitigate/moderate (the issue) 解除、减轻、缓解
 27. reliably 可靠地
@@ -979,7 +991,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     rectified (image) 校正的
 
 ## S
-1. the method **struggles** with sth / to do sth 表现不好
+1. the method **struggles** with sth / to do sth 表现不好，有困难
    it still performs **not so well** on doing
 2. be scattered into 散入
 3. the proposed approach significantly improves # 显著地提高了#
@@ -1048,6 +1060,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 61. & showcase (the performance capabilities of # ) 展示了
 63. & survive (severe natural selection) &从...中存活
 64. start with # 从#开始
+    Taking # as a starting point, ...
 65. seamlessly 无缝地
 66. & **see/achieve/induce/attain** modest/big/significant/substantial improvements (in accuracy) 取得、实现、达到了有限/重大的进步
     Great progress has made in # 已取得重大进步
@@ -1071,7 +1084,6 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     From Fig. 3, it is seen that 可以看出
     & is often seen in # &常常在#中见到
 80. video stabilization 视频稳定
-81. rational 合理的
 82. extremely **subtle** (errors) 极微妙的
 83. **Strictly** speaking, # do 严格地说
 84. sacrifice #(accuracies) 牺牲

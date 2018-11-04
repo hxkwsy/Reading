@@ -30,8 +30,11 @@
 
 ## Stereo
 1. Pyramid Stereo Matching Network
-[arXiv](https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1803.08669)
+[arXiv](https://arxiv.org/abs/1803.08669)
 [github](https://github.com/JiaRenChang/PSMNet)
+
+2. Anytime Stereo Image Depth Estimation on Mobile Devices
+[arXiv](https://arxiv.org/abs/1810.11408)
 
 ## STN
 1. Spatial Transformer Introspective Neural Network
