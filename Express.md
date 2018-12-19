@@ -54,8 +54,12 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 5. Alternatively, 选择性地
    we explore an alternative way of doing 开发了一种可选择的方法
 7. attractive 有吸引力的
+   e.g., &(These learning-based techniques) are attractive in that ...
+leverage external supervision during training
 8. ability **to** do # 做#的能力
    ability of # (overcoming various types of obstacles encountered in surrounding environments)
+   inability to do 无能
+   e.g., ..., because of their inability to cope with
 9. **account for** # 解释
 10. It is **assumed** that 假设
     Assuming # do
@@ -70,6 +74,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 18. augment & with # 用#来强化/扩大&
 19. access # 取得，获取
     & be given access to # &可以获得#
+    & can be difficult to obtain 很难获得
 19. (holistically) assess/evaluate # (整体地)评估
 20. For &, in addition to do #, it can do # 对于&，它除了能#，还能#
     & do # in addition to do ## &做...还要做...
@@ -82,7 +87,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 23. applicability 适用性
 24. According to the authors’ knowledge = To our knowledge =  
     To the best of our knowledge据我所知
-    We are not aware of any prior work in # 我们没有见过之前的工作
+    We are not aware of any prior/previous work in # 我们没有见过之前的工作
+    Our intuition is that 我们的看法是
 25. & has the advantage of/that 有优势
     & take (full) advantage of #
 26. In analogy to #,  类似于
@@ -144,6 +150,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 71. affluent 丰富的
 72. arbitrary 任意的
 73. append # to & #加在&后面，追加
+74. acquire = see = achieve = obtain 获得(性能)
+75. abscissa 横坐标 ordinate 纵坐标
 
 ## B
 1. binocular(ly) 双目的
@@ -214,7 +222,13 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 8.  be poorly contrasted 低对比度的
 9.  challenging 富有挑战性的
 11.  For convenience and brevity, 简便起见
+     for the sake of clarity,
      For the convenience of #,  为#提供方便
+     notation 标记、记号
+     + Using the notation in the figure, 用图中的记号
+     + For notational convenience, 为了标记方便(引出简化符号)
+     + For the ease of notation we assume 为标记简便，我们假设
+
 12.  designed the concept of 设计了一种概念
 13.  & be composed/comprised of/by # and # &由#组成
      & consist of A,B,C &由ABC组成
@@ -331,8 +345,10 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 104.  (center, top) 用于在caption里描述子图的位置
 105. non-causal 无关联的，原因不明的，形容offline
 106. contemporary (method) 同时期的，当代的
+     concurrent (work)
 107. & can effectively **cope** with #(a variety of complex situations) 处理，对付
 108. power-constrained, memory-constrained, resource-constrained (embedded devices) 功率、内存、资源受限的
+109. coarse-to-fine strategy 由粗糙到精细的策略
 
 ## D
 1. a **downstroke** phase 下行程
@@ -341,10 +357,12 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 4. dynamic scenes 动态场景
 5. 记作、表示、定义
     1. Symbolically 符号地，用于引出对符号地描述
-    2. & be denoted as &&
+    2. && be denoted as &
+       we denote with & && 用&表示#
     3. && denote/indicate/represent &
     4. e.g., Symbolically, $M$, $D$ and $X$ denote the $A$, $B$, and $C$, respectively, while $f$ and $f$ represent $D$ and $E$*
     5. Let & and & be the # and #
+    6. &  represent / stand for #
 7. some conclusions are drawn based on the above work 得到结论
 9. Denoting with $A$ $B$ , $C$ do 用A表示B，则C...
 10. dispersibility / dispersion  分散性，散布
@@ -401,7 +419,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 41. have difficulty doing # 做#有困难
 42. devise 设计
 43. are diverse from each other 各不相同，不同
-44. (key) deficiency / drawback / shortage / flaw 缺点
+44. (key) deficiency / drawback / shortage / flaw / downside 缺点
 43. differentiate between A and B 区分 vt.
     differentiate #
 44. There is no denying that 不可否认的是
@@ -463,7 +481,6 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 26. elaborate 详细说明
 27. explicitly 明确地
 29. empirical 经验性的，以观测或实验的依据的
-30. for the ease of notation we assume 为简便，我们假设
 31. exhaustive 全面的，彻底的，透彻的
 32. error-prone 可能出错的
     erroneous 错误的
@@ -501,6 +518,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 56. era 时代 (During the deep learning era, )
 57. a fixed **spatial extent** of $7\times 7$ 空间的范围（形容feature map的大小）
 58. exclusive 排斥的 mutually exclusive 相互排斥的
+59. effortlessly 轻易地，不费劲地 adv
 
 ## F
 1. following their example, 根据
@@ -509,6 +527,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 4. superior color fidelity 优秀的颜色保真
 5. facilitate # 帮助、促进
 6. formulate &(problem) as # 看做
+   pose & as a # problem
 7. fuse/combine & with # 融合
 8. fundamental problem 基本的问题
 9. (The importance are) two folds 两方面
@@ -541,6 +560,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 33. video footage/snippet 视频片段
 34. fictitious 虚构的，假想的
 35. fragile / brittle 易碎的(用于形容某方法不能用于复杂场景、适应能力不强、不稳定etc.)
+    e.g., be fragile in #
 36. in favour of doing 赞成，有好处(可用在名词后做定语，也可用在be后做表语)
     An argument in favour of doing # 赞成#的论据
     An argument against doing # 反对#的论据
@@ -548,16 +568,21 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 28. feature / map / tensor /  representation 特征(形容conv的输出)
 29. forgoes # 放弃
     & forgo the need to do 不需要
-    without the need/requirement of # / without the need for # 不需要
+    without the need/requirement of #
+    without the need for # 不需要
+    without requiring #
     & no longer need # 不需要
     & no longer do # 不再
     there is no need to do 不需要
+    & eliminate the need of/to do #
 40.  fulfil #(real time processing) 履行vt
 41. field experiments 野外的实验
 42. fail to do # 未能做#
 43. Although progress continues on this front, 虽然这方面的进展仍在继续
 44. & realize the **first-ever** real-time, self-adapting, deep stereo system 前所未有的，第一例
 45. fiducial points 基准点
+46. This far, & have done 到目前为止,...
+47. functionality 功能、机能
 
 ## G
 1. generic 一般的
@@ -586,13 +611,14 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 13. likeliness 可能性
 14. harsh 严厉的，粗糙的
 15. heuristic 启发式的
-16. this assumption does not always hold. 假设不成立
 17. & highlights the need for # 强调了#的必要性
 18. homogeneous coordinates 齐次坐标
 19. generalization ability 泛化性能
 20. hyperbolic tangent function 双曲正切函数
 21. helpful (helpful) 有用的
-22. this assumption may not **hold** 假设不成立
+22. this assumption may not **hold**
+    this assumption does not always hold.
+    these assumptions are **violated** 假设不成立
 
 ## I
 1. introduce A to B 把A引入到B
@@ -659,6 +685,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 55. intricate 复杂的，错乱的
 56. imprecise 不精确的、不严密的
 57. intractable 棘手的、难办的
+    tractable 易获得的，易处理的，易驾驭的
+    e.g., this posterior distribution is not tractable
 58. in-depth (investigation) 深入的
 59. insight(s) into #(developing innovative underwater vehicles) 对#的洞察
 60. & can be interpreted as # &可以被理解为#
@@ -670,6 +698,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 66. & is widely used in several fields **including but not limited to** #, #, and # 包括但不限于
 67. integrated GPUs 集成的GPU (TX2)
 68. manual intervention 人工干预、调整、介入、辅助 (形容自适应性差)
+69. index 索引 e.g., $p$ indexes over pixel coordinates
+70. indisputable (success) 无可争议的
 
 ## J
 1. jointly 连带地
@@ -702,6 +732,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 14. lab water tank 实验室水池
 15. left-right frames 左右视图
 16. long-standing problem 长期存在的问题
+17. Probabilistic graphical models **have long been shown as** a fundamental tool in computer vision
+长期以来被看作
 
 ## M
 1. mostly 主要地
@@ -731,6 +763,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 17. autonomous maritime and underwater operations 自治航行水下作业
 18. milestone 里程碑，划时代的事件
 19. merit(s) = advantage(s) 功绩、优点
+    strength(s) 优势，强项
 20. multifarious 多种多样的
 21. In the meantime = Meanwhile = simultaneously 同时
     Concurrently with our work, & do ... 和我们的工作同时进行
@@ -764,6 +797,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 15. numerous (methods) 许多、很多
 16. natural seabed 自然的海床
     a natural, unstructured undersea environment 自然的、非结构化的水下环境
+17. annoyance / nuisance (variables) 令人讨厌的、麻烦的
+18. notorious(ly) 众所周知的、声名狼藉的、恶名昭彰的
 
 ## O
 1.  originate from / stems from 源于
@@ -773,8 +808,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 5. overly 过度地
 6. opt for # 选择
    opt to do # 选择
-7. outperform / outmatch / surpass # (by 2 points) 做地比#更好，胜过, 超过
-    outperform previous methods by a large margin
+7. outperform / outmatch / surpass / exceed # (by 2 points) 做地比#更好，胜过, 超过
+    outperform previous methods by a large/substantial margin
 8. ocean science 海洋科学
 9. overcome this difficulty /limitations 克服困难
 10. object instance 个体
@@ -849,7 +884,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 37. propagate 传播，传递
 38. the potential of # (is explored) 潜力
 39. preliminary test results 初步的结果
-40. & pave the path for # 为#铺路
+40. & pave the path/way for # 为#铺路
     & provide a route to #
 41. precious source of # 珍贵的资源
 42. & is introduced in the present study &在本研究中被提出
@@ -887,6 +922,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 66. pioneering/groundbreaking/seminal (work) 首创性的、开拓性的、先驱
 67. sufficiently 充分地，足够地
     *& performs **sufficiently** well to #* 表现充分地好
+    & performe poorly 表现不好
 68. & be in proportion to # &与#成比例
 69. we propose to do # 建议、提出
 70. prevalent = general 普遍的、广泛的、一般的
@@ -896,6 +932,9 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 73. **preset** (anchors, which are generated by regularly tiling a collection of boxes with different scales and aspect ratios) 预设的
 74. plug-in (module) 插入的(模块), 插件
     & be plugged into # 插入
+75. powerhouse 动力来源
+    e.g.,strong and valid assumptions are the **powerhouse** of machine learning modelling
+76. piecewise training 分段的
 
 ## Q
 1. quantify 量化
@@ -914,14 +953,16 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 6. Methods relying on # 依赖于#的方法
 7. be closely/directly  related to 密切相关
 8. & has rarely published / there is no report about & 少有
-   there has been relatively little work extensively studying & 少有
+   there has been relatively little work extensively studying & 少有，少见
 9. refraction of light / light refraction 折射
 10. refractive index (indices) 折射率
 11. refractive surface 折射面
 12. To remedy this issue, / To address this dilemma, / To deal with this problem 为了解决问题
+    sidestep this problem by doing 回避这个问题
 13. the role of # 作用
 14. (Several studies) be report on # (一些研究)用于调研/报告#相关的问题
 15. range from & down(up) to # 范围从&下(上)至#
+    & range over # &的范围在#
 16. replicate # 复制
 17. minimum turning radius 最小转弯半径
 18. remedy 补救
@@ -929,7 +970,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
     Indeed, ...
     actually
 20. reveal # 显示出
-21. the main reasons is for # 主要原因是#
+21. the main/dominant reason is for # 主要原因是#
 22. be responsible for # 负责/承担
     undertake #
     account for #
@@ -966,7 +1007,9 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 48. Referring to Fig. 2, & do 参考Fig2 (=As (schematically)  illustrated/shown/depicted/demonstrated/delineated in Fig. 2)  
     We can see from Fig. 2(d) that
     We draw the readers’ attention to [11] for # 我们希望读者参考[11]
-    We redirect the readers to [2] for # (a full treatment of IC-LK, which is out of scope of this paper) 我们希望读者参考[2]
+    We redirect the readers to [2] for # (a full treatment of IC-LK, which is out of the scope of this paper) 我们希望读者参考[2]
+    we guide the reader to [2]
+    We refer readers to [2] for #
 49. it runs at 40.2 FPS on a NVIDIA Titan X GPU with the input sizes 320 × 320 in inference 推理时间
 & has a frame rate of 5fps on a GPU
 50. & required in # 被#需要的&
@@ -1018,6 +1061,8 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 22. More specifically，= To be more specific, 更特别地 (In particular, ... More specifically, )
 23. small-sized 小型的
 24. the scope of # 领域
+    fall within the scope of # 属于#领域
+    be out of the scope of # 不属于#领域
 26. strike a balance between & and # 达到/获得平衡
 27. substantially 本质上 substantial improvement
 28. schematically 示意性地 (As schematically shown/illustrated in Fig)
@@ -1047,6 +1092,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 51. Subsequently 紧接着, 接下来，随后
     Sequentially 从而
     consequent 随后的
+    follow-up (work) 随后的、后续的工作
 52. In short,/  In brief, / Simply put,  简单说(引出总结)，简而言之
 53. only slightly better than # 仅仅比#好一点（可跟在名词后修饰）
 54. be specialized for 专门为
@@ -1062,7 +1108,7 @@ networks have enjoyed huge success in various vision problems. 在快速兴起�
 64. start with # 从#开始
     Taking # as a starting point, ...
 65. seamlessly 无缝地
-66. & **see/achieve/induce/attain** modest/big/significant/substantial improvements (in accuracy) 取得、实现、达到了有限/重大的进步
+66. & **see/achieve/induce/attain** modest/big/significant/substantial/drastic improvements (in accuracy) 取得、实现、达到了有限、重大、本质、明显的进步
     Great progress has made in # 已取得重大进步
     made prominent progress in # 取得显著的进步
     & have/obtain/achieve a huge improvement as opposed to # 对#而言有巨大进步
@@ -1096,9 +1142,15 @@ top layers with high-level low-resolution features 顶层
 90. sisyphean 徒劳的、永远做不完的 *Sisyphean challenge*
 91. stepping stone 垫脚石、跳板
     *# is the first **stepping stone** towards developing provably efficient comprehensive/universal perception models*
+92. be particularly susceptible to 特别容易
+    e.g., the already significant parameterization of CNN leaves them **particularly susceptible** to over-fitting without large amounts of training data.
+93. scalability 可扩展性
+94. supplement & with # 补充
+95. From a & standpoint, 按#的观点、立场
+96. span 跨度 e.g., receptive field spans the whole image
 
 ## T
-1. & has tendency to do / & tend to do 有趋势
+1. & has a tendency to do / & tend to do 有趋势
 2.  a trend of #(rapid decrease) #的趋势
 2. thoroughly 彻底地
 3. color tone 色调
@@ -1196,7 +1248,7 @@ top layers with high-level low-resolution features 顶层
    & ignoring #
 6. Without loss of generality, as an example [of #/to do #], we ... 不失一般性地
 7. Whichever 无论哪一种
-8. widespread 普遍的，广泛的 (a very widespread method is to do)
+8. widespread 普遍的，广泛的 (a very widespread method is to do, widespread success)
 9. a wide range of #(augmentability and applicability) 广泛的
 10. in other words, 换句话说
 11. While it is not difficult to do #, it is not easy to do 虽然...不难，但也不简单
@@ -1210,6 +1262,8 @@ top layers with high-level low-resolution features 顶层
    yet连接两个形容词:
       + a fast yet powerful detector
       + an important yet less explored aspect
+3. Years of research in #(geometric computer vision) has done(failed to...) 多年来的研究还没有
+
 ## Z
 1. zoom 缩放 zoom-in(n.), magnify(v.)放大
    1. e.g., All the figures **are zoomed to** the same size for display

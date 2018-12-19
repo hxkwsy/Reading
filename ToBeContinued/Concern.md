@@ -28,13 +28,22 @@
 9. Sequential Context Encoding for Duplicate Removal
 [arXiv](https://arxiv.org/abs/1810.08950)
 
-## Stereo
+10. Detect or Track: Towards Cost-Effective Video Object Detection/Tracking
+[arXiv](https://arxiv.org/pdf/1811.05340.pdf)
+
+## SLAM
 1. Pyramid Stereo Matching Network
 [arXiv](https://arxiv.org/abs/1803.08669)
 [github](https://github.com/JiaRenChang/PSMNet)
 
 2. Anytime Stereo Image Depth Estimation on Mobile Devices
 [arXiv](https://arxiv.org/abs/1810.11408)
+
+3. SfM-Net: Learning of Structure and Motion from Video
+[arXiv](https://arxiv.org/abs/1704.07804)
+
+4. Delving Deeper into Convolutional Neural Networks for Camera Relocalization
+[icra](https://arxiv.org/abs/1511.06432)
 
 ## STN
 1. Spatial Transformer Introspective Neural Network
