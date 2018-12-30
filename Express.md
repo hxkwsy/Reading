@@ -46,6 +46,7 @@
 with the explosion of available collected data, deep neural
 networks have enjoyed huge success in various vision problems. 在快速兴起的deep learning领域，深度神经网络在视觉上取得了巨大成功
 11. & have demonstrated the state-of-the-art performance in computer vision tasks such as image classification, object detection, and pose estimation. &在计算机视觉领域表现出了state-of-the-art的效果单
+12. **While** for stereo images local correspondence suffices for estimation, finding depth relations from a single image **is less straightforward**. 虽然..., ...也不直观、直接、容易
 
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
@@ -152,6 +153,7 @@ leverage external supervision during training
 73. append # to & #加在&后面，追加
 74. acquire = see = achieve = obtain 获得(性能)
 75. abscissa 横坐标 ordinate 纵坐标
+76. arise 出现、发生 the monocular case often arises in practice
 
 ## B
 1. binocular(ly) 双目的
@@ -222,6 +224,7 @@ leverage external supervision during training
 8.  be poorly contrasted 低对比度的
 9.  challenging 富有挑战性的
 11.  For convenience and brevity, 简便起见
+     For brevity of exposition, 为方便阐述
      for the sake of clarity,
      For the convenience of #,  为#提供方便
      notation 标记、记号
@@ -281,7 +284,8 @@ leverage external supervision during training
 60. To counteract # 应对...
     To cope with # (this)
     combat this problem 对抗这个问题
-62. computationally efficient / computationally (in)expensive 计算量小的/大的
+62. computationally efficient / computationally (in)expensive / computationally intractable 计算量小的/大的
+    computational tractability 计算量小的
     computational complexity 计算复杂度
     computational cost(s) 计算量
     computational efficiency 计算效率
@@ -314,6 +318,7 @@ leverage external supervision during training
 77. conjecture 推测、猜想
 78. We choose # for concreteness. Our method is applicable to other architectures. 选择#作为具体案例，也可用于其他架构
 79. is characterized by # 有#特点、特征
+    & have two **salient features** 特点、特性
 80. be confronted with 面临
 81. &(a generative model) be conditioned on #(the past frames) 以#为条件的&
 82. weight clipping 参数钳制
@@ -399,6 +404,7 @@ leverage external supervision during training
     As opposed to #, & ...
     (our methods) do & differently from # 做&不同于#
     apparent distinction 明显的区别
+    & is similar to #  but with important differences. First, ... Second, ... 相似但不同
 27. & be indistinguishable from # 不能被区分的
 28. distinctive 有特色的，与众不同的
 29. discern 辨别(vt.)
@@ -410,6 +416,7 @@ leverage external supervision during training
 35. draw human gaze吸引人的注意
     & has brought great attention to the deep learning community &引起注意
     & ignite the spread of # (end-to-end stereo architectures) 引起了#的传播
+    & focus attention on # 注意到
 36. descendant 后代
 37. drastically 彻底地，大大地
 38. de facto 事实上的(需要斜体)
@@ -446,6 +453,7 @@ leverage external supervision during training
     e.g., CNNs are the undisputed state-of-the-art methods
     Admittedly, ... 无可否认的
 61. domain shift problem (between training data and testing environment) 数据偏移
+62. scale drift 尺度漂移
 
 ## E
 1. in exposures of 暴露
@@ -820,6 +828,7 @@ leverage external supervision during training
 14. out of operation 不起作用
 15. outcome 结果、成果
 16. & observe # &是#
+17. on par with # 与...势均力敌，同等水平
 
 ## P
 1. pronounced  明显的，显著的
@@ -935,6 +944,7 @@ leverage external supervision during training
 75. powerhouse 动力来源
     e.g.,strong and valid assumptions are the **powerhouse** of machine learning modelling
 76. piecewise training 分段的
+78. parallax 视差
 
 ## Q
 1. quantify 量化
@@ -1029,6 +1039,7 @@ leverage external supervision during training
 60. reasonably good accuracy 较好的精度(形容不是state-of-the-art的精度)
 61. represented by # 以#为代表
 62. In real life complex scenarios, 真实的复杂场景
+    (physically) implausible 不真实的
 63. rely on 依靠
 64. rectify 校正
     rectified (image) 校正的
@@ -1257,11 +1268,12 @@ top layers with high-level low-resolution features 顶层
 ## Y
 1. Years of research in # have done
 2. we study an important yet less explored aspect in # 重要但少有被研究
-   a crucial yet usually ignored aspect 关键但被忽略
-   & have not yet done &还没有被done
-   yet连接两个形容词:
-      + a fast yet powerful detector
-      + an important yet less explored aspect
+& is a less explored topic 较少被研究的主题
+a crucial yet usually ignored aspect 关键但被忽略
+& have not yet done &还没有被done
+yet连接两个形容词:
+    + a fast yet powerful detector
+    + an important yet less explored aspect
 3. Years of research in #(geometric computer vision) has done(failed to...) 多年来的研究还没有
 
 ## Z

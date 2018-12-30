@@ -45,6 +45,10 @@
 4. Delving Deeper into Convolutional Neural Networks for Camera Relocalization
 [icra](https://arxiv.org/abs/1511.06432)
 
+5. Unsupervised CNN for Single View Depth Estimation: Geometry to the Rescue
+[arXiv](https://arxiv.org/abs/1603.04992)
+[git](https://github.com/Ravi-Garg/Unsupervised_Depth_Estimation)
+
 ## STN
 1. Spatial Transformer Introspective Neural Network
 [arXiv](https://arxiv.org/abs/1805.06447)
@@ -53,3 +57,5 @@
 1. Hierarchically Structured Reinforcement Learning
 for Topically Coherent Visual Story Generation
 [arXiv](https://arxiv.org/pdf/1805.08191.pdf)
+2. Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning
+[arXiv](https://arxiv.org/abs/1609.05143)

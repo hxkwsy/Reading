@@ -64,3 +64,32 @@ $$ \frac{1}{\alpha*sigmoid(x)+\beta} $$
 
 ## Reference
 [10] J. Flynn, I. Neulander, J. Philbin, and N. Snavely. DeepStereo: Learning to predict new views from the world’s imagery. In Computer Vision and Pattern Recognition, 2016.
+
+## Pose estimation
+考虑$seq=3$，世界坐标系为$W$，连续3帧坐标系为$A,O,B$，假设向量在$O$中的表示为$v_O$，则在$A$中的表示为$^AT_Ov_O$
+旋转 $^OR_A=(^AR_O)^{-1}$
+平移 $^Ot_A=-(^OR_A)^{-1\quad A}t_O$
+1. gt pose计算
+   1. 读入gt文件的三行，为$^WT_A,^WT_O,^WT_B$
+   2. 计算相对gt
+   ```python
+   first_pose = poses[0] # ^WT_A
+   poses[:,:,-1] -= first_pose[:,-1] # 相对平移
+   compensated_poses = np.linalg.inv(first_pose[:,:3]) @ poses # ^AT_W @ ^WT_B = ^AT_B
+   ```
+2. prediction
+```py
+_, poses = pose_net(tgt_img, ref_imgs)
+inv_transform_matrices = pose_vec2mat(poses, ...) # ^AT_O, ^OT_O, ^BT_O
+transform_matrices=[rot_matrices, tr_vectors] # ^OT_A, ^OT_O, ^OT_B
+first_inv_transform # ^AT_O
+final_poses=first_inv_transform @ transform_matrices # ^AT_O @ ^OT_B=^AT_B
+```
+3. 尺度
+```py
+scale_factor = np.sum(gt[:,:,-1] * pred[:,:,-1])/np.sum(pred[:,:,-1] ** 2)
+```
+gt[:,:,-1]=$t_{gt}$, pred[:,:,-1]=$t_{pred}$
+实际上是在计算內积和投影，设$t_{gt},t_{pred}$夹角为$\theta$
+$$\frac{t_{gt}\cdot t_{pred}}{t_{pred}\cdot t_{pred}}=\frac{|t_{gt}||t_{pred}|cos\theta}{|t_{pred}|^2}=\frac{|t_{gt}|cos\theta}{|t_{pred}|}$$
+即，将$t_{gt}$投影到$t_{pred}$方向上，计算摸的scale

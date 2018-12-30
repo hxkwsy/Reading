@@ -42,4 +42,9 @@
    4. message passing operation is similar to standard 2d-convolutions of CNNs.
     $$Q[b,c,x,y]=\sum_{dx,dy\leq k}K[b,dx,dy,x,y]\cdot P[b,c,x+dx,y+dy]$$
 
-## Pytorch
+## Training
+1. Decoupled training of ConvCRFs
+分割模块和CRF单独训练，有如下好处
+   1. 互补影响
+   2. 系统可解释
+   3. 缓解梯度消失
