@@ -47,7 +47,7 @@ with the explosion of available collected data, deep neural
 networks have enjoyed huge success in various vision problems. 在快速兴起的deep learning领域，深度神经网络在视觉上取得了巨大成功
 11. & have demonstrated the state-of-the-art performance in computer vision tasks such as image classification, object detection, and pose estimation. &在计算机视觉领域表现出了state-of-the-art的效果单
 12. **While** for stereo images local correspondence suffices for estimation, finding depth relations from a single image **is less straightforward**. 虽然..., ...也不直观、直接、容易
-
+13. Within the last few years, great efforts have been made to do # 近年来，...
 ## A
 1. **Arguably**, & do, as evidenced by # 可论证地
 2. articulation 关节
@@ -67,7 +67,7 @@ leverage external supervision during training
 11. **above** / **below** the water surface 在水面上/下
 12. Additionally, 加之， 又
 13. aforementioned = above-mentioned 上面提到的/上述的
-    As mentioned earlier, & do
+    As mentioned earlier/previously, & do
     As discussed above, & do
 14. asymptotically approximate # 渐进地近似#
 15. aquatic 水性的
@@ -77,8 +77,6 @@ leverage external supervision during training
     & be given access to # &可以获得#
     & can be difficult to obtain 很难获得
 19. (holistically) assess/evaluate # (整体地)评估
-20. For &, in addition to do #, it can do # 对于&，它除了能#，还能#
-    & do # in addition to do ## &做...还要做...
 21. & make **attempts** to do 尝试做
     & make **an attempt** to do
     & attempt to do 尝试
@@ -86,10 +84,12 @@ leverage external supervision during training
     sb. do & in an attempt to do # 目的是、为了
 22. address # 解决
 23. applicability 适用性
-24. According to the authors’ knowledge = To our knowledge =  
-    To the best of our knowledge据我所知
-    We are not aware of any prior/previous work in # 我们没有见过之前的工作
-    Our intuition is that 我们的看法是
+24. 据我所知
+    1. According to the authors’ knowledge
+    2. To our knowledge
+    3. To the best of our knowledge据我所知
+    4. We are not aware of any prior/previous work in # 我们没有见过之前的工作
+    5. Our intuition is that 我们的看法是
 25. & has the advantage of/that 有优势
     & take (full) advantage of #
 26. In analogy to #,  类似于
@@ -107,8 +107,14 @@ leverage external supervision during training
     pioneer to do 提倡、倡导
 34. be attenuated exponentially 指数式地衰减
 36. ally & with/to # 联合、结合
-38. apart from / in addition to / Besides doing, 除了
+38.
+    1. apart from # / in addition to # / Aside from # 除了
+    2. Beyond/Besides (doing) #， & do 除了#之外，&还
+    3. For &, in addition to do #, it can do # 对于&，它除了能#，还能#
+    4. & do # in addition to do ## &做...还要做...
+    5. other than doing #, ... 除了
 39. be able to 能
+    be unable to 不能
 40. classical alternative to # 经典的方法
 42. be (often) attributed (in part) to (部分)归因于/归结为
 43. attention-aware features 注意力特征
@@ -118,8 +124,6 @@ leverage external supervision during training
 47. analytical / analytically 分析的/地, 解析的
 48. applicable range 应用范围
 49. auxiliary 辅助的
-51. & be in accord with # 符合
-    & accord with #
 52. agilely 灵活地
 53. After all 毕竟、终究
 54. & be advancing at a rapid pace &正在迅速发展
@@ -184,7 +188,6 @@ leverage external supervision during training
           be divided into
           be clasified into
     & fall into two categories 分为两类
-16. Beyond #， & do 除了#之外，&还
 17. Benefitted from #, & do 从#中获益
 18. beforehand 事先、预先adv.
 19. blue arrow dashed lines 蓝色的箭头虚线
@@ -204,17 +207,20 @@ leverage external supervision during training
     its detection accuracy is usually **behind** that of the two-stage approach
 32. motion **blur** 运动模糊
 33. & is (probably) the oldest and best known strategy for # 常见的
+34. boldface 黑体字
 
 ## C
 1. 关键、重要
     1. & be **crucial/key** to (doing) # 对#起决定性作用/
     2. it is **crucial** for us to do 关键的
     3. most critically 最关键地（用于句首）
-    4. & is **of crucial importance** &是很重要的
+    4. & is **of crucial/vital importance** &是很重要的
     5. & is **particularly important** for #
     6. play a **decisive** role in its performance 起决定性作用
     7. pivotal 关键的，中枢的
     8. & be crucial/key to #
+    9. It is # that matter 重要的是#
+
 3. & has received/attracted enormous/considerable/rapidly increased attention due to # from/in the research community 由于#，&得到了大量/迅速增长的关注
 4.  Contrast stretch 对比度增强
 5.  As a consequence,  (不好的)结果
@@ -285,7 +291,7 @@ leverage external supervision during training
     To cope with # (this)
     combat this problem 对抗这个问题
 62. computationally efficient / computationally (in)expensive / computationally intractable 计算量小的/大的
-    computational tractability 计算量小的
+    computational tractability 计算量小
     computational complexity 计算复杂度
     computational cost(s) 计算量
     computational efficiency 计算效率
@@ -367,7 +373,8 @@ leverage external supervision during training
     3. && denote/indicate/represent &
     4. e.g., Symbolically, $M$, $D$ and $X$ denote the $A$, $B$, and $C$, respectively, while $f$ and $f$ represent $D$ and $E$*
     5. Let & and & be the # and #
-    6. &  represent / stand for #
+    6. Let & be #, & be #, and & be # (#为符号)
+    7. &  represent / stand for #
 7. some conclusions are drawn based on the above work 得到结论
 9. Denoting with $A$ $B$ , $C$ do 用A表示B，则C...
 10. dispersibility / dispersion  分散性，散布
@@ -413,16 +420,22 @@ leverage external supervision during training
 32. diagram 示意图 Sketch 梗概/略图
 33. be devoted entirely to 致力于
 34. drastic 猛烈地
-35. draw human gaze吸引人的注意
-    & has brought great attention to the deep learning community &引起注意
-    & ignite the spread of # (end-to-end stereo architectures) 引起了#的传播
-    & focus attention on # 注意到
+35. 引起注意、兴趣、关注
+    1. draw human gaze吸引人的注意
+    2. & has brought great attention to the deep learning community &引起注意
+    3. mush attention has long been paid to &
+    4. & ignite the spread of # (end-to-end stereo architectures) 引起了#的传播
+    5. & focus attention on # 注意到
+    6. & is of **increasing interest** to the vision community 引起兴趣
+    7. It is # that garner the most interest # 引起大量的兴趣
+    8. we limit our attention to # 我们更加关注#
+    9. we set our focus on #
+    10. we concentrate on #
 36. descendant 后代
 37. drastically 彻底地，大大地
 38. de facto 事实上的(需要斜体)
     de facto standard 约定俗成的标准
 39. maintain the identity 保持身份
-40. diverse 多种多样的
 41. have difficulty doing # 做#有困难
 42. devise 设计
 43. are diverse from each other 各不相同，不同
@@ -454,6 +467,7 @@ leverage external supervision during training
     Admittedly, ... 无可否认的
 61. domain shift problem (between training data and testing environment) 数据偏移
 62. scale drift 尺度漂移
+63. degrade (performance) 降低
 
 ## E
 1. in exposures of 暴露
@@ -475,10 +489,10 @@ leverage external supervision during training
 16. exhibit # 展现出
 17. encompasses # 包围，包含
 18. In essence 本质上
-19. is (length-specifically) equivalent to 相当于，等价于
-    & equate to # 等价于
-    & perform equivalent operations as # 等价于
-    be equivalent to 等于，等价于
+19. 相当于，等价于
+    1. be (length-specifically) equivalent to 相当于，等价于
+    2. & equate to # 等价于
+    3. & perform equivalent operations as # 等价于
 20. earlier papers (have focused on) 前面的文章
 21. exploit #(the property that) 开发
 22. elegant (architecture) / succinct (overview) 简洁的
@@ -555,15 +569,15 @@ leverage external supervision during training
 23. finalize 确定下来 vt
 24. formulation 构想
 25. be instrumental to # 对#有帮助
-26. be in favor of # 有利于
-    advantageous 有利的
-    & have hugely profited from #/doing 有利
-    e.g., Object detectors **have hugely profited** from moving towards an end-to-end learning paradigm
+26. 有利
+    1. be in favor of # 有利于
+    2. advantageous 有利的
+    3. & have hugely profited from #/doing 有利
+    4. e.g., Object detectors **have hugely profited** from moving towards an end-to-end learning paradigm
 27. It is/was found that 发现
 28. feasibility 可行性
 29. Functioning as #, & do  作为#, &
 30. framework / module / architecture / structure / unit (网络的)框架结构
-31. in the field of # 在#方面、领域
 32. Formally, 形式上
 33. video footage/snippet 视频片段
 34. fictitious 虚构的，假想的
@@ -582,7 +596,7 @@ leverage external supervision during training
     & no longer need # 不需要
     & no longer do # 不再
     there is no need to do 不需要
-    & eliminate the need of/to do #
+    & eliminate the need of/to do # 消除...的需要
 40.  fulfil #(real time processing) 履行vt
 41. field experiments 野外的实验
 42. fail to do # 未能做#
@@ -591,16 +605,28 @@ leverage external supervision during training
 45. fiducial points 基准点
 46. This far, & have done 到目前为止,...
 47. functionality 功能、机能
+48. & falls below # &比#小
 
 ## G
 1. generic 一般的
 2. the fourth-generation robotic fish 第四代机器鱼
 3. general-purpose solution 通用性的解决方法
-4. & give rise to # = # is produced by & = # result in & = & lead to # = & invite # = & cause # = & incur # = bring about # 导致、造成、产生
+4. &导致、造成、产生、引起#
+   1. & give rise to #
+   2. \# is produced by &
+   3. & result in #
+   4. & lead to #
+   5. & invite #
+   6. & cause #
+   7. & incur #
+   8. & induce #
+   9. & bring about #
 5. & gains more importance as # do &变得更加重要当...
 6. & is one of the fastest growing fields of # &是一个快速的发展的领域
+   & Be growingly utilized to # 快速的被应用到
 7. & ..., **giving rise to** # &...导致、给出#
 8. & cannot fit within the constraints of # 不能适应#的约束
+9. & be grounds for # &成为/是#的理由、原因
 
 ## H
 1. haptic 触觉的
@@ -649,15 +675,20 @@ leverage external supervision during training
 15. imperative 极重要的
 16. incorporate & into # 将&包含、合并、融入#
 17. incarnation 运用
-18. & has been quite limited in existing literature 现有研究有限
+18. 研究有限
+    1. & has been quite limited in existing literature 现有研究有限
+    2. There has been very limited published research in # #方面的研究有限
 20. For instance, . For example + 句子 / , e.g., + 名词 / like + 名词 例如
 21. incompleteness 不完整性
-22. be identical/consistent with // be in accordance with // coincide with // correspond to 一致
-    In accordance with #, & do (可形容&采取的方法和#保持一致)
-    Inheriting from #, & do 继承
-    & corresponds to # 与...一致
+22.
+    1. be identical/consistent with // be in accordance with // coincide with // correspond to 一致
+    2. In accordance with #, & do (可形容&采取的方法和#保持一致)
+    3. Inheriting from #, & do 继承
+    4. & corresponds to # 与...一致
+    5. & be in good agreement with # 一致，一般形容结果
+    6. & be in accord with # 符合
+       & accord with #
 24. imagine 设想 vt
-25. induce = incur 引起
 26. be inspired by # 受#启发
     & inspire us to do
     draw/take inspiration from 启发
@@ -667,13 +698,14 @@ leverage external supervision during training
 29. Irrespective of # 不考虑，不顾
 30. it is of interest to explore 有趣
 31. impede = hamper 阻碍
-32. Intuitively 直觉地、直观地
-    intuitive idea 直觉的
-    intuition 接下来
-    intuition to # 直觉、客观事实
-    The intuition here is that
-    The intuition behind this idea is that
-    The intuition for # is to do
+32. 直觉、动机
+    1. Intuitively 直觉地、直观地
+    2. intuitive idea 直觉的
+    3. intuition 接下来
+    4. intuition to # 直觉、客观事实
+    5. The intuition here is that
+    6. The intuition behind this idea is that
+    7. The intuition for # is to do
 34. insurmountable 不可逾越的
 35. there are practical issues in doing (making them high resolution) 有实际的问题
 36. are involved in / involve # in (doing) 涉及
@@ -708,6 +740,8 @@ leverage external supervision during training
 68. manual intervention 人工干预、调整、介入、辅助 (形容自适应性差)
 69. index 索引 e.g., $p$ indexes over pixel coordinates
 70. indisputable (success) 无可争议的
+71. (un)interruptedly 间断地、不断地
+    ceaselessly 不停地
 
 ## J
 1. jointly 连带地
@@ -730,10 +764,10 @@ leverage external supervision during training
 4. length-specific 长度特异的(用于形容单位是BL相关的量)
 5. layout 布局，设计 (可用于形容网络框架设计)
 6. fish (swimming) locomotion hydrodynamics 鱼类游动动力学
-8. There has been very limited published research in # #方面的研究有限
-9. be largely limited in # 很大程度被限制在#
+9. 限制
+   1. be largely limited in # 很大程度被限制在#
+   2. be restricted to 被限制在
 10. Likewise, # do 同样地
-11. we limit our attention to # 我们更加关注#
 12. Over recent years, the **landscape** of computer vision has been drastically altered and pushed forward through the adoption of a fast, scalable, end-to-end learning framework, the Convolutional Neural Network (CNN) 研究状态
 13. & has long been a challenge for # &一直是#的挑战
     & has long posed challenges for #
@@ -767,7 +801,7 @@ leverage external supervision during training
     & motivates us to do
 14. & be modeled based on # 基于#对&建模
 15. manifold 使...多样化
-16. more or less 或多或少 adv.
+16. more or less +v. 或多或少 adv.
 17. autonomous maritime and underwater operations 自治航行水下作业
 18. milestone 里程碑，划时代的事件
 19. merit(s) = advantage(s) 功绩、优点
@@ -838,6 +872,7 @@ leverage external supervision during training
 2. & has practical advantages over #(current aquatic robot) &相对于#有实用性的优势
 3. prior-art configurations 现有的技术配置
 4.  be plagued by  困扰
+    Beset # 困扰 e.g., disadvantages **besetting** traditional experiments
 5.  is parameterized by # 以#为参数
 6.  YCbCr/RGB plane 颜色空间
 7.  be provided by # 由#提供
@@ -855,7 +890,7 @@ leverage external supervision during training
     4. & target doing
     5. the intent is to do 目的是
     6. & seek to do 寻求
-    7. The objective of # is to 目标/目的是
+    7. The objective of # is to do 目标/目的是
     8. & is meant to do/be 为了...
     9. Our goal is to do
     10. aim(n.)
@@ -866,6 +901,7 @@ leverage external supervision during training
         1. & aim to do
         2. & aim at doing
     12. & for two key purposes: 1)... and 2)...
+    13. & ... to ... and also to ...
 18. & be performed on # &(某种性能)被#表现出来
 19. (critically) progressive 进步的
 20. preliminary 初步的
@@ -881,9 +917,10 @@ leverage external supervision during training
 26. perceivable 可知觉的
 27. pathological 反常的
 28. propagate context information 传递上下文信息
-29. prevent & form (doping) # 预防，防止, 阻止
-    prohibit & from (doing) # 限制/禁止
-    prevent & to be done(or adj.)
+29. 限制、禁止、阻止
+    1. prevent & form (doping) # 预防，防止, 阻止
+    2. prohibit & from (doing) # 限制/禁止
+    3. prevent & to be done(or adj.)
 31. In parallel, 平行地
 32. perturbation 微调
 33. We point out that 指出
@@ -916,7 +953,6 @@ leverage external supervision during training
 54. primitive (elements) 原始的、简单的
 55. percept # 认知、感知
     sensorial perception 知觉的感知
-56. From the #(science) perspective, 从#角度来讲
 57. require # to be known a priori 需要知道#作为先验
     a priori knowledge of image is required 需要一些先验知识
 59. problematic 有问题的
@@ -979,7 +1015,6 @@ leverage external supervision during training
 19. In reality, ... 实际上
     Indeed, ...
     actually
-20. reveal # 显示出
 21. the main/dominant reason is for # 主要原因是#
 22. be responsible for # 负责/承担
     undertake #
@@ -1006,6 +1041,8 @@ leverage external supervision during training
 39. It is recommended to do 建议
 40. Until recently 到目前为止
     Very recently, 最近
+    To date, 迄今为止
+    Within the last few years 近年来
 41. radial frequency 角频率
 42. For this reason, 由于这个原因
     We do not see any reason doing # (preventing it from finding broader applications in vision tasks) 我们没有理由做#
@@ -1014,12 +1051,14 @@ leverage external supervision during training
   rise 可用作名词
 46. brief review 简要的回顾
 47. rotational motion 旋转运动
-48. Referring to Fig. 2, & do 参考Fig2 (=As (schematically)  illustrated/shown/depicted/demonstrated/delineated in Fig. 2)  
-    We can see from Fig. 2(d) that
-    We draw the readers’ attention to [11] for # 我们希望读者参考[11]
-    We redirect the readers to [2] for # (a full treatment of IC-LK, which is out of the scope of this paper) 我们希望读者参考[2]
-    we guide the reader to [2]
-    We refer readers to [2] for #
+48. 参考、展示
+    1. Referring to Fig. 2, & do 参考Fig2 (=As (schematically)  illustrated/shown/depicted/demonstrated/delineated in Fig. 2)  
+    2. We can see from Fig. 2(d) that
+    3. We draw the readers’ attention to [11] for # 我们希望读者参考[11]
+    4. We redirect the readers to [2] for # (a full treatment of IC-LK, which is out of the scope of this paper) 我们希望读者参考[2]
+    5. we guide the reader to [2]
+    6. We refer readers to [2] for #
+    7. & showcase (the performance capabilities of # ) 展示了
 49. it runs at 40.2 FPS on a NVIDIA Titan X GPU with the input sizes 320 × 320 in inference 推理时间
 & has a frame rate of 5fps on a GPU
 50. & required in # 被#需要的&
@@ -1032,7 +1071,6 @@ leverage external supervision during training
 54. relation of # to & #和&的关系
 55. More remarkably, 更显著/明显地
     remarkable 明显的
-56. be restricted to 被限制在
 58. In this regard, 就这一点而言
 59. With the revival/advent of # 随着#的兴起、复苏、到来
     Before the arrival/prevalence of # 在#出现、流行、到来之前
@@ -1054,7 +1092,6 @@ leverage external supervision during training
    (higher) saliency mass 显著性
 6. fully synchronized manner 完全同步地方法
 7. unstructured 非结构化的
-8. be summarized as follows 总结如下
 9. In a similar manner/fashion，相似的方法
 10. scenarios 情节（后跟where）
 11. subscript $H$ ..., while $Q$ ... 下标H... Q...
@@ -1071,9 +1108,15 @@ leverage external supervision during training
 21. & is non-trivial task 并不是不重要的任务
 22. More specifically，= To be more specific, 更特别地 (In particular, ... More specifically, )
 23. small-sized 小型的
-24. the scope of # 领域
-    fall within the scope of # 属于#领域
-    be out of the scope of # 不属于#领域
+24. 领域、环境、情况、语义
+    1. the scope of # 领域
+    2. fall within the scope of # 属于#领域
+    3. be out of the scope of # 不属于#领域
+    4. in the field of # 在#方面、领域
+    5. in the context of # 在#的语义/意义/背景下
+    6. Under the circumstances of # 在#情况、环境下
+    7. In the case of # 在#情况下
+    8. From the #(science) perspective, 从#角度、方面来讲
 26. strike a balance between & and # 达到/获得平衡
 27. substantially 本质上 substantial improvement
 28. schematically 示意性地 (As schematically shown/illustrated in Fig)
@@ -1095,7 +1138,6 @@ leverage external supervision during training
 45. separately 各自地，分别地(可用于句中) = respectively
 46. semantic information 语义信息
     contextual information 上下文信息
-    in the context of # 在#的语义/意义/背景下
 47. comprehensive / synthesized  综合的，合成的
 48. be well suited to do / be suitable for 适合用于做...
 49. spatiotemporal / spatio-temporal 时空的
@@ -1104,7 +1146,10 @@ leverage external supervision during training
     Sequentially 从而
     consequent 随后的
     follow-up (work) 随后的、后续的工作
-52. In short,/  In brief, / Simply put,  简单说(引出总结)，简而言之
+52. 总结
+    1. In short,/  In brief, / Simply put,  简单说(引出总结)，简而言之
+    2. By and large, 总体上说
+    3. & be summarized as follows 总结如下
 53. only slightly better than # 仅仅比#好一点（可跟在名词后修饰）
 54. be specialized for 专门为
 55. application scenarios 应用场景
@@ -1112,9 +1157,9 @@ leverage external supervision during training
 57. sequential modeling capability 序列建模能力
 58. Suppose # do (直接引导从句), & do 假设#...则&
     sb hypothesize/postulate that 假设
-60. & has a significant impact on # 有重大影响
-    & (have) led a huge wave in (doing) # 产生重大影响
-61. & showcase (the performance capabilities of # ) 展示了
+60. 重大影响
+    1. & has a significant impact on # 有重大影响
+    2. & (have) led a huge wave in (doing) # 产生重大影响
 63. & survive (severe natural selection) &从...中存活
 64. start with # 从#开始
     Taking # as a starting point, ...
@@ -1123,6 +1168,7 @@ leverage external supervision during training
     Great progress has made in # 已取得重大进步
     made prominent progress in # 取得显著的进步
     & have/obtain/achieve a huge improvement as opposed to # 对#而言有巨大进步
+    & be advancing at a rapid pace &正在快速进步
 67. side 一方面的 e.g., & predict semantic attribute as a side task.
 68. be spread-out in time 在时间上展开的
 69. stealth 鱼的低扰动性 n.
@@ -1131,14 +1177,14 @@ leverage external supervision during training
 71. be subdivided into 细分为
 73. **shed light** on # 阐明，说清楚
 74. sway(v.) head yawing/swing(n.) (鱼头的)摇晃
-75. & **suffer** drawbacks 存在缺点
+75. & **suffer/bear** drawbacks 存在缺点
     & remain as a critical limitation &依然是一个关键的局限、不足、缺点
 76. More seriously, 更严重地
 77. there is a long way to do (be used in real-world applications) 还有很长一段路
 78. In this sense, 从这个意义上来说
 79. (see Fig. 4) 见图4(一般写在括号里)
     ..., see [47] for a recent survey 见[47] (作为从句)
-    From Fig. 3, it is seen that 可以看出
+    From Fig. 3, it is (easily) seen that 可以看出
     & is often seen in # &常常在#中见到
 80. video stabilization 视频稳定
 82. extremely **subtle** (errors) 极微妙的
@@ -1188,8 +1234,12 @@ top layers with high-level low-resolution features 顶层
     temporally coherent object detections 时序相关的检测
     temporal smoothness 时序上平滑
     temporal interdependency between 时序的相关性
-21. & is rarely tackled 还未被解决
-    & remain unresolved 依然未解决
+21. 未解决
+    1. & is rarely tackled 还未被解决
+    2. & remain unresolved 依然未解决
+    3. & remain as an open issue today
+    4. & be an open question to be thoroughly investigated
+    5. & be another problem/issue worthy of future research / worthy of in-depth exploration 值得后续研究
 22. tedious 乏味的、冗长的
     The tedious work of doing
 23. throughout (the video) 贯穿、遍及、从始至终、到处 prep.
@@ -1237,10 +1287,13 @@ top layers with high-level low-resolution features 顶层
 7. & have been **vigorously/widely** studied (in the last two years) for # &是(近来的)研究热点
     a surging topic for 热点
 8. a (wide) variety of 各种各样的
+   diverse 多种多样的
 9. and vice versa 反之亦然
 10. be viewed as 被视作
 11. visibly， evidently， Apparently 显然，明显地 be evidenced(v.) to be
-12. unveil / reveal (more details) 揭示、显示
+12. 揭示、显示、展示
+    1. unveil / reveal # (more details)
+    2. It is revealed that
 13. vignetting 渐晕的
 14. practice/test venue 演练场地
 15. be vulnerable to # 在#方面易受伤的，
@@ -1250,8 +1303,11 @@ top layers with high-level low-resolution features 顶层
 19. By virtue of 凭借
 
 ## W
-1. it is worthwhile to do 值得做
-   & be worth doing / & be worth to be done / it pays to do
+1. 值得
+   1. it is worthwhile to do
+   2. & be worth doing
+   3. \# be worth to be done
+   4. it pays to do
 2. watertight (glass plate)水密的，不漏水的
 3. whereas 但是, 然而, 反之
 4. whereby 借此，凭此
@@ -1267,11 +1323,12 @@ top layers with high-level low-resolution features 顶层
 ## X
 ## Y
 1. Years of research in # have done
-2. we study an important yet less explored aspect in # 重要但少有被研究
-& is a less explored topic 较少被研究的主题
-a crucial yet usually ignored aspect 关键但被忽略
-& have not yet done &还没有被done
-yet连接两个形容词:
+2. yet
+   1. we study an important yet less explored aspect in # 重要但少有被研究
+   2. & is a less explored topic 较少被研究的主题
+   4. a crucial yet usually ignored aspect 关键但被忽略
+   5. & have not yet done &还没有被done
+   6. yet连接两个形容词:
     + a fast yet powerful detector
     + an important yet less explored aspect
 3. Years of research in #(geometric computer vision) has done(failed to...) 多年来的研究还没有

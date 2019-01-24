@@ -108,15 +108,3 @@
    $$ \{\Theta^* ,\theta^* \}=\arg\min\sum_{l=1}^L\sum_{i\in trainset}||f_s(r_i;\Theta,\theta_l)- d^{gt}_i||_ 2^2 $$
    2. fine-tune with CRF
    $$\{\Theta^* ,\theta^* ,\beta^* \}=\arg\min\sum_{i\in trainset}||F(r_i,\Theta,\theta,\beta)-d^{gt}_i||$$
-
-c
-C
-c
-c
-c
-c
-c
-code
-c
-c
-c
