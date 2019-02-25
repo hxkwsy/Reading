@@ -11,6 +11,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [CoupleNet](./Detection/CoupleNet.md)
 - [Deformable_Convolutional_Networks](./Detection/Deformable_Convolutional_Networks.md)
 - [DSSD](./Detection/DSSD.md)
+- [ExtremeNet](./Detection/ExtremeNet.md)
 - [Faster_RCN](./Detection/Faster_RCN.md)
 - [Learning_non_maximum_suppression](./Detection/Learning_non_maximum_suppression.md)
 - [Mask-RCNN](./Detection/Mask-RCNN.md)
@@ -21,6 +22,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 - [R-FCN](./Detection/R-FCN.md)
 - [Relation_Networks_for_Object_Detection](./Detection/Relation_Networks_for_Object_Detection.md)
 - [RepMet](./Detection/RepMet.md)
+- [ScratchDet](./Detection/ScratchDet.md)
 - [SNet](./Detection/SNet.md)
 - [soft_nms](./Detection/soft_nms.md)
 - [SRN](./Detection/SRN.md)
@@ -137,6 +139,9 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 ## ToBeContinued
 
 - [Concern](./ToBeContinued/Concern.md)
+- [extension](./ToBeContinued/extension.md)
+- [Leetcode](./ToBeContinued/Leetcode.md)
+- [review](./ToBeContinued/review.md)
 
 ## Tracking
 

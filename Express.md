@@ -290,18 +290,19 @@ leverage external supervision during training
 60. To counteract # 应对...
     To cope with # (this)
     combat this problem 对抗这个问题
-62. computationally efficient / computationally (in)expensive / computationally intractable 计算量小的/大的
-    computational tractability 计算量小
-    computational complexity 计算复杂度
-    computational cost(s) 计算量
-    computational efficiency 计算效率
-    & require no more computation than #(prior methods) 不需要更多计算量
-    time cost will grow surprisingly high 计算时间会很高
-    impractical execution time 不实际的执行时间
-    Consume more time 消耗更多时间
-    & can potentially be a waste of time &是很浪费时间的
-    & lead to considerable amount of computational cost 导致大的计算量
-    be computationally intensive 计算量大的
+62. 计算量
+    1. computationally efficient / computationally (in)expensive / computationally intractable 计算量小的/大的
+    2. computational tractability 计算量小
+    3. computational complexity 计算复杂度
+    4. computational cost(s) 计算量
+    5. computational efficiency 计算效率
+    6. & require no more computation than #(prior methods) 不需要更多计算量
+    7. time cost will grow surprisingly high 计算时间会很高
+    8. impractical execution time 不实际的执行时间
+    9. Consume more time 消耗更多时间
+    10. & can potentially be a waste of time &是很浪费时间的
+    11. & lead to considerable amount of computational cost 导致大的计算量
+    12. be computationally intensive 计算量大的
 63. be certain that 确信，有把握
 64. compensate for 补偿、弥补
 65. contributes more to # 对#贡献更多
@@ -360,6 +361,7 @@ leverage external supervision during training
 107. & can effectively **cope** with #(a variety of complex situations) 处理，对付
 108. power-constrained, memory-constrained, resource-constrained (embedded devices) 功率、内存、资源受限的
 109. coarse-to-fine strategy 由粗糙到精细的策略
+11. make #(the usage of translation-invariant operations) with caution 做#要小心
 
 ## D
 1. a **downstroke** phase 下行程
@@ -468,6 +470,7 @@ leverage external supervision during training
 61. domain shift problem (between training data and testing environment) 数据偏移
 62. scale drift 尺度漂移
 63. degrade (performance) 降低
+64. distracting 分心的、分散注意力的
 
 ## E
 1. in exposures of 暴露
@@ -486,6 +489,7 @@ leverage external supervision during training
 13. inevitably 不可避免地
 15. to some extent 某种程度上(adv.) 一定程度上
     to a large extent 很大程度上
+    & have different degrees of # &有不同程度的#
 16. exhibit # 展现出
 17. encompasses # 包围，包含
 18. In essence 本质上
@@ -504,6 +508,7 @@ leverage external supervision during training
 27. explicitly 明确地
 29. empirical 经验性的，以观测或实验的依据的
 31. exhaustive 全面的，彻底的，透彻的
+    near-exhaustive 接近详细的
 32. error-prone 可能出错的
     erroneous 错误的
 33. be explicitly/tactfully designed to do 专门地/巧妙地设计
@@ -606,6 +611,7 @@ leverage external supervision during training
 46. This far, & have done 到目前为止,...
 47. functionality 功能、机能
 48. & falls below # &比#小
+49. there is no such thing as a free lunch 没有免费的午餐
 
 ## G
 1. generic 一般的
@@ -785,7 +791,9 @@ leverage external supervision during training
 5. Our motivation is to do 动机事
 6. microprocessor 微处理器
 7. Mechanical mechanism 机械机构
-8. merely 仅仅
+8. 仅仅，只不过
+   1. purely; e.g., Object detection is then a purely appearance-based keypoint estimation problem
+   2. merely
 9. makes use of 利用
    With the use of #, & do
 10. a multitude of / considerable / a plethora of (tasks) / a myriad of 大量的(任务)
@@ -862,7 +870,7 @@ leverage external supervision during training
 14. out of operation 不起作用
 15. outcome 结果、成果
 16. & observe # &是#
-17. on par with # 与...势均力敌，同等水平
+17. on par with # 与...势均力敌，同等水平，差不多 e.g., & performs on-par with the state-of-the-art methods
 
 ## P
 1. pronounced  明显的，显著的
@@ -981,6 +989,7 @@ leverage external supervision during training
     e.g.,strong and valid assumptions are the **powerhouse** of machine learning modelling
 76. piecewise training 分段的
 78. parallax 视差
+79. proxy 代理 e.g., boxes are a bad proxy for the object
 
 ## Q
 1. quantify 量化
@@ -989,6 +998,7 @@ leverage external supervision during training
     quantifiably 可量化地
 3. qualitative 定性的
 4. be qualified for 能胜任
+5. off-the-shelf 现成的
 
 ## R
 1. reduce sth from # to # 减小到

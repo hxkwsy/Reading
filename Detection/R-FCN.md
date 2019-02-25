@@ -58,13 +58,15 @@ x0，y0: Proposal的对应位置；
 n: Proposal的像素点个数。
 $r_c(i, j|\theta)$: 第C类第i, j个bin的池化响应; i, j -- bin的位置, $0<=i, j<=k-1$; $\theta$: 参数
 
-3. 分类：对该 RoI 每类的所有相对空间位置的分数平均池化 (或投票)。
+3. 分类：该 RoI 每类的所有相对空间位置的分数相加(投票)。
 ![1491963698172](./.assets/1491963698172.png)
-4. <font color=#FF0000 size=20>定位</font>
+4. 定位
+在ResNet的共享卷积层的最后一层上，接上一个与position-sensitive score map并行的（sibling）score maps，该score maps用于regression。暂且命名为“regression score map”，而该regression score map的维度应当是 $4k^2$ ,那么在经过Position-sensitive RoI pooling操作后，每一个RoI就会得到4个数作为“该RoI的坐标和长宽的偏移量”了。
 
-$k^2(C+1)$维的卷积层后，增加1个$4k^2$维的卷积层来回归边界框。每个 RoI 产生的$4k^2$维向量经平均投票后，用faster R-CNN 的参数化得到1个4维向量$(t_x,t_y,t_w,t_h)$。
+网络的训练
+
 5. 训练
-每个 RoI 的损失函数为交叉熵损失与边界框回归损失的和。$c^*=0$说明 RoI 的真实标签为背景
+每个 RoI 的损失函数为交叉熵损失与边界框回归损失的和。$c^* =0$说明 RoI 的真实标签为背景
 ![1491964148304](./.assets/1491964148304.png)
 ![1491964198684](./.assets/1491964198684.png)
 ![RFCN_fomu1](./.assets/RFCN_fomu1.jpg)
