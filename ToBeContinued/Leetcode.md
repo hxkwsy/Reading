@@ -175,17 +175,46 @@ bool isPalindrome(int x) {
 + 双指针从两头开始移动，每次只移动矮的，直到碰头
 ```cpp
 int maxArea(vector<int>& height) {
-        int i = 0;
-        int j = height.size()-1;
-        int max_volumn = 0;
-        while (i<j){
-            int volumn = (j-i) * min(height.at(i), height.at(j));
-            if (volumn > max_volumn) max_volumn = volumn;
-            if (height.at(i) < height.at(j)) i++;
-            else j--;
-        }
-        return max_volumn;
+    int i = 0;
+    int j = height.size()-1;
+    int max_volumn = 0;
+    while (i<j){
+        int volumn = (j-i) * min(height.at(i), height.at(j));
+        if (volumn > max_volumn) max_volumn = volumn;
+        if (height.at(i) < height.at(j)) i++;
+        else j--;
     }
+    return max_volumn;
+}
+```
+
+### 14. 最长公共前缀
+*输入: ["flower","flow","flight"] 输出: "fl"，输入: ["dog","racecar","car"] 输出: ""*
+1. 公共前缀的长度不可能超过最小字符串的长度,
+2. 确定长度之后二分法查找
+```cpp
+string longestCommonPrefix(vector<string>& strs) {
+  if (strs.size()==0) return "";
+  int min_len = INT_MAX;
+  for (string str: strs){
+      if (str.size() < min_len) min_len = str.size();
+  }
+  int low = 1;
+  int high = min_len;
+  while (low<=high){
+      int split = (low+high)/2;
+      if (isPrefix(strs, split)) low=split+1;
+      else high = split-1;
+
+  }
+  return strs.at(0).substr(0, (low+high)/2);
+}
+bool isPrefix(vector<string>& strs, int split){
+  string ref_str = strs.at(0).substr(0,split);
+  for (int i=1; i<strs.size(); i++)
+      if (strs.at(i).substr(0,split) != ref_str) return false;
+  return true;
+}
 ```
 
 ### 26. 删除排序数组中的重复项

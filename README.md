@@ -67,6 +67,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 
 - [About_RL](./RL/About_RL.md)
 - [A_Survey_on_Transfer_Learning](./RL/A_Survey_on_Transfer_Learning.md)
+- [DHER](./RL/DHER.md)
 - [Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning](./RL/Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning.md)
 - [Self-critical_Sequence_Training_for_Image_Captioning](./RL/Self-critical_Sequence_Training_for_Image_Captioning.md)
 - [Taskonomy](./RL/Taskonomy.md)

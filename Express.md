@@ -273,7 +273,8 @@ leverage external supervision during training
 41. call for 需要
 42. compare against several prior and contemporary approaches 与现有方法比较
 43. compelling 有说服力的，信服的
-44. commonly 一般地
+44. commonly 一般地、普遍地
+    & be common in # &普遍存在于#
 45. counterpart 地位/作用相当的人或物
 46. There is large consent that 大家认同
 47. straightforward and computationally inexpensive # 简单易计算的#
@@ -530,7 +531,7 @@ leverage external supervision during training
 45. it is expected that 期望是
 46. extrapolate 推断，推测 vt
     extrapolated 推测的
-47. enforce = conduct = carry out 执行、实施
+47. enforce = conduct = execute = carry out 执行、实施
 48. extend & to # 扩展&到#
 49. equal 匹敌，比得上vt. 平等的，相等的，胜任的adj.
     be equal to 1). 等于，与...相同 2). 比得上，敌得过，胜任，合适，有…的能力
@@ -665,6 +666,8 @@ leverage external supervision during training
 2. implicitly 隐含地
    & imply that / It implies that 意味着、表明
    & imply # &暗示、包含了#
+   hint & # 暗示&某件事情(#)
+
 5. (at any) time instant 时间片
    timestamp(s) 时间点
    time series 时间序列
@@ -703,7 +706,7 @@ leverage external supervision during training
 28. ill-posed 病态的
 29. Irrespective of # 不考虑，不顾
 30. it is of interest to explore 有趣
-31. impede = hamper 阻碍
+31. impede # = hamper # 阻碍
 32. 直觉、动机
     1. Intuitively 直觉地、直观地
     2. intuitive idea 直觉的
@@ -1031,9 +1034,12 @@ leverage external supervision during training
     account for #
     e.g., NMS **accounts for** almost a quarter of the remaining detection problem.
 23. reasonable 合理的
-    rational 合理的
+    rational 合理的executing
 24. reason about # 推理，思考
-26. relieve/mitigate/moderate (the issue) 解除、减轻、缓解
+26. 解除、减轻、缓解
+    relieve/mitigate/moderate (the issue)
+    加重、加剧、恶化
+    exacerbate (the issue/diffcult)
 27. reliably 可靠地
 28. revised 改进的
 29. there are two reasons doing (preventing these advances from doing) 原因有两个

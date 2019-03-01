@@ -226,9 +226,6 @@ RMS[g]_ t=\sqrt{\mathbb E[g^2]_ t+\delta} \\
    ![adam](./.assets/adam.jpg)
    3. 注意到，$s,r$ 需要初始化为0；且 $ρ1,ρ2$ 推荐的初始值都很接近1（0.9 和 0.999）,这将导致在训练初期 s 和 r 都很小（偏向于 0），从而训练缓慢, 因此，Adam 通过修正偏差来抵消这个倾向。
 
-### 交叉熵损失相对均方误差损失的优势
-交叉熵损失的导数中含激活函数的导数$\sigma'$（[具体推导](https://blog.csdn.net/sinat_35512245/article/details/78627450)），如果$\sigma=Sigmoid$，$\sigma'$可能很小
-
 ### 范数
 1. L0: 向量中非零元素的个数
 2. L1: 向量中所有元素的绝对值之和
@@ -261,3 +258,109 @@ N(x;\mu,\Sigma)=\frac{1}{\sqrt{(2\pi)^n det(\Sigma) }}\exp(-\frac{1}{2}(x-\mu)^T
 2. 无向图模型：无向图模型（undirected graphical Model），也被称为马尔可夫随机场（Markov random field, MRF）或者是马尔可夫网络（Markov network）
 3. 图模型的优点：减少参数的规模、统计的高效性、减少运行时间
 4. 图模型如何用于深度学习：限玻尔兹曼机（RBM）
+
+### 交叉熵损失相对均方误差损失的优势
+交叉熵损失的导数中含激活函数的导数$\sigma'$（[具体推导](https://blog.csdn.net/sinat_35512245/article/details/78627450)），如果$\sigma=Sigmoid$，$\sigma'$可能很小
+
+### 交叉熵与最大似然估计
+[分析1](https://www.jianshu.com/p/191c029ad369)
+[分析2](https://zhuanlan.zhihu.com/p/27719875)
+1. 最大似然估计（MLE）：在已知模型，未知参数的情况下，找出一组参数，使得模型产生出观测数据的概率最大
+2. 在分类问题中，交叉熵的本质就是**对数似然函数**的最大化。对数的作用是：乘法转加法，以免多个概率相乘趋近于0，有更好的收敛性
+3. 以交叉熵函数作为成本函数的数学基础来自于统计学中的最大似然估计
+
+### 交叉熵与KL散度(相对熵)
+1. KL散度(不具备交换性) $D_{KL}(P||Q)=\sum_{i=1}P(i)\log\frac{P(i)}{Q(i)}=P(i)\log(P(i))-P(i)\log(Q(i))$
+2. 交叉熵 $H(P,Q)=-\sum_{i=1}P(i)\log Q(i)$
+3. P一般表示样例的标签的真实分布，为确定值，故最小化交叉熵和最小化KL-devergence是**等价的**，只不过之间相差了一个常数。
+
+### Monte Carlo & Temporal-Difference
+1. MC：探索结束后更新，更好的收敛性，无偏估计
+   TD：可以每步更新，效率更高，有偏估计
+2. MC：$V(S_t)=V(S_t)+\alpha(G_t-V(S_t))$
+   TD: $V(S_t)=V(S_t)+\alpha(R_{t+1}+\gamma V(S_{t+1})-V(S_t))$
+   > $R$为奖励，$G_t=R_{t+1}+\gamma R_{t+2}...$
+   > $R_{t+1}+\gamma V(S_{t+1})$为TD target，$R_{t+1}+\gamma V(S_{t+1})-V(S_t)$为TD error
+
+### [Q-learning](https://www.zhihu.com/question/26408259)
+[例子](https://blog.csdn.net/itplus/article/details/9361915)
+1. 学习流程
+```cpp
+初始化 Q = {};
+while Q 未收敛：
+    初始化小鸟的位置S，开始新一轮游戏
+    while S != 死亡状态：
+        使用策略π，获得动作a=π(S)
+        使用动作a进行游戏，获得小鸟的新位置S’,与奖励R(S,a)
+        Q[S,A] ← (1-α)*Q[S,A] + α*(R(S,a) + γ* max Q[S’,a]) // 更新Q
+        S ← S’
+```
+$$Q(S,A)=Q(S,A)+\alpha[R(S,a)+\gamma\max_{a'}Q(S',a')-Q(S,A)]$$
+1. $S'$为在$S$执行$a$之后的新位置，$R$是眼前利益，$\max_{a'}Q(S',a')$是记忆中的利益, 新位置$S'$能给出的最大Q值
+2. $\gamma$越大，小鸟就会越重视以往经验，越小，小鸟只重视眼前利益$R$。
+3. ε-greedy：防止困于局部极值，以ε的概率进行探索(explore, 随机选择action)，1-ε的概率则进行开发(exploit，按Q表选择action)
+4. off-policy: 学习已有的/过去的经验
+
+### SASA
+$$Q(S,A)=Q(S,A)+\alpha[R(S,a)+\gamma Q(S',a')-Q(S,A)]$$
+1. $S'$为在$S$执行$a$之后的新位置，$a'$为在$S'$选择的动作
+2. on-policy: 学习正在做的事情
+3. Sarsa(lambda):
+   1. Sarsa(0)单步更新，
+   2. Sarsa(1)回合更新，可将最后的reward传播到之前的每一步，但同时影响之前无关的步，且对所有步更新的力度相同
+   3. Sarsa(lambda): 回合更新，可将最后的reward传播到之前的每一步，但同时影响之前无关的步，且对更接近目标的步更新力度更大
+
+### DQN
+1. 网络更新
+![DQN](./.assets/DQN.jpg)
+2. 经验回放 Experience replay
+随机抽取之前的经历学习，打乱经历之前的相关性
+3. Fixed Q-targets
+使用两个结构相同但参数不同的网络
+![FixQ](./.assets/FixQ.jpg)
+
+### Policy Gradients
+1. 输出一个高斯分布，再随机选择动作
+2. 公式推导
+$$\begin{array}l
+J(\theta)=\mathbb E(r_1+\gamma r_2+\gamma^2 r_3...|\pi_\theta) \\[10pt]
+\nabla J(\theta)=\nabla_\theta\mathbb E(R(S,A)|\pi_\theta) \\[10pt]
+=\nabla_\theta\sum_sd(s)\sum_a\pi_\theta(a|s)R(s,a) \\[10pt]
+=\sum_sd(s)\sum_a\nabla_\theta\pi_\theta(a|s)R(s,a) \\[10pt]
+=\sum_sd(s)\sum_a\pi_\theta(a|s)\frac{\nabla_\theta\pi_\theta(a|s)}{\pi_\theta(a|s)}R(s,a) \\[10pt]
+=\sum_sd(s)\sum_a\pi_\theta(a|s)\nabla_\theta\log\pi_\theta(a|s)R(s,a) \\[10pt]
+=\mathbb E[\nabla_\theta\log\pi_\theta(a|s)R(s,a)]
+\end{array}
+$$
+3. 参数更新
+$\theta=\theta+\alpha\nabla_\theta\log\pi_\theta(s_t,a_t)v_t$
+$v_t$可以是reward，也可以见下表
+![pg](./.assets/pg.png)
+   1. 用reward来作为动作的评价是最直接的，采用上图第3种做法reward-baseline是很常见的一种做法（b可以是V）。这样做bias比较低，但是variance很大，也就是reward值太不稳定。
+   2. Q值是对reward的期望值，使用Q值variance比较小，bias比较大。
+   3. A=Q-V，是一个动作相对当前状态的价值。本质上V可以看做是baseline。
+   4. 为了平衡variance和bias的问题，使用TD会是比较好的做法，既兼顾了实际值reward，又使用了估计值V。在TD中，TD(lambda)平衡不同长度的TD值，会是比较好的做法。
+
+4. tf loss 计算
+```py
+self.all_act_prob = tf.nn.softmax(all_act, name='act_prob') # 网络输出所有动作的选择概率
+neg_log_prob = tf.reduce_sum(-tf.log(self.all_act_prob)*tf.one_hot(self.tf_acts, self.n_actions), axis=1) # 所选择动作的概率以log形式相加
+loss = tf.reduce_mean(neg_log_prob * self.tf_vt)
+```
+
+### Actor Critic
+1. Actor: Policy Gradients，选择动作
+2. Critic: 学习环境和奖惩之间的关系，能看到当前状态潜在的奖励
+   1. 输入state
+   2. 输出value(可以是Q)
+   3. 根据Reward和两步状态的value计算TD error
+3. 可以单步更新
+
+### DDPG
+1. Policy Gradient
+   1. 估计网络：输出实际执行的动作
+   2. 现实网络：用于更新价值网络
+2. DQN
+  1. 估计网络：计算当前状态、动作的value
+  2. 现实网络：计算TD target
+  ![DDPG](./.assets/DDPG.jpg)
