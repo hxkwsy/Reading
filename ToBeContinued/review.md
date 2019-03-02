@@ -4,14 +4,32 @@
 [深度学习面试100题](https://zhuanlan.zhihu.com/c_140166199)
 [面试笔记](https://github.com/imhuay/Algorithm_Interview_Notes-Chinese)
 
-## 复习
+# 复习
 
-### [贝叶斯](https://zhuanlan.zhihu.com/p/30926070)
+## C++与数据结构
+### [vector的内存管理机制](https://blog.csdn.net/qq_30835655/article/details/60762196)
 
-### 神经网络（MLP）的万能近似定理
-1. 一个前馈神经网络如果具有至少一个非线性输出层，那么只要给予网络足够数量的隐藏单元，它就可以以任意的精度来近似任何从一个有限维空间到另一个有限维空间的函数。
-2. 深度与宽度的关系: 一个单层的网络就足以表达任意函数，但是该层的维数可能非常大，且几乎没有泛化能力；此时，使用更深的模型能够减少所需的单元数，同时增强泛化能力（减少泛化误差）。参数数量相同的情况下，浅层网络比深层网络更容易过拟合。
+### list与vector
+list将元素按顺序储存在链表中，与向量(vector)相比，它允许快速的插入和删除，但是随机访问却比较慢.
 
+### C++五大内存分区
+在C++中，内存分成5个区，他们分别是**堆、栈、自由存储区、全局/静态存储区和常量存储区**。
+1. 栈，就是那些由编译器在需要的时候分配，在不需要的时候自动清楚的变量的存储区。里面的变量通常是局部变量、函数参数等。
+2. 堆，就是那些由new分配的内存块，他们的释放编译器不去管，由我们的应用程序去控制，一般一个new就要对应一个delete。如果程序员没有释放掉，那么在程序结束后，操作系统会自动回收。
+3. 自由存储区，就是那些由malloc等分配的内存块，他和堆是十分相似的，不过它是用free来结束自己的生命的。
+4. 全局/静态存储区，全局变量和静态变量被分配到同一块内存中，在以前的C语言中，全局变量又分为初始化的和未初始化的，在C++里面没有这个区分了，他们共同占用同一块内存区。
+5. 常量存储区，这是一块比较特殊的存储区，他们里面存放的是常量，不允许修改
+
+### 构造函数的调用顺序
+1. 创建对象时，先调父类构造函数父类
+2. 释放空间时，先调用子类的析构函数
+
+### [快速排序的性能分析](https://blog.csdn.net/weshjiness/article/details/8660583)
+1. 快速排序的时间性能取决于快速排序递归的深度，可以用递归树来描述递归算法的执行情况。
+2. 最好的时间复杂度$O(n\log n)$
+3. 最坏的情况：待排序的序列为正序或者逆序，每次划分只得到一个比上一次划分少一个记录的子序列，复杂度为$O(n^2)$
+
+## 图像处理
 ### 连通域
 1. 连通区域（Connected Component）一般是指图像中具有相同像素值且位置相邻的前景像素点组成的图像区域（Region，Blob）。通常连通区域分析处理的对象是一张二值化后的图像。
 2. 方法：Two-Pass法，Seed-Filling种子填充法，见[CSDN](https://blog.csdn.net/liangchunjiang/article/details/79431339)
@@ -31,29 +49,16 @@
     4. 固定$c$，调整每个类的质心$u$也可以使$J$减小
     5. 当$J$递减到最小时，$u$和$c$也同时收敛。（在理论上，可以有多组不同的$u$和$c$值能够使得J取得最小值，但这种现象实际上很少见）
 
-### 距离
-1. 欧氏距离 $d=\sqrt{(\bf x-y)^T(x-y)}=\sqrt{(x1-x2)^2+(y1-y2)^2}$
-2. 曼哈顿距离 $d=|x_1-x_2|+|y_1-y_2|$
-3. 闵可夫斯基距离 $d=(\bf |x-y|^p)^{1/p}$, $p=1$退化为曼哈顿距离，$p=2$退化为欧氏距离
-3. 切比雪夫距离 $d=\max(|x_1-x_2|,|y_1-y_2|)$
-4. 余弦距离 $cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$
-5. Jaccard相似度 $J(A,B)=\frac{A\cap B}{A\cup B}$
-6. 相关系数 $\rho=\frac{Cov(X,Y)}{\sqrt{Var(X)}\sqrt{Var(Y)}}=\frac{E((X-EX)(Y-EY))}{\sqrt{Var(X)}\sqrt{Var(Y)}}$,$Cov$为协方差,$Var$为方差,$\rho=0$描述$X,Y$之间不存在**线性**关系，“不相关”是一个比“独立”要弱的概念
-> 方差针对一维数据$Var(X)=\frac{1}{n-1}(X_i-\bar X)(X_i-\bar X)$
-> 协方差针对二维数据$Cov(X,Y)=\frac{1}{n-1}(X_i-\bar X)(Y_i-\bar Y)$
-> 协方差矩阵针对多维数据, 是一个对称的矩阵
-$\sum(X,Y,Z)=\left(\begin{array}c
-Cov(X,X) & Cov(X,Y) & Cov(X,Z) \\
-Cov(Y,X) & Cov(Y,Y) & Cov(Y,Z) \\
-Cov(Z,X) & Cov(Z,Y) & Cov(Z,Z)
-\end{array}\right)$
+## 神经网络
+### 神经网络（MLP）的万能近似定理
+1. 一个前馈神经网络如果具有至少一个非线性输出层，那么只要给予网络足够数量的隐藏单元，它就可以以任意的精度来近似任何从一个有限维空间到另一个有限维空间的函数。
+2. 深度与宽度的关系: 一个单层的网络就足以表达任意函数，但是该层的维数可能非常大，且几乎没有泛化能力；此时，使用更深的模型能够减少所需的单元数，同时增强泛化能力（减少泛化误差）。参数数量相同的情况下，浅层网络比深层网络更容易过拟合。
 
-8. 马氏距离 $d=\sqrt{(\bf x-y)^T\sum^{-1}(x-y)}$
+### 迁移学习相关概念
+1. 迁移学习：迁移学习和领域自适应指的是利用一个任务（例如，分布 P1）中已经学到的内容去改善另一个任务（比如分布 P2）中的泛化情况。
+2. one-shot learning：只有少量标注样本的迁移任务被称为 one-shot learning。在大数据上学习 general knowledge，然后在特定任务的小数据上有技巧的 fine tuning。
+3. zero-shot learning：没有标注样本的迁移任务被称为 zero-shot learning。假设学习器已经学会了关于动物、腿和耳朵的概念。如果已知猫有四条腿和尖尖的耳朵，那么学习器可以在没有见过猫的情况下猜测该图像中的动物是猫。
 
-### [概率分布的距离度量](https://zhuanlan.zhihu.com/p/27305237)
-1. KL散度(不具备交换性) $D_{KL}(P||Q)=\sum_{i=1}P(i)\log\frac{P(i)}{Q(i)}$
-2. JS距离 $D_{JS}(P||Q)=0.5D_{KL}(P||M)+0.5D_{KL}(Q||M),M=0.5(P+Q)$
-3. [Wasserstein距离](https://blog.chaofan.io/archives/earth-movers-distance-%E6%8E%A8%E5%9C%9F%E6%9C%BA%E8%B7%9D%E7%A6%BB)，描述分布Q能够变换成分布P所需要的最小代价
 ### [GAN的稳定性](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650757216&idx=3&sn=6d448901ef2b8350e0c9a83cf63f3d97&chksm=871a9c1eb06d150836bb9e73385a7ef59eb3a0dc06c2af412cc0a1470608a377fc5a20061936&mpshare=1&scene=23&srcid=#rd)
 1. 使用 GAN 的弊端
    1. 模式崩溃：生成单一模式的的数据
@@ -64,16 +69,8 @@ Cov(Z,X) & Cov(Z,Y) & Cov(Z,Z)
    3. 两个时间尺度上的更新规则: 通过不同的学习率, 生成器使用较慢的更新规则, 判别器使用较快的更新规则
    4. 自注意力机制：提供全局信息（远距离依赖）
 
-### [基本卷积模块](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247487358&idx=2&sn=34d3dd9968f933f75870c9e843d37dc0&chksm=f9a27df1ced5f4e72298ca776835a25e11f9fc41258be346ed33bb1a749e751a98be9890232b&mpshare=1&scene=23&srcid=#rd)
-1. 瓶颈模块: 1×1 卷积来降低通道数
-2. Inception
-![inception](./.assets/inception.jpg)
-3. ResNet & ResNeXt
-![Res](./.assets/Res.jpg)
-4. Dence
-![Dence](./.assets/Dence.jpg)
-5. Squeeze-and-Excitation
-![SE](./.assets/SE.jpg)
+### G和D哪个先训练
+D
 
 ### 降低过拟合风险的方法
 1. 数据增强
@@ -111,6 +108,7 @@ Cov(Z,X) & Cov(Z,Y) & Cov(Z,Z)
    1. L1 正则化可以产生稀疏权值矩阵，即产生一个稀疏模型，可以用于特征选择；一定程度上防止过拟合
    2. L2 正则化主要用于防止模型过拟合
    3. L1 适用于特征之间有关联的情况；L2 适用于特征之间没有关联的情况
+
 ### Dropout & Bagging
 1. 给定一个大小为 ${\displaystyle n}$ 的训练集 ${\displaystyle D}$，Bagging算法从中均匀、有放回地（即使用自助抽样法）选出 ${\displaystyle m}$ 个大小为 ${\displaystyle n'}$ 的子集 ${\displaystyle D_{i}}$，作为新的训练集。在这 ${\displaystyle m}$ 个训练集上使用分类、回归等算法，则可得到 ${\displaystyle m}$ 个模型，再通过取平均值、取多数票等方法，即可得到Bagging的结果。
 > 提高其准确率、稳定性的同时，通过降低结果的方差，避免过拟合的发生。
@@ -133,7 +131,9 @@ $$n_{out} = (n_{in}+2*n_{padding}-n_{filter})/n_{slide}+1$$
 5. 卷积核
    1. 构造：kernel $[k_h, k_w, n_{in}, n_{out}]$，bias $[n_{out}]$
    2. 数量 $n_{in}* n_{out}$
-6. 转置卷积
+6. [转置卷积](https://github.com/vdumoulin/conv_arithmetic)
+   1. 反卷积就是卷积，只是中间padding了下，然后再做卷积。算法实现上也是先padding然后卷积
+   2. 
 7. 空洞卷积（扩张卷积、膨胀卷积）
 7. 空间可分离卷积：3x3的核分离为一个3x1和一个1x3
 ![ssconv](./.assets/ssconv.jpg)
@@ -145,6 +145,21 @@ $$n_{out} = (n_{in}+2*n_{padding}-n_{filter})/n_{slide}+1$$
    + 可缓解梯度消失：因为公式中有一个卷积没有经过激活函数，所以对这部分求导是个常数，所以梯度消失的概率很小
 10. 分组卷积：相当于多次卷积，每次负责一部分channel，有利于提高并行程度
    ![groupconv](./.assets/groupconv.jpg)
+
+### [基本卷积模块](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247487358&idx=2&sn=34d3dd9968f933f75870c9e843d37dc0&chksm=f9a27df1ced5f4e72298ca776835a25e11f9fc41258be346ed33bb1a749e751a98be9890232b&mpshare=1&scene=23&srcid=#rd)
+1. 瓶颈模块: 1×1 卷积来降低通道数
+2. Inception
+![inception](./.assets/inception.jpg)
+3. ResNet & ResNeXt
+![Res](./.assets/Res.jpg)
+4. Dence
+![Dence](./.assets/Dence.jpg)
+5. Squeeze-and-Excitation
+![SE](./.assets/SE.jpg)
+
+### 为什么高层特征包含更多语义
+感受野更大
+
 ### RNN
 1. 种类
    1. Elman network：每个时间步都有输出，且隐藏单元之间有循环连接
@@ -226,6 +241,31 @@ RMS[g]_ t=\sqrt{\mathbb E[g^2]_ t+\delta} \\
    ![adam](./.assets/adam.jpg)
    3. 注意到，$s,r$ 需要初始化为0；且 $ρ1,ρ2$ 推荐的初始值都很接近1（0.9 和 0.999）,这将导致在训练初期 s 和 r 都很小（偏向于 0），从而训练缓慢, 因此，Adam 通过修正偏差来抵消这个倾向。
 
+### 平移等变、不变性
+1. 不变性：（局部）平移不变性是一个很有用的性质，尤其是当我们关心某个特征是否出现而不关心它出现的具体位置时。卷积核池化具有这种性质，**池化操作有助于卷积网络的平移不变性**
+2. 等变性：如果一个函数满足输入改变，输出也以同样的方式改变这一性质，我们就说它是等变 (equivariant) 的。于卷积来说，如果令 g 是输入的任意平移函数，那么卷积函数对于 g 具有等变性。
+
+## 概率
+
+### 距离
+1. 欧氏距离 $d=\sqrt{(\bf x-y)^T(x-y)}=\sqrt{(x1-x2)^2+(y1-y2)^2}$
+2. 曼哈顿距离 $d=|x_1-x_2|+|y_1-y_2|$
+3. 闵可夫斯基距离 $d=(\bf |x-y|^p)^{1/p}$, $p=1$退化为曼哈顿距离，$p=2$退化为欧氏距离
+3. 切比雪夫距离 $d=\max(|x_1-x_2|,|y_1-y_2|)$
+4. 余弦距离 $cos\theta=\frac{x_1x_2+y_1y_2}{\sqrt{x_1^2+y_1^2}\sqrt{x_2^2+y_2^2}}$
+5. Jaccard相似度 $J(A,B)=\frac{A\cap B}{A\cup B}$
+6. 相关系数 $\rho=\frac{Cov(X,Y)}{\sqrt{Var(X)}\sqrt{Var(Y)}}=\frac{E((X-EX)(Y-EY))}{\sqrt{Var(X)}\sqrt{Var(Y)}}$,$Cov$为协方差,$Var$为方差,$\rho=0$描述$X,Y$之间不存在**线性**关系，“不相关”是一个比“独立”要弱的概念
+> 方差针对一维数据$Var(X)=\frac{1}{n-1}(X_i-\bar X)(X_i-\bar X)$
+> 协方差针对二维数据$Cov(X,Y)=\frac{1}{n-1}(X_i-\bar X)(Y_i-\bar Y)$
+> 协方差矩阵针对多维数据, 是一个对称的矩阵
+$\sum(X,Y,Z)=\left(\begin{array}c
+Cov(X,X) & Cov(X,Y) & Cov(X,Z) \\
+Cov(Y,X) & Cov(Y,Y) & Cov(Y,Z) \\
+Cov(Z,X) & Cov(Z,Y) & Cov(Z,Z)
+\end{array}\right)$
+
+8. 马氏距离 $d=\sqrt{(\bf x-y)^T\sum^{-1}(x-y)}$
+
 ### 范数
 1. L0: 向量中非零元素的个数
 2. L1: 向量中所有元素的绝对值之和
@@ -236,6 +276,11 @@ RMS[g]_ t=\sqrt{\mathbb E[g^2]_ t+\delta} \\
 7. 范数的应用：正则化——权重衰减/参数范数惩罚
 8. 权重衰减的目的: 限制模型的学习能力，通过限制参数$\theta$的规模（主要是权重$W$的规模，偏置$b$不参与惩罚），使模型偏好于权值较小的目标函数，防止过拟合。
 
+### [概率分布的距离度量](https://zhuanlan.zhihu.com/p/27305237)
+1. KL散度(不具备交换性) $D_{KL}(P||Q)=\sum_{i=1}P(i)\log\frac{P(i)}{Q(i)}$
+2. JS距离 $D_{JS}(P||Q)=0.5D_{KL}(P||M)+0.5D_{KL}(Q||M),M=0.5(P+Q)$
+3. [Wasserstein距离](https://blog.chaofan.io/archives/earth-movers-distance-%E6%8E%A8%E5%9C%9F%E6%9C%BA%E8%B7%9D%E7%A6%BB)，描述分布Q能够变换成分布P所需要的最小代价
+
 ### 高斯分布的好处
 $$\begin{array}l
 N(x;\mu,\sigma^2)=\frac{1}{\sqrt{2\pi\sigma^2}}\exp(-\frac{(x-\mu)^2}{2\sigma^2}) \\
@@ -244,14 +289,7 @@ N(x;\mu,\Sigma)=\frac{1}{\sqrt{(2\pi)^n det(\Sigma) }}\exp(-\frac{1}{2}(x-\mu)^T
 1. 我们想要建模的很多分布的真实情况是比较接近正态分布的。中心极限定理（central limit theorem）说明很多独立随机变量的和近似服从正态分布。这意味着在实际中，很多复杂系统都可以被成功地建模成正态分布的噪声，即使系统可以被分解成一些更结构化的部分。
 2. 第二，在具有相同方差的所有可能的概率分布中，正态分布在实数上具有最大的不确定性。因此，我们可以认为正态分布是对模型加入的先验知识量最少的分布。
 
-### 平移等变、不变性
-1. 不变性：（局部）平移不变性是一个很有用的性质，尤其是当我们关心某个特征是否出现而不关心它出现的具体位置时。卷积核池化具有这种性质，**池化操作有助于卷积网络的平移不变性**
-2. 等变性：如果一个函数满足输入改变，输出也以同样的方式改变这一性质，我们就说它是等变 (equivariant) 的。于卷积来说，如果令 g 是输入的任意平移函数，那么卷积函数对于 g 具有等变性。
-
-### 迁移学习相关概念
-1. 迁移学习：迁移学习和领域自适应指的是利用一个任务（例如，分布 P1）中已经学到的内容去改善另一个任务（比如分布 P2）中的泛化情况。
-2. one-shot learning：只有少量标注样本的迁移任务被称为 one-shot learning。在大数据上学习 general knowledge，然后在特定任务的小数据上有技巧的 fine tuning。
-3. zero-shot learning：没有标注样本的迁移任务被称为 zero-shot learning。假设学习器已经学会了关于动物、腿和耳朵的概念。如果已知猫有四条腿和尖尖的耳朵，那么学习器可以在没有见过猫的情况下猜测该图像中的动物是猫。
+### [贝叶斯](https://zhuanlan.zhihu.com/p/30926070)
 
 ### 图模型、结构化概率模型相关概念
 1. 有向图模型：有向图模型（directed graphical model）是一种结构化概率模型，也被称为信念网络（belief network）或者贝叶斯网络（Bayesian network）
@@ -273,6 +311,8 @@ N(x;\mu,\Sigma)=\frac{1}{\sqrt{(2\pi)^n det(\Sigma) }}\exp(-\frac{1}{2}(x-\mu)^T
 1. KL散度(不具备交换性) $D_{KL}(P||Q)=\sum_{i=1}P(i)\log\frac{P(i)}{Q(i)}=P(i)\log(P(i))-P(i)\log(Q(i))$
 2. 交叉熵 $H(P,Q)=-\sum_{i=1}P(i)\log Q(i)$
 3. P一般表示样例的标签的真实分布，为确定值，故最小化交叉熵和最小化KL-devergence是**等价的**，只不过之间相差了一个常数。
+
+## 强化学习
 
 ### Monte Carlo & Temporal-Difference
 1. MC：探索结束后更新，更好的收敛性，无偏估计
@@ -361,6 +401,6 @@ loss = tf.reduce_mean(neg_log_prob * self.tf_vt)
    1. 估计网络：输出实际执行的动作
    2. 现实网络：用于更新价值网络
 2. DQN
-  1. 估计网络：计算当前状态、动作的value
-  2. 现实网络：计算TD target
-  ![DDPG](./.assets/DDPG.jpg)
+   1. 估计网络：计算当前状态、动作的value
+   2. 现实网络：计算TD target
+   ![DDPG](./.assets/DDPG.jpg)
