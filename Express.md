@@ -235,7 +235,7 @@ leverage external supervision during training
      For the convenience of #,  为#提供方便
      notation 标记、记号
      + Using the notation in the figure, 用图中的记号
-     + For notational convenience, 为了标记方便(引出简化符号)
+     + For notational convenience/simplicity, 为了标记方便(引出简化符号)
      + For the ease of notation we assume 为标记简便，我们假设
 
 12.  designed the concept of 设计了一种概念
@@ -434,6 +434,7 @@ leverage external supervision during training
     8. we limit our attention to # 我们更加关注#
     9. we set our focus on #
     10. we concentrate on #
+    11. It is tempting to 有吸引力的
 36. descendant 后代
 37. drastically 彻底地，大大地
 38. de facto 事实上的(需要斜体)
@@ -980,7 +981,7 @@ leverage external supervision during training
     *& performs **sufficiently** well to #* 表现充分地好
     & performe poorly 表现不好
 68. & be in proportion to # &与#成比例
-69. we propose to do # 建议、提出
+69. we propose/advocates to do # 建议、提出、提倡
 70. prevalent = general 普遍的、广泛的、一般的
     prevalence of #(deep learning) 流行
 71. over-parametrize #(the task/model) 增加#的参数
@@ -1097,6 +1098,8 @@ leverage external supervision during training
 63. rely on 依靠
 64. rectify 校正
     rectified (image) 校正的
+65. gain a **reputation** for doing 获得...的评价、声望
+    e.g., GAN and RL have gained a reputation for being difficult to optimize.
 
 ## S
 1. the method **struggles** with sth / to do sth 表现不好，有困难
@@ -1271,6 +1274,8 @@ top layers with high-level low-resolution features 顶层
     e.g., the top-performance CNN models generally employ very wide and deep architecture
 33. topological 拓扑的，可用于形容网络结构
     e.g., topological differences 结构上的不同
+34. (core) tenet 原则
+
 ## U
 1. an **upstroke** phase 上行程
 2. unrivaled 无与伦比的
