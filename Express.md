@@ -167,7 +167,7 @@ leverage external supervision during training
 5. breakthrough(s) 突破
 6. benchmark 基准，参考物
 7.
-   1. & can run at frame-rates **beyond** real time while maintaining state-of-the-art performance. 实时的同时保持性能
+   1. & can run at frame-rates **beyond** real time while (at the same time) maintaining state-of-the-art performance. 实时的同时保持性能
    2. & cause minor drop in accuracy but significantly speeds up by nearly 65× theoretically
    3. the computation cost of # is reduced by 8∼9 times with a slight drop in accuracy
    4. do # at real time 实时地
@@ -333,7 +333,7 @@ leverage external supervision during training
     clamp weights 钳制参数
 83. The costly work of doing 代价高的工作
 84. composite 复合的、合成的 adj，使合成 vt
-85. ..., called # 称为、也就是#
+85. ..., called/dubbed # 称为、也就是#
     ..., termed as #
     ..., i.e./namely/say, # 也就是#
 86. composability 可组合性
@@ -435,6 +435,7 @@ leverage external supervision during training
     9. we set our focus on #
     10. we concentrate on #
     11. It is tempting to 有吸引力的
+    12. there has been a surge of interest in # 人们对#有大量兴趣
 36. descendant 后代
 37. drastically 彻底地，大大地
 38. de facto 事实上的(需要斜体)
@@ -486,7 +487,7 @@ leverage external supervision during training
 9. embedded A with B 结合A和B
    couple A and B
 10. empirical (evidence) 以实验为依据的
-11. be equipped with 装备
+11. be equipped/armed with 装备
 12. should be fully explored 完全地探究
 13. inevitably 不可避免地
 15. to some extent 某种程度上(adv.) 一定程度上
@@ -506,6 +507,8 @@ leverage external supervision during training
 24. be effective at doing 有效
     We found helpful to do 发现...有效、有用
 25. effortless 容易的，不费劲的
+    effortlessly 轻易地，不费劲地 adv
+    arduous 费劲的、费力的
 26. elaborate 详细说明
 27. explicitly 明确地
 29. empirical 经验性的，以观测或实验的依据的
@@ -547,7 +550,6 @@ leverage external supervision during training
 56. era 时代 (During the deep learning era, )
 57. a fixed **spatial extent** of $7\times 7$ 空间的范围（形容feature map的大小）
 58. exclusive 排斥的 mutually exclusive 相互排斥的
-59. effortlessly 轻易地，不费劲地 adv
 
 ## F
 1. following their example, 根据
@@ -675,9 +677,12 @@ leverage external supervision during training
 6. the study of # is still in infancy 还不成熟
 7. imagery (光学形成的)像
 8. intrinsic parameters 内参数
-9. & decrease  as  # increasing 随着#上升而下降
-   first increases and then decreases 先上升后下降
-10. & increase with the rise of # / with increasing # 随着#上升而上升
+9. 上升，下降
+   1. & decrease  as  # increasing 随着#上升而下降
+   2. & first increases and then decreases 先上升后下降
+   3. a 60-fold decrease 60倍的下降
+   4. & increase with the rise of # / with increasing # 随着#上升而上升
+   5. plummet 垂直下降、大幅下降 e.g., the speed plummets below 0.1 fps.
 11. Histogram distribution 直方图分布
 12. (High-quality digital cameras) are increasingly being used on (AUVs and ROVs) 应用增加
 13. clearly impractical 十分
@@ -743,6 +748,7 @@ leverage external supervision during training
 61. invertible 可逆的
 62. & be strongly influenced by # &受到#很大的影响
 63. impair #(the training speed) 损害、削弱、减少
+    whittle dowm # 削减，削弱
 64. informative (features) 教育性的，有益的，情报的，见闻广博的(可形容cnn提取的特征)
 65. individual object 个体
 66. & is widely used in several fields **including but not limited to** #, #, and # 包括但不限于
@@ -819,7 +825,7 @@ leverage external supervision during training
 19. merit(s) = advantage(s) 功绩、优点
     strength(s) 优势，强项
 20. multifarious 多种多样的
-21. In the meantime = Meanwhile = simultaneously 同时
+21. In the meantime = Meanwhile = simultaneously = at the same time 同时
     Concurrently with our work, & do ... 和我们的工作同时进行
 22. unimodal / multimodal (distribution)单/多峰的(分布)
 23. would like # to do 期望#做
@@ -1123,7 +1129,7 @@ leverage external supervision during training
 17. subaqueous 水中的
 18. submerged and emerged (adj.) /  diving and surfacing (n.) 下潜和上浮
 19. (make a necessary) simplification 简化
-20. systematic review 系统的回顾
+20. systematic review/study 系统的回顾、研究
 21. & is non-trivial task 并不是不重要的任务
 22. More specifically，= To be more specific, 更特别地 (In particular, ... More specifically, )
 23. small-sized 小型的
@@ -1157,6 +1163,7 @@ leverage external supervision during training
 45. separately 各自地，分别地(可用于句中) = respectively
 46. semantic information 语义信息
     contextual information 上下文信息
+    abstract semantic cues 抽象的语义信息、线索
 47. comprehensive / synthesized  综合的，合成的
 48. be well suited to do / be suitable for 适合用于做...
 49. spatiotemporal / spatio-temporal 时空的
@@ -1224,6 +1231,7 @@ top layers with high-level low-resolution features 顶层
 94. supplement & with # 补充
 95. From a & standpoint, 按#的观点、立场
 96. span 跨度 e.g., receptive field spans the whole image
+97. supersede # 取代#
 
 ## T
 1. & has a tendency to do / & tend to do 有趋势
@@ -1272,6 +1280,7 @@ top layers with high-level low-resolution features 顶层
 31. terrestrial (image) 陆地上的(图像)
 32. top-performance 最好性能的
     e.g., the top-performance CNN models generally employ very wide and deep architecture
+    inferior performance 不好的、差的性能
 33. topological 拓扑的，可用于形容网络结构
     e.g., topological differences 结构上的不同
 34. (core) tenet 原则
@@ -1295,6 +1304,7 @@ top layers with high-level low-resolution features 顶层
     & (effectiveness of such employment has on improving performance) is not well-understood.
 15. (this method) remain theoretical 依然停留在理论上
 16. update to # 对#的更新
+17. unleash the (full) potential/power of # 激发潜力、力量
 
 ## V
 1. We validate the proposed approach by doing 验证
@@ -1313,7 +1323,7 @@ top layers with high-level low-resolution features 顶层
 10. be viewed as 被视作
 11. visibly， evidently， Apparently 显然，明显地 be evidenced(v.) to be
 12. 揭示、显示、展示
-    1. unveil / reveal # (more details)
+    1. unveil/reveal/expose # (more details)
     2. It is revealed that
 13. vignetting 渐晕的
 14. practice/test venue 演练场地
@@ -1352,6 +1362,7 @@ top layers with high-level low-resolution features 顶层
    6. yet连接两个形容词:
     + a fast yet powerful detector
     + an important yet less explored aspect
+    + a simple yet effective strategy
 3. Years of research in #(geometric computer vision) has done(failed to...) 多年来的研究还没有
 
 ## Z

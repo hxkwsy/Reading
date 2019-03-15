@@ -1,4 +1,6 @@
+
 [TOC]
+
 
 [面试](https://www.zhihu.com/question/23259302/answer/527513387?utm_source=qq&utm_medium=social&utm_oi=638711330211762176)
 [深度学习面试100题](https://zhuanlan.zhihu.com/c_140166199)
@@ -29,18 +31,40 @@ list将元素按顺序储存在链表中，与向量(vector)相比，它允许�
 ### [多态和纯虚函数(Face++)](https://blog.csdn.net/Hackbuteer1/article/details/7475622)
 
 ### [快速排序的性能分析(SenceTime)](https://blog.csdn.net/weshjiness/article/details/8660583)
-1. 快速排序的时间性能取决于快速排序递归的深度，可以用递归树来描述递归算法的执行情况。
-2. 最好的时间复杂度$O(n\log n)$
-3. 最坏的情况：待排序的序列为正序或者逆序，每次划分只得到一个比上一次划分少一个记录的子序列，复杂度为$O(n^2)$
-
+1. c++代码
+```c
+void quick_sort_recursive(vector<int> &a, int start, int end) {
+    if (start >= end) return;
+    int base = a[end];
+    int left = start, right = end - 1;
+    while (true) {
+        while (i<j && a[left] < base) ++left;
+        while (i<j && a[right] >= base) --right;
+        if (left >= right) break;
+        swap(a[left], a[right]);
+    }
+    if (a[left] >= a[end]) swap(a[left], a[end]);   // 将base放到指定位置
+    else ++left;
+    quick_sort_recursive(a, start, left - 1);
+    quick_sort_recursive(a, left + 1, end);
+}
+```
+2. 快速排序的时间性能取决于快速排序递归的深度，可以用递归树来描述递归算法的执行情况。
+3. 最好的时间复杂度$O(n\log n)$
+4. 最坏的情况：待排序的序列为正序或者逆序，每次划分只得到一个比上一次划分少一个记录的子序列，复杂度为$O(n^2)$
+5. 避免：随机选择参考
+### [常用排序、查找算法的时间复杂度(ByteDance)](https://blog.csdn.net/Sparkle_007/article/details/54971257)
 ### [Python中`*args, **kwargs`的用法(Tencent)](https://www.jianshu.com/p/1f830aa7109b)
 1. `*arg`来发送一个**非键值对的可变数量的**参数列表给一个函数.
 2. `**kwargs`允许你将**不定长度的键值对**, 作为参数传递给一个函数。
 
 ### [C++的引用](https://blog.csdn.net/qq_33266987/article/details/52047473)
 
+### Pytorch写一个对角矩阵，对角线上的元素随机
+
+
 ## 图像处理
-### 连通域
+### 连通域(Ali)
 1. 连通区域（Connected Component）一般是指图像中具有相同像素值且位置相邻的前景像素点组成的图像区域（Region，Blob）。通常连通区域分析处理的对象是一张二值化后的图像。
 2. 方法：Two-Pass法，Seed-Filling种子填充法，见[CSDN](https://blog.csdn.net/liangchunjiang/article/details/79431339)
 
@@ -69,7 +93,7 @@ list将元素按顺序储存在链表中，与向量(vector)相比，它允许�
 2. one-shot learning：只有少量标注样本的迁移任务被称为 one-shot learning。在大数据上学习 general knowledge，然后在特定任务的小数据上有技巧的 fine tuning。
 3. zero-shot learning：没有标注样本的迁移任务被称为 zero-shot learning。假设学习器已经学会了关于动物、腿和耳朵的概念。如果已知猫有四条腿和尖尖的耳朵，那么学习器可以在没有见过猫的情况下猜测该图像中的动物是猫。
 
-### [GAN的稳定性](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650757216&idx=3&sn=6d448901ef2b8350e0c9a83cf63f3d97&chksm=871a9c1eb06d150836bb9e73385a7ef59eb3a0dc06c2af412cc0a1470608a377fc5a20061936&mpshare=1&scene=23&srcid=#rd)
+### [GAN的稳定性(HuaWei)](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650757216&idx=3&sn=6d448901ef2b8350e0c9a83cf63f3d97&chksm=871a9c1eb06d150836bb9e73385a7ef59eb3a0dc06c2af412cc0a1470608a377fc5a20061936&mpshare=1&scene=23&srcid=#rd)
 1. 使用 GAN 的弊端
    1. 模式崩溃：生成单一模式的的数据
    2. 收敛性：无法从loss变化中判断收敛性
@@ -77,7 +101,7 @@ list将元素按顺序储存在链表中，与向量(vector)相比，它允许�
    1. Wasserstein GAN: Wasserstein距离，即使真实的和生成的样本的数据分布没有交集，Wasserstein距离也是连续的
    2. [LSGAN](https://wiseodd.github.io/techblog/2017/03/02/least-squares-gan/): 对远离决策边界的生成样本进行惩罚，本质上将生成的数据分布拉向实际的数据分布
    3. 两个时间尺度上的更新规则: 通过不同的学习率, 生成器使用较慢的更新规则, 判别器使用较快的更新规则
-   4. 自注意力机制：提供全局信息（远距离依赖）
+   4. 自注意力机制(Self-Attention)：提供全局信息（远距离依赖）, ref paper：Attention is All You Need
 
 ### G和D哪个先训练(SenceTime)
 D
@@ -99,10 +123,10 @@ D
 4. BN
 5. 消失：门卷积、残差
 
-### [BN](https://www.cnblogs.com/guoyaohua/p/8724433.html)
-1. BN 是一种正则化方法（减少泛化误差），主要作用有：
+### [BN(HuaWei)](https://www.cnblogs.com/guoyaohua/p/8724433.html)
+1. BN 是一种正则化方法（减少泛化误差），主要作用有(解决了什么问题)：
    1. 加速网络的训练（缓解梯度消失，支持更大的学习率）
-   2. 防止过拟合
+   2. 防止过拟合，增加模型泛化能力
    3. 降低了参数初始化的要求。
 2. 基本原理
    1. 针对mini-batch，在网络的每一层输入之前增加归一化处理，使输入的均值为 0，标准差为 1。目的是将数据限制在统一的分布下。(白化)
@@ -127,7 +151,7 @@ D
 ![drop](./.assets/drop.jpg)
 
 ### CNN
-#### 基本特
+#### 基本特性
 局部连接、稀疏交互、参数共享
 #### 输出尺寸计算公式为
 $$n_{out} = (n_{in}+2*n_{padding}-n_{filter})/n_{slide}+1$$
@@ -219,7 +243,7 @@ h_t=o_t\odot\tanh(c_t),
 1. LSTM 中的遗忘门和输入门的功能有一定的重合，于是将其合并为一个更新门$z$, 控制前一时刻的状态信息被融合到当前状态中的程度
 2. 并使用重置门$r$代替输出门, 用于控制忽略前一时刻的状态信息的程度
 
-### [梯度下降与SGD](https://zhuanlan.zhihu.com/p/31229539)
+### [梯度下降与SGD(HuaWei)](https://zhuanlan.zhihu.com/p/31229539)
 #### 基本的梯度下降法
 1. 每次使用所有训练样本的平均损失来更新参数；
 2. 因此，经典的梯度下降在每次对模型参数进行更新时，需要遍历所有数据；
@@ -417,6 +441,9 @@ N(x;\mu,\Sigma)=\frac{1}{\sqrt{(2\pi)^n det(\Sigma) }}\exp(-\frac{1}{2}(x-\mu)^T
 1. KL散度(不具备交换性) $D_{KL}(P||Q)=\sum_{i=1}P(i)\log\frac{P(i)}{Q(i)}=P(i)\log(P(i))-P(i)\log(Q(i))$
 2. 交叉熵 $H(P,Q)=-\sum_{i=1}P(i)\log Q(i)$
 3. P一般表示样例的标签的真实分布，为确定值，故最小化交叉熵和最小化KL-devergence是**等价的**，只不过之间相差了一个常数。
+
+### [KL散度存在什么问题(HuaWei)](https://www.zhihu.com/question/28181173)
+不对称
 
 ## 强化学习
 

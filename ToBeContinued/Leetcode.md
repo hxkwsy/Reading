@@ -128,7 +128,7 @@ int lengthOfLongestSubstring(string s) {
 }
 ```
 
-### 5. 最长回文子串
+### 5. 最长回文子串(HuaWei)
 *输入: "babad"; 输出: "bab"; 注意: "aba" 也是一个有效答案。回文: 左读右读都一样*
 + 回文字符串去掉最左最右以后依然回文
 + 对于长度为n的字符串，有2n-1和可能的中心，遍历这些中心扩展至最长
@@ -159,6 +159,7 @@ int expandAroundCenter(string s, int left, int right){
   return R-L-1;
 }
 ```
++ 若只需判断字符串是否回文，翻转比较即可
 
 ### 6. Z型字母变换
 + 生成三角波
