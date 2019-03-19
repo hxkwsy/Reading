@@ -67,6 +67,7 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 
 - [About_RL](./RL/About_RL.md)
 - [A_Survey_on_Transfer_Learning](./RL/A_Survey_on_Transfer_Learning.md)
+- [Connecting_Generative_Adversarial_Networks_and_Actor_Critic_Methods](./RL/Connecting_Generative_Adversarial_Networks_and_Actor_Critic_Methods.md)
 - [DHER](./RL/DHER.md)
 - [Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning](./RL/Learning_to_Learn_Meta-Critic_Networks_for_Sample_Efficient_Learning.md)
 - [Self-critical_Sequence_Training_for_Image_Captioning](./RL/Self-critical_Sequence_Training_for_Image_Captioning.md)
@@ -146,10 +147,19 @@ This is my reading notes, some of which are comprehensive and some are brief. In
 
 ## Tracking
 
+- [ACT](./Tracking/ACT.md)
+- [Cascaded_SiamRPN](./Tracking/Cascaded_SiamRPN.md)
+- [DaSiamRPN](./Tracking/DaSiamRPN.md)
+- [Deeper_and_Wider_SiamRPN](./Tracking/Deeper_and_Wider_SiamRPN.md)
 - [Deep_Reinforcement_Learning_for_Visual_Object_Tracking_in_Videos](./Tracking/Deep_Reinforcement_Learning_for_Visual_Object_Tracking_in_Videos.md)
+- [KCF](./Tracking/KCF.md)
 - [Learning_Dynamic_Memory_Networks_for_Object_Tracking](./Tracking/Learning_Dynamic_Memory_Networks_for_Object_Tracking.md)
 - [Learning_to_Track_Online_Multi-Object_Tracking_by_Decision_Making](./Tracking/Learning_to_Track_Online_Multi-Object_Tracking_by_Decision_Making.md)
 - [Re3_Real-Time_Recurrent_Regression_Networks_for_Visual_Tracking_of_Generic_Objects](./Tracking/Re3_Real-Time_Recurrent_Regression_Networks_for_Visual_Tracking_of_Generic_Objects.md)
+- [SiameseFC](./Tracking/SiameseFC.md)
+- [SiamMask](./Tracking/SiamMask.md)
+- [SiamRPN++](./Tracking/SiamRPN++.md)
+- [SiamRPN](./Tracking/SiamRPN.md)
 - [[ADN]_Action-Decision_Networks_for_Visual_Tracking_with_Deep_Reinforcement_Learning](./Tracking/[ADN]_Action-Decision_Networks_for_Visual_Tracking_with_Deep_Reinforcement_Learning.md)
 - [[RASNet]](./Tracking/[RASNet].md)
 - [[ROLO]_Spatially_Supervised_Recurrent_Convolutional_Neural_Networks_for_Visual_Object_Tracking](./Tracking/[ROLO]_Spatially_Supervised_Recurrent_Convolutional_Neural_Networks_for_Visual_Object_Tracking.md)

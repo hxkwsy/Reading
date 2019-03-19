@@ -566,3 +566,8 @@ loss = tf.reduce_mean(neg_log_prob * self.tf_vt)
    2. 评估方式不同
       1. G的唯一约束来自于D，G无法在没有D的情况下训练
       2. Critic提高对Actor监督效果，没有Critic也可以训
+
+## Other
+### Tell about the last paper you read (HuaWei)
+### Introduce yourself briefly (HuaWei)
+### 你最失败的经历是什么 (HuaWei)
