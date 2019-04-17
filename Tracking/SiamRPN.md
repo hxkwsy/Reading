@@ -2,6 +2,7 @@
 [cvpr](http://openaccess.thecvf.com/content_cvpr_2018/papers/Li_High_Performance_Visual_CVPR_2018_paper.pdf)
 [zhihu](https://zhuanlan.zhihu.com/p/37856765)
 [pytorch](https://github.com/songdejia/Siamese-RPN-pytorch)
+[SiamRPN算法汇总](https://mp.weixin.qq.com/s?__biz=MzUxNjcxMjQxNg==&mid=2247487893&idx=1&sn=b635b6f6444311e751875894e7d9831e&chksm=f9a2631aced5ea0c4521e65046b1d82c20fd90a4ea645da55d0402d12748ac478e5cfbf85d5a&mpshare=1&scene=23&srcid=0320upgtpRS26wJ4ldZV9WDP#rd)
 
 ## Introduction
 1. tracker分类

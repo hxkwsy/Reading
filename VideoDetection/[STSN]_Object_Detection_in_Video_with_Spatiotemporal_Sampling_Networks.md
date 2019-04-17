@@ -28,6 +28,7 @@ $$
     2. concatenate $f_{t},f_{t+k}$, 得到$f_{t,t+k}$
     3. 用$f_{t,t+k}$预测location offsets(应该是t和t+k目标间的偏移)，将用于采样$f_{t+k}$
     4. 采样$f_{t+k}$
+       1. 利用$f_t$计算location offsets
        1. 输入：预测的location offsets和$f_{t+k}$
        2. 操作：deformable convolution
        3. 输出：sampled feature tensor $g_{t,t+k}$
@@ -35,10 +36,10 @@ $$
    1. 步骤2用于所有2K个supporting frames
    2.
    $$
-   \begin{array}{l}
-   g_t^{agg} = \sum_{k=-K}^{K}w_{t,t+k}(p)g_{t,t+k}(p) \\
+   g_t^{agg} = \sum_{k=-K}^{K}w_{t,t+k}(p)g_{t,t+k}(p)
+   $$
+   $$
    w_{t,t+k}(p)=\exp(\frac{S(g(t,t))(p)\cdot S(g(t,t+1))(p)}{|S(g(t,t))(p)||S(g(t,t+k))(p)|})
-   \end{array}
    $$
    > $S(\cdot)$是一个三层网络，最终,所有$w$计算完后进行softmax操作，s.t. $\sum^K_{k=-K}w_{t,t+k}(p)=1$
 
@@ -49,5 +50,4 @@ $$
 Dai, J., Qi, H., Xiong, Y., Li, Y., Zhang, G., Hu, H., Wei, Y.: Deformable convolutional networks. In: 2017 IEEE International Conference on Computer Vision (ICCV). Volume 00. (Oct. 2018) 764–773
 
 ## Learned
-也是特征融合，卷积出一个偏移，这个偏移用于deformable convolution，最终得到时序整合的特征。
-也是光流预测的代替品, 预测两帧之间的位置变化
+主要思想是时序特征融合，卷积出一个偏移，这个偏移用于deformable convolution，最终得到时序整合的特征。deform是光流预测的代替品, 预测两帧之间的位置变化，然后融合对应的特征

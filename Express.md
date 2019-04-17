@@ -142,6 +142,7 @@ leverage external supervision during training
     &(The online nature of our method) enables # to do 确保#做、使能
 63. be adept/good at 擅长
 64. unambiguous 不含糊的、清楚的、明白的
+    disambiguate 消除含糊不清，解释清楚
 65. 注意力
     general attention 通用attention
     target adapted residual attention 空间attention
@@ -208,6 +209,7 @@ leverage external supervision during training
 32. motion **blur** 运动模糊
 33. & is (probably) the oldest and best known strategy for # 常见的
 34. boldface 黑体字
+35. brute-force (approach) 暴力的
 
 ## C
 1. 关键、重要
@@ -351,13 +353,14 @@ leverage external supervision during training
 99. in conjunction with # 结合#
 100. compact 紧凑的、紧密的、简洁的
 101. Concretely 具体地
+     Concretely speaking 具体来说
 102. **We can see** that for the special case **where** ... 特殊情况
 103. canonical 典型的、传统的、权威的
      e.g., main difference from **canonical** SSD and # lies in that ...
      (un)conventional (非)传统的、惯例的、常规的
 104.  (center, top) 用于在caption里描述子图的位置
 105. non-causal 无关联的，原因不明的，形容offline
-106. contemporary (method) 同时期的，当代的
+106. contemporary (method) 同时期的，同期的，当代的
      concurrent (work)
 107. & can effectively **cope** with #(a variety of complex situations) 处理，对付
 108. power-constrained, memory-constrained, resource-constrained (embedded devices) 功率、内存、资源受限的
@@ -474,6 +477,8 @@ leverage external supervision during training
 62. scale drift 尺度漂移
 63. degrade (performance) 降低
 64. distracting 分心的、分散注意力的
+65. diluted 无力的，不好的
+    e.g., the spatial information tends to be diluted as a network goes deeper
 
 ## E
 1. in exposures of 暴露
@@ -551,6 +556,9 @@ leverage external supervision during training
 57. a fixed **spatial extent** of $7\times 7$ 空间的范围（形容feature map的大小）
 58. exclusive 排斥的 mutually exclusive 相互排斥的
 
+59. enclose 封闭、围合、包围
+    e.g., tight bounding boxes enclosing the target
+
 ## F
 1. following their example, 根据
 2. For ease of analysis and presentation, 为了简化分析和展示
@@ -618,7 +626,7 @@ leverage external supervision during training
 49. there is no such thing as a free lunch 没有免费的午餐
 
 ## G
-1. generic 一般的
+1. generic 一般的、常用的、普遍的
 2. the fourth-generation robotic fish 第四代机器鱼
 3. general-purpose solution 通用性的解决方法
 4. &导致、造成、产生、引起#
@@ -758,6 +766,7 @@ leverage external supervision during training
 70. indisputable (success) 无可争议的
 71. (un)interruptedly 间断地、不断地
     ceaselessly 不停地
+72. instantly 立刻、马上
 
 ## J
 1. jointly 连带地
@@ -881,6 +890,7 @@ leverage external supervision during training
 15. outcome 结果、成果
 16. & observe # &是#
 17. on par with # 与...势均力敌，同等水平，差不多 e.g., & performs on-par with the state-of-the-art methods
+18. (an) oft-told #(story) 常常提起的
 
 ## P
 1. pronounced  明显的，显著的
